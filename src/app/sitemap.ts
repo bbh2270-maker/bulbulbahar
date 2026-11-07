@@ -4,7 +4,7 @@ import { blogData } from "@/data/blog-data";
 import { allServiceSlugs } from "@/data/services-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = siteConfig.url;
+  const baseUrl = siteConfig.url || "https://bulbulbahar.com";
 
   const staticRoutes = [
     "",
@@ -15,7 +15,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog",
     "/contact",
     "/privacy-policy",
+    "/refund-policy",
     "/get-a-free-quote",
+    "/best-seo-agency-in-bangladesh",
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date().toISOString(),
@@ -30,12 +32,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  const blogRoutes = blogData.map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.publishedAt).toISOString(),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
+  const blogRoutes = blogData.map((post) => {
+    let dateStr = new Date().toISOString();
+    try {
+      const d = new Date(post.publishedAt || post.date);
+      if (!isNaN(d.getTime())) {
+        dateStr = d.toISOString();
+      }
+    } catch (e) {}
+    return {
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: dateStr,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    };
+  });
 
   return [...staticRoutes, ...serviceRoutes, ...blogRoutes];
 }
