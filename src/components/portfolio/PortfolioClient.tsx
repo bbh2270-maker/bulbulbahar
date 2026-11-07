@@ -508,7 +508,7 @@ export default function PortfolioClient({ projects }: PortfolioClientProps) {
                     alt={p.title}
                     width={140}
                     height={60}
-                    className="max-h-12 max-w-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                    className="max-h-12 max-w-full object-contain group-hover:scale-105 transition-transform duration-200"
                     style={{ imageRendering: "-webkit-optimize-contrast" }}
                     unoptimized
                   />
@@ -522,15 +522,15 @@ export default function PortfolioClient({ projects }: PortfolioClientProps) {
       </section>
 
       {/* ========================================================
-          5. BOTTOM CONVERSION BANNER: 100% Light, Colorful & Premium
+          5. BOTTOM CONVERSION BANNER: Distinct Light Ash Background
          ======================================================== */}
-      <section className="py-16 lg:py-24 bg-gradient-to-b from-[#FAFBFD] via-blue-50/30 to-white border-t border-slate-200/70 relative overflow-hidden">
+      <section className="py-16 lg:py-24 bg-[#EEF2F6] border-t border-slate-300/80 relative overflow-hidden">
         {/* Soft colourful ambient lights */}
         <div className="absolute top-10 left-1/4 w-80 h-80 bg-[#31A1FF]/10 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-10 right-1/4 w-80 h-80 bg-[#0082FB]/10 rounded-full blur-3xl pointer-events-none" />
 
         <div className="max-w-[1140px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="bg-white rounded-3xl p-8 sm:p-14 border border-blue-100 shadow-xl shadow-blue-500/5 text-center relative overflow-hidden">
+          <div className="bg-white rounded-3xl p-8 sm:p-14 border border-slate-200/90 shadow-xl shadow-slate-900/5 text-center relative overflow-hidden">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 text-[#0082FB] border border-blue-200/70 text-xs font-bold tracking-wider uppercase mb-5">
               <Zap className="w-3.5 h-3.5" />
               <span>Ready for Documented Organic Growth?</span>
