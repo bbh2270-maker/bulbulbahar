@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   .wp-heading { font-size: 24px; line-height: 1.6; }
 }
 
-/* Animated highlighted headline (Clean, professional hand-drawn underline) */
+/* Highlighted headline (Clean, modern blue accent bar) */
 .wp-highlight {
   position: relative;
   display: inline-block;
@@ -68,70 +68,22 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .wp-highlight svg {
-  position: absolute;
-  top: 100%;
-  left: 2%;
-  width: 96%;
-  height: 8px;
-  margin-top: 4px;
-  overflow: visible;
-  z-index: 0;
-  pointer-events: none;
+  display: none !important;
 }
 
-.wp-highlight svg path {
-  fill: none;
-  stroke: #ff0000;
-  stroke-width: 2.8;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-dasharray: 1500;
-  stroke-dashoffset: 1500;
-}
-
-.wp-highlight.is-drawn svg path {
-  animation: wp-draw-loop 4.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-}
-
-@keyframes wp-draw-loop {
-  0% {
-    stroke-dashoffset: 1500;
-    opacity: 1;
-  }
-  30% {
-    stroke-dashoffset: 0;
-    opacity: 1;
-  }
-  80% {
-    stroke-dashoffset: 0;
-    opacity: 1;
-  }
-  92% {
-    stroke-dashoffset: 0;
-    opacity: 0;
-  }
-  93% {
-    stroke-dashoffset: 1500;
-    opacity: 0;
-  }
-  100% {
-    stroke-dashoffset: 1500;
-    opacity: 1;
-  }
-}
-
-/* Orange divider line under hero heading */
+/* Modern blue divider line */
 .elementor-divider-separator {
   width: 50px;
-  height: 5px;
-  background-color: #e05414;
+  height: 4px;
+  border-radius: 9999px;
+  background-color: #0082FB;
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar (Clean, neutral modern slate) */
 ::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: #f1f1f1; }
-::-webkit-scrollbar-thumb { background: #CB3522; border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: #BB2929; }
+::-webkit-scrollbar-track { background: #f8fafc; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
 
 /* Light Card Utility (used on inner pages) */
 .clean-card {

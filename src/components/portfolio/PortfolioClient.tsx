@@ -171,6 +171,7 @@ export default function PortfolioClient({ projects }: PortfolioClientProps) {
                       width={400}
                       height={180}
                       className="max-h-28 max-w-[260px] w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300"
+                      style={{ imageRendering: "-webkit-optimize-contrast" }}
                       unoptimized
                     />
                   ) : (
@@ -351,6 +352,7 @@ export default function PortfolioClient({ projects }: PortfolioClientProps) {
                           width={280}
                           height={130}
                           className="max-h-24 max-w-[200px] w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300"
+                          style={{ imageRendering: "-webkit-optimize-contrast" }}
                           unoptimized
                         />
                       ) : (
@@ -465,41 +467,50 @@ export default function PortfolioClient({ projects }: PortfolioClientProps) {
       </section>
 
       {/* ========================================================
-          BOTTOM CONVERSION BANNER (Let's scale your project)
+          BOTTOM CONVERSION BANNER: 100% Light, Colorful & Premium
          ======================================================== */}
-      <section className="py-16 lg:py-20 bg-gradient-to-br from-[#0B1B3F] via-[#0F275E] to-[#0A1736] text-white relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-[#0082FB]/20 rounded-full blur-3xl pointer-events-none" />
+      <section className="py-16 lg:py-24 bg-gradient-to-b from-[#FAFBFD] via-blue-50/30 to-white border-t border-slate-200/70 relative overflow-hidden">
+        {/* Soft colourful ambient lights */}
+        <div className="absolute top-10 left-1/4 w-80 h-80 bg-[#31A1FF]/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-10 right-1/4 w-80 h-80 bg-[#0082FB]/10 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 space-y-6">
-          <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md text-[#31A1FF] text-xs font-bold tracking-wider uppercase border border-white/10">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>Ready for Documented Organic Growth?</span>
-          </span>
+        <div className="max-w-[1140px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="bg-white rounded-3xl p-8 sm:p-14 border border-blue-100 shadow-xl shadow-blue-500/5 text-center relative overflow-hidden">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 text-[#0082FB] border border-blue-200/70 text-xs font-bold tracking-wider uppercase mb-5">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>Ready for Documented Organic Growth?</span>
+            </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black font-heading leading-tight max-w-3xl mx-auto">
-            Want Similar #1 Search Rankings & Proven Inbound Leads?
-          </h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#000F23] font-heading leading-tight max-w-3xl mx-auto mb-5 tracking-tight">
+              Want Similar #1 Search Rankings &amp;{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#0055D4]">
+                Proven Inbound Leads?
+              </span>
+            </h2>
 
-          <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed font-normal">
-            Every website has distinct competitive hurdles. Contact Bulbul Bahar today for a comprehensive, confidential audit and tailored ROI growth blueprint.
-          </p>
+            <p className="text-base sm:text-lg text-[#5D7280] max-w-2xl mx-auto leading-relaxed font-normal mb-8">
+              Every website has distinct competitive hurdles. Contact Bulbul Bahar today for a comprehensive, confidential audit and tailored ROI growth blueprint.
+            </p>
 
-          <div className="pt-4 flex flex-wrap items-center justify-center gap-4">
-            <Link
-              href="/get-a-free-quote"
-              className="group inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#0055D4] hover:from-[#0074E0] hover:to-[#0047B8] text-white font-heading font-bold text-sm shadow-xl shadow-[#0082FB]/35 hover:shadow-2xl hover:shadow-[#0082FB]/50 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
-            >
-              <span>Get Free SEO Audit & Consultation</span>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
-            </Link>
+            <div className="flex flex-wrap items-center justify-center gap-4">
+              <Link
+                href="/get-a-free-quote"
+                className="group inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#0055D4] hover:from-[#0074E0] hover:to-[#0047B8] text-white font-heading font-bold text-sm shadow-lg shadow-[#0082FB]/25 hover:shadow-xl hover:shadow-[#0082FB]/35 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+              >
+                <span>Get Free SEO Audit &amp; Consultation</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
+              </Link>
 
-            <a
-              href="tel:01710424241"
-              className="group inline-flex items-center gap-2.5 px-7 py-4 rounded-full bg-white/10 hover:bg-white/15 text-white border border-white/20 hover:border-[#31A1FF] font-heading font-bold text-sm backdrop-blur-md transition-all duration-200"
-            >
-              <Phone className="w-4 h-4 text-[#31A1FF]" />
-              <span>Call: 01710424241</span>
-            </a>
+              <a
+                href="tel:01710424241"
+                className="group inline-flex items-center gap-2.5 px-7 py-4 rounded-full bg-white hover:bg-slate-50 text-[#000F23] border border-slate-200 hover:border-[#0082FB] font-heading font-bold text-sm shadow-xs hover:shadow-md transition-all duration-200"
+              >
+                <div className="w-7 h-7 rounded-full bg-blue-50 flex items-center justify-center text-[#0082FB] group-hover:bg-[#0082FB] group-hover:text-white transition-colors">
+                  <Phone className="w-3.5 h-3.5" />
+                </div>
+                <span>Call: 01710424241</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -395,35 +395,35 @@ export default function ServicesPage() {
           </div>
 
           {/* Bottom Consultation Banner */}
-          <div className="mt-20 rounded-3xl bg-gradient-to-br from-[#111827] via-[#1E293B] to-[#0F172A] p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
-            <div className="absolute -right-20 -top-20 w-80 h-80 rounded-full bg-[#0082FB]/15 blur-3xl pointer-events-none" />
+          <div className="mt-20 rounded-3xl bg-gradient-to-br from-white via-slate-50 to-blue-50/30 p-8 sm:p-12 text-slate-800 border border-blue-100 shadow-xl shadow-blue-500/5 relative overflow-hidden">
+            <div className="absolute -right-20 -top-20 w-80 h-80 rounded-full bg-[#0082FB]/10 blur-3xl pointer-events-none" />
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative">
               <div className="lg:col-span-6 space-y-5">
-                <span className="text-xs font-extrabold uppercase tracking-widest text-[#31A1FF] bg-[#31A1FF]/10 px-3.5 py-1 rounded-full border border-[#31A1FF]/20">
+                <span className="text-xs font-extrabold uppercase tracking-widest text-[#0082FB] bg-blue-50 px-3.5 py-1 rounded-full border border-blue-200/70">
                   Direct Expert Consultation
                 </span>
-                <h3 className="text-2xl sm:text-4xl font-extrabold font-heading text-white leading-tight">
+                <h3 className="text-2xl sm:text-4xl font-extrabold font-heading text-[#000F23] leading-tight">
                   Ready to Rank #1 on Google and Scale Sales?
                 </h3>
-                <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
+                <p className="text-sm sm:text-base text-[#5D7280] leading-relaxed">
                   Whether you need comprehensive technical SEO, local maps visibility, creative branding, or custom web design, Bulbul Bahar builds tailored, data-driven roadmaps that yield quantifiable results.
                 </p>
 
                 {/* Direct Contacts */}
-                <div className="pt-2 flex flex-wrap gap-4 text-xs font-medium text-slate-300">
+                <div className="pt-2 flex flex-wrap gap-4 text-xs font-medium text-slate-700">
                   <a
                     href="tel:01710424241"
-                    className="flex items-center gap-2 p-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors"
+                    className="flex items-center gap-2 p-2.5 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 transition-colors shadow-2xs"
                   >
-                    <Phone className="w-4 h-4 text-[#31A1FF]" />
+                    <Phone className="w-4 h-4 text-[#0082FB]" />
                     <span>01710424241</span>
                   </a>
                   <a
                     href="mailto:info@Bulbulbahar.com"
-                    className="flex items-center gap-2 p-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors"
+                    className="flex items-center gap-2 p-2.5 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 transition-colors shadow-2xs"
                   >
-                    <Mail className="w-4 h-4 text-[#31A1FF]" />
+                    <Mail className="w-4 h-4 text-[#0082FB]" />
                     <span>info@Bulbulbahar.com</span>
                   </a>
                 </div>

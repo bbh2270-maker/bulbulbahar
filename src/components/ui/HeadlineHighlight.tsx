@@ -11,16 +11,13 @@ interface HeadlineHighlightProps {
 
 /**
  * HeadlineHighlight:
- * - variant="none": Completely normal clean typography (for first/hero headings).
- * - variant="underline": Original Elementor hand-drawn underline shape (ager moto same),
- *   tightly hugging under the text, not sagging low ("besi niche nambena"),
- *   compact ("arektu choto"), and vibrant red #ff0000 ("erokom colour").
+ * - variant="none": Normal clean typography without underline.
+ * - variant="underline": Modern, clean, sleek blue gradient accent bar (no messy red scribbles).
  */
 export default function HeadlineHighlight({
   children,
   className = "",
   variant = "underline",
-  color = "#ff0000",
 }: HeadlineHighlightProps) {
   const ref = useRef<HTMLSpanElement>(null);
   const [drawn, setDrawn] = useState(false);
@@ -40,8 +37,6 @@ export default function HeadlineHighlight({
       (entries) => {
         if (entries.some((e) => e.isIntersecting)) {
           setDrawn(true);
-        } else {
-          setDrawn(false);
         }
       },
       { threshold: 0.05, rootMargin: "100px" }
@@ -57,19 +52,16 @@ export default function HeadlineHighlight({
   return (
     <span
       ref={ref}
-      className={`wp-highlight ${drawn ? "is-drawn" : ""} ${className}`}
+      className={`relative inline-block text-[#0082FB] ${className}`}
     >
       <span className="relative z-10">{children}</span>
-      <svg
-        viewBox="0 115 500 35"
-        preserveAspectRatio="none"
+      {/* Sleek, clean modern gradient accent line under highlighted text */}
+      <span
         aria-hidden="true"
-      >
-        <path
-          d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"
-          style={{ stroke: color }}
-        />
-      </svg>
+        className={`absolute left-0 bottom-[-4px] h-[3px] sm:h-[3.5px] rounded-full bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#38BDF8] transition-all duration-700 ease-out ${
+          drawn ? "w-full opacity-100" : "w-0 opacity-0"
+        }`}
+      />
     </span>
   );
 }
@@ -83,8 +75,7 @@ export function SectionHeading({
   className = "",
   highlightClassName = "",
   variant,
-  color = "#ff0000",
-  highlightColor = "text-[#31A1FF]",
+  highlightColor = "text-[#0082FB]",
 }: {
   before?: string;
   highlight?: string;
@@ -104,7 +95,6 @@ export function SectionHeading({
       {highlight ? (
         <HeadlineHighlight
           variant={chosenVariant}
-          color={color}
           className={highlightClassName}
         >
           <span className={highlightColor}>{highlight}</span>

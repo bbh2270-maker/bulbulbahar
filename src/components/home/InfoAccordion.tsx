@@ -1,46 +1,75 @@
 "use client";
 
 import React, { useState } from "react";
-
-// Font Awesome "fas fa-tags" (same icon as the original Unlimited Elements accordion)
-function TagsIcon({ className = "" }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 640 512" fill="currentColor" aria-hidden="true">
-      <path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z" />
-    </svg>
-  );
-}
+import { ChevronDown, Sparkles } from "lucide-react";
 
 export interface InfoItem {
   title: string;
   content: React.ReactNode;
 }
 
-/** Teal "solid colour accordion" from the original home page (one column) */
-export default function InfoAccordion({ items, defaultOpen = null }: { items: InfoItem[]; defaultOpen?: number | null }) {
+/**
+ * Modern, clean, light executive accordion.
+ * Replaces dated teal/orange widgets with a sleek 2026 SaaS/agency design.
+ */
+export default function InfoAccordion({
+  items,
+  defaultOpen = null,
+}: {
+  items: InfoItem[];
+  defaultOpen?: number | null;
+}) {
   const [open, setOpen] = useState<number | null>(defaultOpen);
 
   return (
-    <div>
+    <div className="space-y-3.5">
       {items.map((item, idx) => {
         const isOpen = open === idx;
         return (
-          <div key={item.title} className="mb-[10px]">
+          <div
+            key={item.title}
+            className={`bg-white rounded-2xl border transition-all duration-200 overflow-hidden ${
+              isOpen
+                ? "border-[#0082FB]/50 shadow-md shadow-blue-500/5 ring-1 ring-[#0082FB]/10"
+                : "border-slate-200/80 shadow-xs hover:border-slate-300 hover:shadow-sm"
+            }`}
+          >
             <button
               type="button"
               onClick={() => setOpen(isOpen ? null : idx)}
               aria-expanded={isOpen}
-              className="relative w-full text-left bg-[#30C8B8] hover:bg-[#2bb5a6] transition-colors text-white text-[15px] leading-[20px] py-[12px] pr-[12px] pl-[78px] min-h-[44px] cursor-pointer"
+              className="w-full text-left p-4 sm:p-5 flex items-center justify-between gap-3.5 transition-colors hover:bg-blue-50/20 cursor-pointer"
             >
-              {/* orange tag with arrow point, like the original */}
-              <span className="absolute left-0 top-0 bottom-0 w-[33px] bg-[#F99517] flex items-center justify-end">
-                <TagsIcon className="w-[15px] h-[15px] text-white relative left-[10px] z-10" />
-                <span className="absolute top-0 -right-[22px] w-0 h-0 border-y-[22px] border-y-transparent border-l-[22px] border-l-[#F99517]" />
+              <div className="flex items-center gap-3.5 flex-1 min-w-0">
+                <span
+                  className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 transition-colors ${
+                    isOpen
+                      ? "bg-gradient-to-r from-[#0082FB] to-[#0055D4] text-white shadow-xs shadow-[#0082FB]/30"
+                      : "bg-blue-50 text-[#0082FB] border border-blue-100/60"
+                  }`}
+                >
+                  <Sparkles className="w-4 h-4" />
+                </span>
+                <span className="text-[15px] sm:text-[16px] font-heading font-bold text-[#000F23] tracking-tight leading-snug">
+                  {item.title}
+                </span>
+              </div>
+
+              <span
+                className={`w-7 h-7 rounded-full flex items-center justify-center shrink-0 transition-transform duration-200 ${
+                  isOpen
+                    ? "rotate-180 bg-[#0082FB]/10 text-[#0082FB]"
+                    : "bg-slate-100 text-slate-500"
+                }`}
+              >
+                <ChevronDown className="w-4 h-4" />
               </span>
-              {item.title}
             </button>
+
             {isOpen && (
-              <div className="bg-white px-[22px] py-[11px] text-[15px] leading-[22px] text-[#898989]">{item.content}</div>
+              <div className="px-5 pb-5 pt-1 text-[14px] sm:text-[15px] leading-relaxed text-[#5D7280] border-t border-slate-100/90 font-normal">
+                {item.content}
+              </div>
             )}
           </div>
         );

@@ -205,8 +205,16 @@ export function WpForm({ w }: { w: any }) {
         <button
           type="submit"
           disabled={status === "sending"}
-          className={`${w.bpad ? "inline-block" : "w-full"} ${isNewsletter ? "uppercase" : ""} py-[12px] transition-opacity hover:opacity-90 disabled:opacity-60`}
-          style={{ background: w.bs?.bg, color: w.bs?.color, borderRadius: w.bs?.radius, fontSize: w.bs?.fs, fontWeight: w.bs?.fw, padding: w.bpad }}
+          className={`${w.bpad ? "inline-block" : "w-full"} ${isNewsletter ? "uppercase" : ""} font-heading font-bold transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 disabled:opacity-60 cursor-pointer`}
+          style={{
+            background: "linear-gradient(135deg, #0082FB 0%, #1E90FF 50%, #0055D4 100%)",
+            color: "#ffffff",
+            borderRadius: "9999px",
+            boxShadow: "0 10px 25px -8px rgba(0, 130, 251, 0.4)",
+            fontSize: w.bs?.fs,
+            fontWeight: w.bs?.fw || 700,
+            padding: w.bpad || "12px 28px",
+          }}
         >
           {status === "sending" ? "Sending..." : status === "done" && isNewsletter ? "Thank you!" : w.button || "Submit"}
         </button>
