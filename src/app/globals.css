@@ -149,18 +149,30 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 /* Upwork & Fiverr buttons (used on inner pages) */
 .btn-upwork {
-  background: linear-gradient(180deg, #BB2929 0%, #f2295b 100%);
-  color: #ffffff;
-  border: 1px solid #0c0c0c;
-  border-radius: 5px;
+  background: linear-gradient(135deg, #FF4B2B 0%, #FF416C 100%);
+  color: #ffffff !important;
+  border: none;
+  border-radius: 9999px;
   font-weight: 700;
+  box-shadow: 0 4px 14px rgba(255, 65, 108, 0.3);
+  transition: all 0.25s ease;
+}
+.btn-upwork:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 65, 108, 0.45);
 }
 .btn-fiverr {
-  background: #F99517;
-  color: #ffffff;
-  border: 1px solid #0c0c0c;
-  border-radius: 5px;
+  background: linear-gradient(135deg, #FF9500 0%, #E66A00 100%);
+  color: #ffffff !important;
+  border: none;
+  border-radius: 9999px;
   font-weight: 700;
+  box-shadow: 0 4px 14px rgba(255, 149, 0, 0.3);
+  transition: all 0.25s ease;
+}
+.btn-fiverr:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 149, 0, 0.45);
 }
 
 /* ============================================================

@@ -113,7 +113,7 @@ export default function Footer() {
                 />
                 <button
                   type="submit"
-                  className="w-full bg-[#E82A00] hover:bg-[#c92400] text-white text-[13px] font-bold uppercase py-[13px] transition-colors"
+                  className="w-full rounded-full bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#0055D4] hover:from-[#0074E0] hover:to-[#0047B8] text-white text-[13px] font-heading font-bold uppercase py-3 shadow-md shadow-[#0082FB]/25 hover:shadow-lg hover:-translate-y-0.5 transition-all cursor-pointer"
                 >
                   {subscribed ? "Subscribed!" : "Subscribe"}
                 </button>
@@ -127,7 +127,7 @@ export default function Footer() {
             </Link>
             <p className="text-[12px] text-white">
               Copyright {new Date().getFullYear()}© All rights Reserved | Made By{" "}
-              <Heart className="inline w-[12px] h-[12px] fill-[#E82A00] text-[#E82A00] align-[-1px]" /> BulBul Bahar
+              <Heart className="inline w-[12px] h-[12px] fill-[#0082FB] text-[#0082FB] align-[-1px]" /> BulBul Bahar
             </p>
           </div>
         </div>
@@ -136,7 +136,7 @@ export default function Footer() {
       {/* Back to top */}
       <button
         onClick={scrollToTop}
-        className="fixed bottom-[30px] right-[30px] z-40 w-[34px] h-[34px] rounded-[3px] bg-[#E06126] hover:bg-[#CB3522] text-white flex items-center justify-center shadow"
+        className="fixed bottom-[30px] right-[30px] z-40 w-[42px] h-[42px] rounded-full bg-gradient-to-r from-[#0082FB] to-[#0055D4] hover:from-[#0074E0] hover:to-[#0047B8] text-white flex items-center justify-center shadow-lg shadow-[#0082FB]/30 hover:-translate-y-1 transition-all cursor-pointer"
         aria-label="Scroll to top"
       >
         <ArrowUp className="w-4 h-4" />

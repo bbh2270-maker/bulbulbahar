@@ -27,9 +27,9 @@ const isInternal = (h?: string) => !!h && h.startsWith("/");
 function Btn({ href, children, variant = "primary" }: { href?: string; children: React.ReactNode; variant?: "primary" | "ghost" | "white" }) {
   const cls =
     variant === "primary"
-      ? "bg-gradient-to-r from-[#F99517] to-[#E06126] text-white shadow-[0_10px_25px_-8px_rgba(224,97,38,0.6)] hover:shadow-[0_14px_30px_-8px_rgba(224,97,38,0.7)] hover:-translate-y-0.5"
+      ? "bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#0055D4] text-white shadow-[0_10px_25px_-8px_rgba(0,130,251,0.5)] hover:shadow-[0_14px_30px_-8px_rgba(0,130,251,0.65)] hover:-translate-y-0.5"
       : variant === "white"
-        ? "bg-white text-[#E06126] shadow-lg hover:-translate-y-0.5"
+        ? "bg-white text-[#0082FB] shadow-lg hover:-translate-y-0.5"
         : "bg-white text-[#0B1B3F] border border-slate-200 hover:border-[#31A1FF] hover:text-[#1A73E8]";
   const c = `inline-flex items-center gap-2 px-7 py-3.5 rounded-full text-[15px] font-heading font-bold transition-all duration-300 ${cls}`;
   const arrow = (

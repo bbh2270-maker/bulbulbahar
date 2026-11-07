@@ -147,7 +147,7 @@ export default async function SingleBlogPostPage({
           </div>
           <Link
             href="/get-a-free-quote"
-            className="px-5 py-2.5 rounded-[10px] text-xs font-bold uppercase tracking-wider text-white bg-[#CB3522] hover:bg-[#BB2929] transition-colors whitespace-nowrap"
+            className="px-6 py-3 rounded-full text-xs font-heading font-bold uppercase tracking-wider text-white bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#0055D4] hover:from-[#0074E0] hover:to-[#0047B8] shadow-md shadow-[#0082FB]/25 hover:shadow-lg hover:-translate-y-0.5 transition-all whitespace-nowrap"
           >
             Get Free Audit
           </Link>

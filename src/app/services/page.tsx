@@ -384,7 +384,7 @@ export default function ServicesPage() {
 
                     <Link
                       href="/get-a-free-quote"
-                      className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-[#CB3522] hover:text-white text-slate-700 transition-colors"
+                      className="text-xs font-bold px-4 py-2 rounded-full bg-gradient-to-r from-[#0082FB] to-[#0055D4] hover:from-[#0074E0] hover:to-[#0047B8] text-white shadow-sm shadow-[#0082FB]/25 hover:shadow-md hover:-translate-y-0.5 transition-all"
                     >
                       Get Quote
                     </Link>
@@ -396,11 +396,11 @@ export default function ServicesPage() {
 
           {/* Bottom Consultation Banner */}
           <div className="mt-20 rounded-3xl bg-gradient-to-br from-[#111827] via-[#1E293B] to-[#0F172A] p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
-            <div className="absolute -right-20 -top-20 w-80 h-80 rounded-full bg-[#CB3522]/15 blur-3xl pointer-events-none" />
+            <div className="absolute -right-20 -top-20 w-80 h-80 rounded-full bg-[#0082FB]/15 blur-3xl pointer-events-none" />
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative">
               <div className="lg:col-span-6 space-y-5">
-                <span className="text-xs font-extrabold uppercase tracking-widest text-[#F99517] bg-[#F99517]/10 px-3.5 py-1 rounded-full border border-[#F99517]/20">
+                <span className="text-xs font-extrabold uppercase tracking-widest text-[#31A1FF] bg-[#31A1FF]/10 px-3.5 py-1 rounded-full border border-[#31A1FF]/20">
                   Direct Expert Consultation
                 </span>
                 <h3 className="text-2xl sm:text-4xl font-extrabold font-heading text-white leading-tight">
@@ -416,14 +416,14 @@ export default function ServicesPage() {
                     href="tel:01710424241"
                     className="flex items-center gap-2 p-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors"
                   >
-                    <Phone className="w-4 h-4 text-[#F99517]" />
+                    <Phone className="w-4 h-4 text-[#31A1FF]" />
                     <span>01710424241</span>
                   </a>
                   <a
                     href="mailto:info@Bulbulbahar.com"
                     className="flex items-center gap-2 p-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors"
                   >
-                    <Mail className="w-4 h-4 text-[#CB3522]" />
+                    <Mail className="w-4 h-4 text-[#31A1FF]" />
                     <span>info@Bulbulbahar.com</span>
                   </a>
                 </div>
@@ -434,7 +434,7 @@ export default function ServicesPage() {
                     href="https://www.upwork.com/freelancers/~01ffbd32bfcca4750e"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-upwork inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-white text-xs font-bold transition-transform hover:-translate-y-0.5"
+                    className="btn-upwork inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-white text-xs font-bold transition-transform hover:-translate-y-0.5"
                   >
                     <span>Upwork Profile</span>
                     <ExternalLink className="w-3.5 h-3.5" />
@@ -443,14 +443,14 @@ export default function ServicesPage() {
                     href="https://www.fiverr.com/rankmaster10?"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-fiverr inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-white text-xs font-bold transition-transform hover:-translate-y-0.5"
+                    className="btn-fiverr inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-white text-xs font-bold transition-transform hover:-translate-y-0.5"
                   >
                     <span>Fiverr Profile</span>
                     <ExternalLink className="w-3.5 h-3.5" />
                   </a>
                   <a
                     href="tel:01710424241"
-                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#F99517] hover:bg-[#e08412] text-white text-xs font-bold transition-transform hover:-translate-y-0.5 shadow-md"
+                    className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-[#0082FB] to-[#0055D4] hover:from-[#0074E0] hover:to-[#0047B8] text-white text-xs font-bold transition-transform hover:-translate-y-0.5 shadow-md shadow-[#0082FB]/25"
                   >
                     <span>Direct Call: 01710424241</span>
                   </a>

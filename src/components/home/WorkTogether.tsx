@@ -21,7 +21,7 @@ export default function WorkTogether() {
         </h4>
         <Link
           href="/get-a-free-quote"
-          className="inline-block bg-[#E06126] hover:bg-[#CB3522] text-white text-[16px] leading-[16px] rounded-[3px] px-[24px] py-[12px] transition-colors"
+          className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#0055D4] hover:from-[#0074E0] hover:to-[#0047B8] text-white font-heading font-bold text-base shadow-lg shadow-[#0082FB]/25 hover:shadow-xl hover:shadow-[#0082FB]/35 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
         >
           Get a Free Quote Now
         </Link>
