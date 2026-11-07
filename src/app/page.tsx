@@ -343,12 +343,12 @@ export default function HomePage() {
             </CheckItem>
           </div>
 
-          <div className="max-w-[1000px] mx-auto mt-[40px] mb-[50px]">
+          <div className="max-w-[1000px] mx-auto mt-[25px] mb-[35px]">
             <Image
               src="/images/seo-ecosystem-banner.jpg"
               alt="SEO Service in Bd - Organic Growth & #1 Ranking"
-              width={1200}
-              height={400}
+              width={1280}
+              height={432}
               className="w-full h-auto block rounded-2xl border border-slate-100 shadow-sm"
             />
           </div>
