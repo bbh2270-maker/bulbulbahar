@@ -10,6 +10,16 @@ import TestimonialsSection from "@/components/home/TestimonialsSection";
 import TeamMembers from "@/components/about/TeamMembers";
 import FeaturedLogos from "@/components/about/FeaturedLogos";
 import PageRating from "@/components/ui/PageRating";
+import {
+  Sparkles,
+  Award,
+  ShieldCheck,
+  CheckCircle2,
+  ArrowRight,
+  Phone,
+  TrendingUp,
+  Target,
+} from "lucide-react";
 
 export const metadata: Metadata = {
   title: { absolute: "About The #1 Best SEO Expert in Bangladesh | Bulbul Bahar" },
@@ -134,80 +144,195 @@ const clients = [
 export default function AboutBestSeoExpertPage() {
   return (
     <div className="bg-white">
-      {/* ===== Page title ===== */}
-      <section className="pt-[80px] md:pt-[150px] pb-[30px]">
+      {/* ===== Page Title & Breadcrumb ===== */}
+      <section className="pt-10 md:pt-14 pb-8 bg-gradient-to-b from-[#FAFBFD] to-white border-b border-slate-100">
         <div className="max-w-[1140px] mx-auto px-4 xl:px-0">
-          <SectionHeading
-            as="h1"
-            before="About The"
-            highlight="Best SEO Expert in Bangladesh"
-            highlightClassName={BLUE}
-            className={`${H} mb-[20px]`}
-          />
+          <nav className="flex items-center gap-2 text-xs sm:text-sm text-[#5D7280] mb-5">
+            <Link href="/" className="hover:text-[#0082FB] transition-colors">
+              Home
+            </Link>
+            <span className="text-slate-300">/</span>
+            <span className="text-[#0082FB] font-semibold">About Me</span>
+          </nav>
+          <div className="text-center">
+            <SectionHeading
+              as="h1"
+              before="About The"
+              highlight="Best SEO Expert in Bangladesh"
+              highlightClassName={BLUE}
+              className={`${H} mb-2`}
+            />
+          </div>
         </div>
       </section>
 
-      {/* ===== Who am I? ===== */}
-      <section className="bg-[rgba(93,114,128,0.05)] py-[50px]">
-        <div className="max-w-[1140px] mx-auto px-4 xl:px-0">
-          <h6 className="text-[22px] md:text-[26px] leading-[32.5px] font-extrabold !text-[#F99517] text-center capitalize mb-[20px]">
-            Who am I?
-          </h6>
-          <div className={`px-[0px] md:px-[30px] ${text}`}>
-            <h2 className="text-[15px] leading-[19.5px] font-extrabold capitalize mb-[20px]">
-              The Story of an Best SEO Expert in Bangladesh:
-            </h2>
-            <p>
-              Hello, my name is Engineer Bulbul, and I am the{" "}
-              <Link href="/">
-                <strong className="!text-inherit">Best SEO expert in Bangladesh</strong>
-              </Link>
-              . I have been working as an <strong>SEO specialist</strong> for 8 Years now. I have vast experience
-              working as an SEO Expert. When you compare my profile with other{" "}
-              <strong>SEO Expert profile in Bangladesh</strong>, you will know the difference and understand what makes
-              me the best SEO expert in Bangladesh. SEO is a very important thing for a website. Without SEO having a
-              website for any purpose is like a vase with no flowers. Ever since I began planning for my career as a
-              freelancer, I always wanted to be an <strong>SEO expert in Bangladesh</strong>. I am young, talented, and
-              super hardworking when it comes to providing top notch quality work for my clients. Providing high-class
-              work is my specialty.
-            </p>
+      {/* ===== Who am I? — Executive Profile Showcase ===== */}
+      <section className="bg-gradient-to-b from-[#FAFBFD] via-blue-50/20 to-white py-14 lg:py-20 border-b border-slate-200/80 relative overflow-hidden">
+        {/* Soft background ambient lights */}
+        <div className="absolute top-0 right-10 w-80 h-80 bg-[#31A1FF]/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-10 w-80 h-80 bg-[#0082FB]/8 rounded-full blur-3xl pointer-events-none" />
+
+        <div className="max-w-[1180px] mx-auto px-4 sm:px-6 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+            {/* Left Column: Portrait, Badges & Quick Stats */}
+            <div className="lg:col-span-5 flex flex-col items-center">
+              <div className="relative w-full max-w-[420px] bg-white rounded-3xl p-4 sm:p-5 border border-slate-200/90 shadow-xl shadow-slate-900/5 group">
+                <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-blue-50 via-slate-50 to-blue-100/40 flex items-center justify-center p-2">
+                  <Image
+                    src="/images/about/bulbul-bahar.webp"
+                    alt="Engineer Bulbul - Best SEO Expert in Bangladesh"
+                    width={400}
+                    height={400}
+                    className="w-full h-auto object-cover rounded-xl group-hover:scale-102 transition-transform duration-300"
+                    unoptimized
+                    priority
+                  />
+
+                  {/* Floating Badges */}
+                  <span className="absolute top-4 left-4 text-xs font-heading font-bold px-3 py-1.5 rounded-full bg-white/95 text-[#0082FB] shadow-md border border-blue-100 flex items-center gap-1.5 backdrop-blur-xs">
+                    <Award className="w-3.5 h-3.5" />
+                    <span>8+ Years Experience</span>
+                  </span>
+
+                  <span className="absolute bottom-4 right-4 text-xs font-heading font-bold px-3 py-1.5 rounded-full bg-white/95 text-[#0082FB] shadow-md border border-blue-100 flex items-center gap-1.5 backdrop-blur-xs">
+                    <ShieldCheck className="w-3.5 h-3.5" />
+                    <span>Google Certified</span>
+                  </span>
+                </div>
+
+                {/* 3 Quick Metric Pills */}
+                <div className="grid grid-cols-3 gap-2 p-3 mt-4 bg-slate-50 rounded-2xl border border-slate-100 text-center">
+                  <div>
+                    <div className="text-base sm:text-lg font-black font-heading text-[#0082FB]">8+</div>
+                    <div className="text-[10px] sm:text-[11px] text-slate-500 font-semibold">Years Active</div>
+                  </div>
+                  <div className="border-x border-slate-200">
+                    <div className="text-base sm:text-lg font-black font-heading text-[#000F23]">100+</div>
+                    <div className="text-[10px] sm:text-[11px] text-slate-500 font-semibold">Sites Ranked #1</div>
+                  </div>
+                  <div>
+                    <div className="text-base sm:text-lg font-black font-heading text-[#0082FB]">98%</div>
+                    <div className="text-[10px] sm:text-[11px] text-slate-500 font-semibold">Retention</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column: Founder Story & Credibility */}
+            <div className="lg:col-span-7 space-y-5 text-left">
+              {/* Eyebrow Tag */}
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200/70 text-[#0082FB] text-xs font-bold uppercase tracking-wider">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Who Am I?</span>
+              </div>
+
+              {/* Section Subheading */}
+              <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-black text-[#000F23] font-heading tracking-tight leading-[1.25]">
+                The Story of an <span className="text-[#31A1FF]">Elite SEO Specialist</span> in Bangladesh
+              </h2>
+
+              {/* Signature Philosophy Quote Card */}
+              <div className="p-4 sm:p-5 rounded-2xl bg-white border border-blue-100 shadow-xs border-l-4 border-l-[#0082FB]">
+                <p className="text-sm sm:text-base font-medium italic text-slate-700 leading-relaxed">
+                  &ldquo;Without SEO, having a website for any purpose is like a vase with no flowers.&rdquo;
+                </p>
+              </div>
+
+              {/* Narrative Content */}
+              <div className="text-[15px] leading-relaxed text-[#5D7280] space-y-3.5 font-normal">
+                <p>
+                  Hello, my name is <strong>Engineer Bulbul</strong>, and I am the{" "}
+                  <Link href="/" className="font-bold text-[#0082FB] hover:underline">
+                    Best SEO expert in Bangladesh
+                  </Link>
+                  . I have been working as an <strong>SEO specialist for 8+ years</strong>. I have vast practical experience across search architecture, content authority, and algorithmic ranking models.
+                </p>
+                <p>
+                  When you compare my profile with other SEO specialists in Bangladesh, you will notice a clear difference: my approach is strictly driven by transparent analytics, quantifiable revenue expansion, and permanent White Hat rankings.
+                </p>
+                <p>
+                  Ever since I began my journey, I committed to providing top-notch quality work. I am young, talented, and relentlessly hardworking. Providing world-class organic results is my specialty.
+                </p>
+              </div>
+
+              {/* Key Highlights Checklist */}
+              <div className="space-y-2 pt-1 pb-2">
+                <div className="flex items-center gap-2.5 text-xs sm:text-sm text-slate-700">
+                  <CheckCircle2 className="w-4 h-4 text-[#0082FB] shrink-0" />
+                  <span>100% White Hat &amp; Google Algorithm compliant organic ranking methods</span>
+                </div>
+                <div className="flex items-center gap-2.5 text-xs sm:text-sm text-slate-700">
+                  <CheckCircle2 className="w-4 h-4 text-[#0082FB] shrink-0" />
+                  <span>Complete AI-driven technical audits, keyword clustering &amp; high-intent lead generation</span>
+                </div>
+                <div className="flex items-center gap-2.5 text-xs sm:text-sm text-slate-700">
+                  <CheckCircle2 className="w-4 h-4 text-[#0082FB] shrink-0" />
+                  <span>Transparent weekly reporting with direct 1-on-1 strategic consultations</span>
+                </div>
+              </div>
+
+              {/* Action Buttons */}
+              <div className="pt-2 flex flex-wrap items-center gap-3.5">
+                <Link
+                  href="/get-a-free-quote"
+                  className="group inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#0055D4] hover:from-[#0074E0] hover:to-[#0047B8] text-white font-heading font-bold text-xs uppercase tracking-wider shadow-md shadow-[#0082FB]/25 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+                  style={{ color: "#ffffff" }}
+                >
+                  <span>Hire Engineer Bulbul</span>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
+                </Link>
+
+                <a
+                  href="tel:01710424241"
+                  className="group inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-white hover:bg-slate-50 text-[#000F23] border border-slate-200 hover:border-[#0082FB]/60 font-heading font-bold text-xs uppercase tracking-wider shadow-xs hover:shadow-md transition-all duration-200"
+                >
+                  <span className="w-6 h-6 rounded-full bg-blue-50 flex items-center justify-center text-[#0082FB] group-hover:bg-[#0082FB] group-hover:text-white transition-colors">
+                    <Phone className="w-3.5 h-3.5" />
+                  </span>
+                  <span>Call: 01710424241</span>
+                </a>
+              </div>
+            </div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-[47%_53%] mt-[24px] -mx-[12px] md:-mx-[25px]">
-            <Card className="flex items-center justify-center">
-              <Image
-                src="/images/about/bulbul-bahar.webp"
-                alt="Best SEO Expert in Bangladesh"
-                width={400}
-                height={400}
-                className="w-full max-w-[400px] h-auto rounded-[5px]"
-                unoptimized
-                priority
-              />
-            </Card>
-            <Card className={text}>
-              <p>
-                When you search on Google with the keyword “<strong>BEST Local&nbsp; SEO Expert in Bangladesh</strong>” or
-                “
-                <Link href="/local-seo-service-in-bangladesh">
-                  <strong className="!text-inherit">Local SEO Expert</strong>
+          {/* Deep-dive Cards: Local SEO & Google Algorithm Experience */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 sm:mt-16">
+            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/90 shadow-xs hover:border-[#0082FB]/40 hover:shadow-md transition-all duration-200">
+              <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#0082FB] flex items-center justify-center mb-4 border border-blue-100">
+                <Target className="w-5 h-5" />
+              </div>
+              <h3 className="text-lg sm:text-xl font-black text-[#000F23] font-heading mb-3">
+                Proven Local SEO Dominance
+              </h3>
+              <p className="text-sm text-[#5D7280] leading-relaxed">
+                When you search Google for &ldquo;<strong>BEST Local SEO Expert in Bangladesh</strong>&rdquo; or &ldquo;
+                <Link href="/local-seo-service-in-bangladesh" className="font-semibold text-[#0082FB] hover:underline">
+                  Local SEO Expert
                 </Link>
-                ”, you will see the profiles of lots of SEO experts. But not all can deliver good quality work. However, I
-                am young, which might mean that I am new to this sector with less experience. But the truth is, I have
-                been working in this sector for at least nine years. So basically, I have expertise in Complete AI-driven
-                SEO and Local SEO with PPC ads. Another thing about a young, talented <strong>Local SEO expert</strong> and
-                SEO Expert in Bangladesh is that I am always updated with all sorts of{" "}
-                <a href="https://www.searchenginejournal.com/google-algorithm-history/" target="_blank" rel="noopener noreferrer">
+                &rdquo;, you will find profiles of many practitioners. Having spent over nine years in the trenches, I have deep expertise in AI-driven Local SEO, Google Business Profiles (3-Pack), and high-intent localized search campaigns.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/90 shadow-xs hover:border-[#0082FB]/40 hover:shadow-md transition-all duration-200">
+              <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#0082FB] flex items-center justify-center mb-4 border border-blue-100">
+                <TrendingUp className="w-5 h-5" />
+              </div>
+              <h3 className="text-lg sm:text-xl font-black text-[#000F23] font-heading mb-3">
+                Always Synced with Google Updates
+              </h3>
+              <p className="text-sm text-[#5D7280] leading-relaxed">
+                I stay continuously updated with all{" "}
+                <a
+                  href="https://www.searchenginejournal.com/google-algorithm-history/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-[#0082FB] hover:underline"
+                >
                   Google algorithm updates
-                </a>{" "}
-                to its search engine.
+                </a>
+                . My strategies strictly follow Google&apos;s Search Essentials to give your domain a permanent &ldquo;green signal&rdquo; that protects you from penalty drops and keeps you on Google Page #1.
               </p>
-              <p>
-                My methods of working allow me to apply the rules and regulations that are recommended by Google. Doing
-                this allows a website to become a green website. It means the website has a green signal from Google to go
-                to the first page of Google.
-              </p>
-            </Card>
+            </div>
           </div>
         </div>
       </section>
