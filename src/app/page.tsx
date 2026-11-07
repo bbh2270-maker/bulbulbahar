@@ -152,23 +152,27 @@ export default function HomePage() {
               </div>
 
               {/* Upwork OR Fiverr dual button (EAE Dual Button) */}
-              <div className="relative inline-flex items-center mt-[40px] p-1.5 rounded-full bg-white/90 backdrop-blur-md border border-slate-200 shadow-xl">
+              <div
+                className="relative inline-flex mt-[40px] rounded-[5px]"
+                style={{ boxShadow: "0 0 10px 0 rgba(0,0,0,0.5)" }}
+              >
                 <a
                   href="https://www.upwork.com/freelancers/~01ffbd32bfcca4750e"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-[155px] h-[46px] flex items-center justify-center text-[15px] font-heading font-bold text-white rounded-full bg-gradient-to-r from-[#FF4B2B] to-[#FF416C] shadow-md shadow-[#FF416C]/25 hover:shadow-lg hover:shadow-[#FF416C]/40 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+                  className="w-[150px] h-[41px] flex items-center justify-center text-[15px] font-bold !text-white rounded-l-[5px] border border-[#0c0c0c] hover:opacity-90 transition-opacity"
+                  style={{ backgroundImage: "linear-gradient(180deg, #BB2929 0%, #F2295B 100%)" }}
                 >
                   Upwork
                 </a>
-                <span className="relative -mx-2.5 w-[36px] h-[36px] rounded-full bg-white text-[#475569] text-[12px] font-bold flex items-center justify-center z-10 shadow-md border border-slate-200">
+                <span className="absolute left-1/2 top-0 -translate-x-1/2 w-[40px] h-[40px] rounded-full bg-[#FAFAF8] text-[#444] text-[14px] font-bold flex items-center justify-center z-10 shadow-[0_0_0_6px_rgba(255,255,255,0.2)]">
                   OR
                 </span>
                 <a
                   href="https://www.fiverr.com/rankmaster10?"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-[155px] h-[46px] flex items-center justify-center text-[15px] font-heading font-bold text-white bg-gradient-to-r from-[#FF9500] to-[#E66A00] rounded-full shadow-md shadow-[#FF9500]/25 hover:shadow-lg hover:shadow-[#FF9500]/40 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+                  className="w-[150px] h-[41px] flex items-center justify-center text-[15px] font-bold !text-white bg-[#F99517] rounded-r-[5px] border border-[#0c0c0c] hover:opacity-90 transition-opacity"
                 >
                   Fiverr
                 </a>

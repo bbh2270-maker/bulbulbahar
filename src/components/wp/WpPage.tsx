@@ -155,16 +155,16 @@ export function Widget({ w }: { w: any }) {
         <div style={{ textAlign: (w.align as React.CSSProperties["textAlign"]) || "left" }}>
           <A
             href={w.href}
-            className={`${w.full ? "block" : "inline-flex"} items-center justify-center gap-2 font-heading font-bold transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0`}
+            className={`${w.full ? "block" : "inline-flex"} items-center justify-center gap-2 font-heading font-bold transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0`}
             style={{
               ...textCss(s),
-              backgroundColor: "#0082FB",
-              backgroundImage: s.bgImg || "linear-gradient(135deg, #0082FB 0%, #1E90FF 50%, #0055D4 100%)",
+              backgroundColor: s.bg || "#CB3522",
+              backgroundImage: s.bgImg,
               padding: s.pad || "13px 28px",
-              borderRadius: "9999px",
-              border: "none",
-              boxShadow: s.shadow || "0 10px 25px -8px rgba(0, 130, 251, 0.4)",
-              color: "#ffffff",
+              borderRadius: s.radius || "3px",
+              border: s.border,
+              boxShadow: s.shadow || "0 4px 12px rgba(0, 0, 0, 0.15)",
+              color: s.color || "#ffffff",
               textAlign: "center",
             }}
           >

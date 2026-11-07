@@ -155,7 +155,7 @@ export default function ContactForm({
         <button
           type="submit"
           disabled={status === "loading"}
-          className="w-full py-3.5 px-6 rounded-full text-[15px] font-heading font-bold text-white bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#0055D4] hover:from-[#0074E0] hover:to-[#0047B8] shadow-lg shadow-[#0082FB]/25 hover:shadow-xl hover:shadow-[#0082FB]/35 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer disabled:opacity-70"
+          className="w-full py-[10px] px-6 rounded-[3px] text-[15px] font-bold !text-white bg-[#e05414] hover:bg-[#CB3522] transition-colors flex items-center justify-center gap-2 cursor-pointer disabled:opacity-70"
         >
           {status === "loading" ? (
             <>

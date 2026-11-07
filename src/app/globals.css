@@ -34,19 +34,18 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6, .font-heading {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   color: var(--color-heading);
 }
 
-/* Allow inline style / utility overrides on headings */
+.font-heading {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Allow inline style overrides on headings */
 h1[style*="color"], h2[style*="color"], h3[style*="color"],
-h4[style*="color"], h5[style*="color"], h6[style*="color"],
-[class*="text-white"].font-heading,
-a.font-heading[style*="color"],
-a[style*="color: rgb(255, 255, 255)"],
-a[style*="color: #fff"],
-a[style*="color: #ffffff"] {
+h4[style*="color"], h5[style*="color"], h6[style*="color"] {
   color: inherit;
 }
 
@@ -161,30 +160,28 @@ a[style*="color: #ffffff"] {
 
 /* Upwork & Fiverr buttons (used on inner pages) */
 .btn-upwork {
-  background: linear-gradient(135deg, #FF4B2B 0%, #FF416C 100%);
+  background: linear-gradient(180deg, #BB2929 0%, #f2295b 100%);
   color: #ffffff !important;
-  border: none;
-  border-radius: 9999px;
+  border: 1px solid #0c0c0c;
+  border-radius: 5px;
   font-weight: 700;
-  box-shadow: 0 4px 14px rgba(255, 65, 108, 0.3);
-  transition: all 0.25s ease;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s ease;
 }
 .btn-upwork:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 65, 108, 0.45);
+  opacity: 0.9;
 }
 .btn-fiverr {
-  background: linear-gradient(135deg, #FF9500 0%, #E66A00 100%);
+  background: #F99517;
   color: #ffffff !important;
-  border: none;
-  border-radius: 9999px;
+  border: 1px solid #0c0c0c;
+  border-radius: 5px;
   font-weight: 700;
-  box-shadow: 0 4px 14px rgba(255, 149, 0, 0.3);
-  transition: all 0.25s ease;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s ease;
 }
 .btn-fiverr:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 149, 0, 0.45);
+  opacity: 0.9;
 }
 
 /* ============================================================
