@@ -2,11 +2,14 @@
 // 1. https://bulbulbahar.cloud (Main Site)
 // 2. https://blog.bulbulbahar.cloud (Subdomain Blog)
 // Total articles: 45 published articles with complete full-text HTML content.
+// Clean title-based URL structure for all articles.
 
 export interface BlogPost {
   id: number;
   slug: string;
+  titleSlug?: string;
   decodedSlug?: string;
+  aliases?: string[];
   title: string;
   excerpt: string;
   content: string;
@@ -42,7 +45,7 @@ export const blogCategories: string[] = [
 export const blogData: BlogPost[] = [
   {
     "id": 5483,
-    "slug": "money-robot-submitter-%e0%a6%b0%e0%a6%bf%e0%a6%ad%e0%a6%bf%e0%a6%89-rankerx-%e0%a6%ac%e0%a6%a8%e0%a6%be%e0%a6%ae-gsa-search-engine-ranker-%e0%a6%b0%e0%a6%bf%e0%a6%ad%e0%a6%bf%e0%a6%89-%e0%a6%93",
+    "slug": "money-robot-submitter-রিভিউ-rankerx-বনাম-gsa-search-engine-ranker-রিভিউ-ও-টিউটোরিয়াল",
     "decodedSlug": "money-robot-submitter-রিভিউ-rankerx-বনাম-gsa-search-engine-ranker-রিভিউ-ও",
     "title": "Money Robot Submitter রিভিউ: RankerX বনাম GSA Search Engine Ranker | রিভিউ ও টিউটোরিয়াল",
     "excerpt": "ভূমিকা এটি একটি Money Robot ওভারভিউ টিউটোরিয়াল, সাথে RankerX এবং GSA Search Engine Ranker-এর সাথে একটা ছোটখাটো তুলনাও থাকবে। এটা কিন্তু &#8220;Money Robot vs GSA&#8221; টাইপের সরাসরি কম্পারিজন ভিডিও না। এই ভিডিওটা তাদের...",
@@ -60,11 +63,17 @@ export const blogData: BlogPost[] = [
       "SEO Bangla Tutorials",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "money-robot-submitter-রিভিউ-rankerx-বনাম-gsa-search-engine-ranker-রিভিউ-ও-টিউটোরিয়াল",
+    "aliases": [
+      "money-robot-submitter-%e0%a6%b0%e0%a6%bf%e0%a6%ad%e0%a6%bf%e0%a6%89-rankerx-%e0%a6%ac%e0%a6%a8%e0%a6%be%e0%a6%ae-gsa-search-engine-ranker-%e0%a6%b0%e0%a6%bf%e0%a6%ad%e0%a6%bf%e0%a6%89-%e0%a6%93",
+      "money-robot-submitter-রিভিউ-rankerx-বনাম-gsa-search-engine-ranker-রিভিউ-ও",
+      "money-robot-submitter-রিভিউ-rankerx-বনাম-gsa-search-engine-ranker-রিভিউ-ও-টিউটোরিয়াল"
+    ]
   },
   {
     "id": 5480,
-    "slug": "%e0%a6%93%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%ac%e0%a6%b8%e0%a6%be%e0%a6%87%e0%a6%9f-%e0%a6%ac%e0%a6%be%e0%a6%a8%e0%a6%be%e0%a6%a4%e0%a7%87-%e0%a6%95%e0%a6%bf-%e0%a6%8f%e0%a6%86%e0%a6%87-%e0%a6%ac",
+    "slug": "ওয়েবসাইট-বানাতে-কি-এআই-ব্যবহার-করা-উচিত",
     "decodedSlug": "ওয়েবসাইট-বানাতে-কি-এআই-ব",
     "title": "ওয়েবসাইট বানাতে কি এআই ব্যবহার করা উচিত?",
     "excerpt": "ক্লায়েন্টের রিকোয়ারমেন্ট বোঝাই প্রথম কাজ কোনো ক্লায়েন্ট যখন বলে &#8220;আমি একটা ওয়েবসাইট বানাতে চাই,&#8221; তখনই কোনো নির্দিষ্ট টেকনোলজির নাম বলে দেওয়া উচিত নয়। তার আগে জানা দরকার সে ঠিক কী ধরনের ওয়েবসাইট চায়। সব...",
@@ -82,11 +91,17 @@ export const blogData: BlogPost[] = [
       "SEO Bangla Tutorials",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "ওয়েবসাইট-বানাতে-কি-এআই-ব্যবহার-করা-উচিত",
+    "aliases": [
+      "%e0%a6%93%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%ac%e0%a6%b8%e0%a6%be%e0%a6%87%e0%a6%9f-%e0%a6%ac%e0%a6%be%e0%a6%a8%e0%a6%be%e0%a6%a4%e0%a7%87-%e0%a6%95%e0%a6%bf-%e0%a6%8f%e0%a6%86%e0%a6%87-%e0%a6%ac",
+      "ওয়েবসাইট-বানাতে-কি-এআই-ব",
+      "ওয়েবসাইট-বানাতে-কি-এআই-ব্যবহার-করা-উচিত"
+    ]
   },
   {
     "id": 4583,
-    "slug": "on-page-seo-tips-for-beginners",
+    "slug": "on-page-seo-tips-greater-visibility-for-beginners",
     "decodedSlug": "on-page-seo-tips-for-beginners",
     "title": "On-page SEO Tips: Greater Visibility for beginners",
     "excerpt": "Actionable On-page SEO Tips 2022 You&#8217;ve likely heard the term &#8220;on-page SEO&#8221; before, but what does it mean? Our&nbsp;On-Page SEO Tips is guide you all about it.&nbsp;On-page SEO is the process of optimiz...",
@@ -104,11 +119,16 @@ export const blogData: BlogPost[] = [
       "Practical SEO",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "on-page-seo-tips-greater-visibility-for-beginners",
+    "aliases": [
+      "on-page-seo-tips-for-beginners",
+      "on-page-seo-tips-greater-visibility-for-beginners"
+    ]
   },
   {
     "id": 1205,
-    "slug": "e-commerce-seo-making-your-website-visible",
+    "slug": "e-commerce-seo-making-your-website-more-visible-on-serp",
     "decodedSlug": "e-commerce-seo-making-your-website-visible",
     "title": "E-Commerce SEO: Making Your Website More Visible on SERP",
     "excerpt": "E-commerce SEO is what we call search engine optimization for e-commerce websites. This means that you are optimizing your website to rank higher in SERPs, which will give it more visibility and attract more traffic. If ...",
@@ -126,11 +146,16 @@ export const blogData: BlogPost[] = [
       "Uncategorized",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "e-commerce-seo-making-your-website-more-visible-on-serp",
+    "aliases": [
+      "e-commerce-seo-making-your-website-visible",
+      "e-commerce-seo-making-your-website-more-visible-on-serp"
+    ]
   },
   {
     "id": 4513,
-    "slug": "youtube-keyword-research-and-youtube-seo-2025",
+    "slug": "youtube-keyword-research-and-youtube-seo-tutorial-update-2025",
     "decodedSlug": "youtube-keyword-research-and-youtube-seo-2025",
     "title": "YouTube Keyword Research And Youtube SEO Tutorial – Update 2025",
     "excerpt": "If you want to do YouTube keyword research, you need to do some tricks and use the keyword research tools properly. Many people are currently working on YouTube with interest and will continue to do so in the future. How...",
@@ -148,7 +173,12 @@ export const blogData: BlogPost[] = [
       "Practical SEO",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "youtube-keyword-research-and-youtube-seo-tutorial-update-2025",
+    "aliases": [
+      "youtube-keyword-research-and-youtube-seo-2025",
+      "youtube-keyword-research-and-youtube-seo-tutorial-update-2025"
+    ]
   },
   {
     "id": 4507,
@@ -170,11 +200,15 @@ export const blogData: BlogPost[] = [
       "Freelancing",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "what-is-affiliate-marketing-a-to-z-guide-in-2025",
+    "aliases": [
+      "what-is-affiliate-marketing-a-to-z-guide-in-2025"
+    ]
   },
   {
     "id": 4464,
-    "slug": "digital-marketing-ads-best-sem-platform-in-bd",
+    "slug": "digital-marketing-advertising-best-sem-platform-in-bd",
     "decodedSlug": "digital-marketing-ads-best-sem-platform-in-bd",
     "title": "Digital Marketing Advertising: Best SEM Platform in BD",
     "excerpt": "As the Best SEM platform in BD, We are gaining popularity as they help businesses to accomplish their goals within a short span of time. We all know that Digital marketing is the latest trend in advertising. This article...",
@@ -192,11 +226,16 @@ export const blogData: BlogPost[] = [
       "Digital marketing",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "digital-marketing-advertising-best-sem-platform-in-bd",
+    "aliases": [
+      "digital-marketing-ads-best-sem-platform-in-bd",
+      "digital-marketing-advertising-best-sem-platform-in-bd"
+    ]
   },
   {
     "id": 954,
-    "slug": "%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%b9%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%bf%e0%a6%82-%e0%a6%b6%e0%a6%bf%e0%a6%96%e0%a6%be-%e0%a6%b6%e0%a7%81%e0%a6%b0%e0%a7%81",
+    "slug": "কিভাবে-হ্যাকিং-শিখা-শুরু-করবেন",
     "decodedSlug": "কিভাবে-হ্যাকিং-শিখা-শুরু",
     "title": "কিভাবে হ্যাকিং শিখা শুরু করবেন…।🤔",
     "excerpt": "হ্যাকিং এর উপর সবা্রই কম বেশী ঝোক আছে ।কিন্তু হ্যাকিং বললেই তো আর হ্যাকিং হয়ে যায়না । অনেক কাঠ খড় পোড়ানোর বিষয় আছে এরপেছনে । একজন রিয়েল হ্যাকারহতে হলে আপনাকে যেমন সময় ব্যায় করতে হবে ,তেমন সমান তালে মেধাও ব্যায় ক...",
@@ -215,11 +254,17 @@ export const blogData: BlogPost[] = [
       "হ্যাকিং",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "কিভাবে-হ্যাকিং-শিখা-শুরু-করবেন",
+    "aliases": [
+      "%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%b9%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%bf%e0%a6%82-%e0%a6%b6%e0%a6%bf%e0%a6%96%e0%a6%be-%e0%a6%b6%e0%a7%81%e0%a6%b0%e0%a7%81",
+      "কিভাবে-হ্যাকিং-শিখা-শুরু",
+      "কিভাবে-হ্যাকিং-শিখা-শুরু-করবেন"
+    ]
   },
   {
     "id": 694,
-    "slug": "%e0%a6%97%e0%a7%81%e0%a6%97%e0%a6%b2-%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2%e0%a6%97%e0%a6%b0%e0%a6%bf%e0%a6%a6%e0%a6%ae-%e0%a6%95%e0%a6%bf",
+    "slug": "গুগল-অ্যালগরিদম-কি-অ্যালগরিদম-আপডেট-করার-কারণ",
     "decodedSlug": "গুগল-অ্যালগরিদম-কি",
     "title": "গুগল অ্যালগরিদম কি? অ্যালগরিদম আপডেট করার কারণ",
     "excerpt": "গুগল&nbsp; অ্যালগরিদম&nbsp; হল এমন একটা বিষয় যা গুগলে আপনার সার্চকৃত কিওয়ার্ড এর ভিত্তিতে বিভিন্ন&nbsp; সাইটের কিওয়ার্ড ম্যাচ করে বিভিন্ন বিষয় বিবেচনা করে বিভিন্ন সাইটকে&nbsp; র‍্যাংক দেয়া হয়। যদি আরো সহজ ভাবে বলা ...",
@@ -240,11 +285,17 @@ export const blogData: BlogPost[] = [
       "গুগল সার্চ ইঞ্জিন",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "গুগল-অ্যালগরিদম-কি-অ্যালগরিদম-আপডেট-করার-কারণ",
+    "aliases": [
+      "%e0%a6%97%e0%a7%81%e0%a6%97%e0%a6%b2-%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2%e0%a6%97%e0%a6%b0%e0%a6%bf%e0%a6%a6%e0%a6%ae-%e0%a6%95%e0%a6%bf",
+      "গুগল-অ্যালগরিদম-কি",
+      "গুগল-অ্যালগরিদম-কি-অ্যালগরিদম-আপডেট-করার-কারণ"
+    ]
   },
   {
     "id": 4360,
-    "slug": "%e0%a6%95%e0%a6%a8%e0%a7%8d%e0%a6%9f%e0%a7%87%e0%a6%a8%e0%a7%8d%e0%a6%9f-%e0%a6%b0%e0%a6%be%e0%a6%87%e0%a6%9f%e0%a6%bf%e0%a6%82-%e0%a6%8f%e0%a6%b0-%e0%a6%b8%e0%a6%ac%e0%a6%9a%e0%a7%87%e0%a6%af",
+    "slug": "কন্টেন্ট-রাইটিং-এর-সবচেয়ে-সহজ-কিন্তু-গুরুত্বপূর্ণ-বিষয়",
     "decodedSlug": "কন্টেন্ট-রাইটিং-এর-সবচেয",
     "title": "কন্টেন্ট রাইটিং-এর সবচেয়ে সহজ কিন্তু গুরুত্বপূর্ণ বিষয়",
     "excerpt": "এ পর্যন্ত যতজন লেখকের সঙ্গে কন্টেন্ট রাইটিং নিয়ে কাজ করেছি, তাদের মধ্যে নতুন রাইটারের সংখ্যা ছিল বেশ বড়। নতুন বা অভিজ্ঞ—দুই ধরনের রাইটারদের মধ্যেই একটা সাধারণ বিষয় আমি লক্ষ্য করেছি। আর সেটি হলো: জটিল ও যৌগিক বাক্যের অ...",
@@ -262,11 +313,17 @@ export const blogData: BlogPost[] = [
       "SEO Bangla Tutorials",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "কন্টেন্ট-রাইটিং-এর-সবচেয়ে-সহজ-কিন্তু-গুরুত্বপূর্ণ-বিষয়",
+    "aliases": [
+      "%e0%a6%95%e0%a6%a8%e0%a7%8d%e0%a6%9f%e0%a7%87%e0%a6%a8%e0%a7%8d%e0%a6%9f-%e0%a6%b0%e0%a6%be%e0%a6%87%e0%a6%9f%e0%a6%bf%e0%a6%82-%e0%a6%8f%e0%a6%b0-%e0%a6%b8%e0%a6%ac%e0%a6%9a%e0%a7%87%e0%a6%af",
+      "কন্টেন্ট-রাইটিং-এর-সবচেয",
+      "কন্টেন্ট-রাইটিং-এর-সবচেয়ে-সহজ-কিন্তু-গুরুত্বপূর্ণ-বিষয়"
+    ]
   },
   {
     "id": 3486,
-    "slug": "google-my-business-%e0%a6%95%e0%a6%bf-%e0%a6%8f%e0%a6%ac%e0%a6%82-%e0%a6%95%e0%a7%87%e0%a6%a8-%e0%a6%a6%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b0-%e0%a6%8f%e0%a6%9f%e0%a6%bf",
+    "slug": "google-my-business-কি-এবং-কেন-দরকার-এটি",
     "decodedSlug": "google-my-business-কি-এবং-কেন-দরকার-এটি",
     "title": "Google My Business কি এবং কেন দরকার এটি?",
     "excerpt": "Google My Business কি ? GOOGLE MY BUSINESS এমন একটি সার্ভিস যা গুগলের মাধ্যমে আপনার বিজনেস বা প্রতিষ্ঠান বা সংস্থার অনলাইন Property / Identity নিশ্চিত করে। এর ফলে আপনার বিজনেস গুগল সার্চ রেজাল্ট পেজে, গুগল সাজেস্ট অফশনে ...",
@@ -284,11 +341,16 @@ export const blogData: BlogPost[] = [
       "SEO Bangla Tutorials",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "google-my-business-কি-এবং-কেন-দরকার-এটি",
+    "aliases": [
+      "google-my-business-%e0%a6%95%e0%a6%bf-%e0%a6%8f%e0%a6%ac%e0%a6%82-%e0%a6%95%e0%a7%87%e0%a6%a8-%e0%a6%a6%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b0-%e0%a6%8f%e0%a6%9f%e0%a6%bf",
+      "google-my-business-কি-এবং-কেন-দরকার-এটি"
+    ]
   },
   {
     "id": 3039,
-    "slug": "%e0%a6%ab%e0%a6%be%e0%a6%87%e0%a6%ad%e0%a6%be%e0%a6%b0-%e0%a6%8f-%e0%a6%86%e0%a7%9f-%e0%a6%95%e0%a6%b0%e0%a7%81%e0%a6%a8-%e0%a6%ac%e0%a6%bf%e0%a6%b8%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%b0%e0%a6%bf",
+    "slug": "ফাইভার-এ-আয়-করুন-বিস্তারিত",
     "decodedSlug": "ফাইভার-এ-আয়-করুন-বিস্তারি",
     "title": "ফাইভার এ আয় করুন- বিস্তারিত",
     "excerpt": "ফাইভার কী? যেভাবে ফাইভারের মাধ্যমে অনলাইনে আয় করবেন! ফাইভার হল বিভিন্ন ডিজিটাল সেবার অন্যতম বৃহত্তম ফ্রিল্যান্স মার্কেটপ্লেস। ফাইভার প্ল্যাটফর্মে প্রত্যেকটা ডিজিটাল সেবার জন্য অগণিত ফ্রিল্যান্সার রয়েছেন, যার মধ্য থেকে গ্...",
@@ -306,11 +368,17 @@ export const blogData: BlogPost[] = [
       "SEO Bangla Tutorials",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "ফাইভার-এ-আয়-করুন-বিস্তারিত",
+    "aliases": [
+      "%e0%a6%ab%e0%a6%be%e0%a6%87%e0%a6%ad%e0%a6%be%e0%a6%b0-%e0%a6%8f-%e0%a6%86%e0%a7%9f-%e0%a6%95%e0%a6%b0%e0%a7%81%e0%a6%a8-%e0%a6%ac%e0%a6%bf%e0%a6%b8%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%b0%e0%a6%bf",
+      "ফাইভার-এ-আয়-করুন-বিস্তারি",
+      "ফাইভার-এ-আয়-করুন-বিস্তারিত"
+    ]
   },
   {
     "id": 3037,
-    "slug": "%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%b8%e0%a6%be%e0%a6%87%e0%a6%9f%e0%a7%87-%e0%a6%ad%e0%a6%bf%e0%a6%9c%e0%a6%bf%e0%a6%9f%e0%a6%b0-%e0%a6%ac%e0%a6%be%e0%a7%9c%e0%a6%be",
+    "slug": "কিভাবে-সাইটে-ভিজিটর-বাড়াবেন",
     "decodedSlug": "কিভাবে-সাইটে-ভিজিটর-বাড়া",
     "title": "কিভাবে সাইটে ভিজিটর বাড়াবেন",
     "excerpt": "আপনার সাইটে ভিজিটর নেই ? নিয়ে নিন ভিজিটর ধরে রাখার বা বাড়ানোর কিছু টিপস&#8230;! কিভাবে আপনার ওয়েব সাইটে ভিজিটর বাড়াবেন: অনলাইন মার্কেটিংয়ের ক্ষেত্রে সোশ্যাল মিডিয়াকে পাশ কাটিয়ে চলে যাওয়ার কোনো উপায় নেই। গুগলের সর্বশ...",
@@ -328,11 +396,17 @@ export const blogData: BlogPost[] = [
       "SEO Bangla Tutorials",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "কিভাবে-সাইটে-ভিজিটর-বাড়াবেন",
+    "aliases": [
+      "%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%b8%e0%a6%be%e0%a6%87%e0%a6%9f%e0%a7%87-%e0%a6%ad%e0%a6%bf%e0%a6%9c%e0%a6%bf%e0%a6%9f%e0%a6%b0-%e0%a6%ac%e0%a6%be%e0%a7%9c%e0%a6%be",
+      "কিভাবে-সাইটে-ভিজিটর-বাড়া",
+      "কিভাবে-সাইটে-ভিজিটর-বাড়াবেন"
+    ]
   },
   {
     "id": 3035,
-    "slug": "%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%87%e0%a6%89%e0%a6%9f%e0%a6%bf%e0%a6%89%e0%a6%ac-%e0%a6%8f%e0%a6%b8%e0%a6%87%e0%a6%93-%e0%a6%95%e0%a6%b0%e0%a6%ac%e0%a7%87%e0%a6%a8",
+    "slug": "কিভাবে-ইউটিউব-এসইও-করবেন",
     "decodedSlug": "কিভাবে-ইউটিউব-এসইও-করবেন",
     "title": "কিভাবে ইউটিউব এসইও করবেন?",
     "excerpt": "যেভাবে ইউটিউবে ভিডিও এসইও (SEO) করবেন: বর্তমান সময়ের সব থেকে জনপ্রিয় সোশ্যাল মিডিয়া হচ্ছে ইউটিউব। ইউটিউব কে ব্যবহার করে কোন পন্য, সেবা বা বিজনেসের ব্র্যান্ডইং করাই হলো ইউটিউব মার্কেটিং। বর্তমানে যারা ই-কমার্স উদ্যোক্তা আ...",
@@ -350,11 +424,16 @@ export const blogData: BlogPost[] = [
       "SEO Bangla Tutorials",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "কিভাবে-ইউটিউব-এসইও-করবেন",
+    "aliases": [
+      "%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%87%e0%a6%89%e0%a6%9f%e0%a6%bf%e0%a6%89%e0%a6%ac-%e0%a6%8f%e0%a6%b8%e0%a6%87%e0%a6%93-%e0%a6%95%e0%a6%b0%e0%a6%ac%e0%a7%87%e0%a6%a8",
+      "কিভাবে-ইউটিউব-এসইও-করবেন"
+    ]
   },
   {
     "id": 3030,
-    "slug": "%e0%a6%85%e0%a6%a8-%e0%a6%aa%e0%a7%87%e0%a6%9c-%e0%a6%8f%e0%a6%b8%e0%a6%87%e0%a6%93-%e0%a6%97%e0%a6%be%e0%a6%87%e0%a6%a1-%e0%a7%a8%e0%a7%a6%e0%a7%a8%e0%a7%ab",
+    "slug": "অন-পেজ-এসইও-গাইড-২০২৫",
     "decodedSlug": "অন-পেজ-এসইও-গাইড-২০২৫",
     "title": "অন পেজ এসইও গাইড  ২০২৫",
     "excerpt": "অন-পেজ এসইও কি ? আজকের এই প্রতিযোগিতার যুগে blogging এর profession এ ক্যারিয়ার তৈরি করাটা অনেক বেশি কঠিন হয়ে দাঁড়িয়েছে।আজ, ইন্টারনেটে যেকোনো বিষয়, টপিক বা niche নিয়ে হাজার হাজার তথ্য বা ভালো ভালো কনটেন্ট (content) সহজেই ...",
@@ -372,11 +451,16 @@ export const blogData: BlogPost[] = [
       "SEO Bangla Tutorials",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "অন-পেজ-এসইও-গাইড-২০২৫",
+    "aliases": [
+      "%e0%a6%85%e0%a6%a8-%e0%a6%aa%e0%a7%87%e0%a6%9c-%e0%a6%8f%e0%a6%b8%e0%a6%87%e0%a6%93-%e0%a6%97%e0%a6%be%e0%a6%87%e0%a6%a1-%e0%a7%a8%e0%a7%a6%e0%a7%a8%e0%a7%ab",
+      "অন-পেজ-এসইও-গাইড-২০২৫"
+    ]
   },
   {
     "id": 3026,
-    "slug": "%e0%a6%8f%e0%a6%b8%e0%a6%87%e0%a6%93-%e0%a6%95%e0%a6%bf-%e0%a6%8f%e0%a6%ac%e0%a6%82-%e0%a6%95%e0%a7%87%e0%a6%a8-%e0%a6%95%e0%a6%b0%e0%a6%be-%e0%a6%b9%e0%a7%9f",
+    "slug": "এসইও-কি-এবং-কেন-করা-হয়",
     "decodedSlug": "এসইও-কি-এবং-কেন-করা-হয়",
     "title": "এসইও কি এবং কেন করা হয়",
     "excerpt": "SEO কাকে বলে এবং কেন SEO গুরুত্বপূর্ণ? আজকের বিষয়টি হচ্ছে, “ এসইও কি এবং কেন SEO গুরুত্বপূর্ণ ?” বর্তমানে প্রায় সময়ে আমরা প্রতিনিয়তই অনলাইনে যারা নিয়মিত কাজ করি তারা কম বেশি এসইও শব্দটির সঙ্গে পরিচিত। কিন্তু যারা “SEO কি...",
@@ -394,7 +478,12 @@ export const blogData: BlogPost[] = [
       "SEO Bangla Tutorials",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "এসইও-কি-এবং-কেন-করা-হয়",
+    "aliases": [
+      "%e0%a6%8f%e0%a6%b8%e0%a6%87%e0%a6%93-%e0%a6%95%e0%a6%bf-%e0%a6%8f%e0%a6%ac%e0%a6%82-%e0%a6%95%e0%a7%87%e0%a6%a8-%e0%a6%95%e0%a6%b0%e0%a6%be-%e0%a6%b9%e0%a7%9f",
+      "এসইও-কি-এবং-কেন-করা-হয়"
+    ]
   },
   {
     "id": 3008,
@@ -416,7 +505,11 @@ export const blogData: BlogPost[] = [
       "Practical SEO",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "on-page-seo-2025-ultimate-guidelines",
+    "aliases": [
+      "on-page-seo-2025-ultimate-guidelines"
+    ]
   },
   {
     "id": 3001,
@@ -438,7 +531,11 @@ export const blogData: BlogPost[] = [
       "Practical SEO",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "off-page-seo-2025-complete-guidelines",
+    "aliases": [
+      "off-page-seo-2025-complete-guidelines"
+    ]
   },
   {
     "id": 2983,
@@ -460,11 +557,15 @@ export const blogData: BlogPost[] = [
       "Freelancing",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "10-real-ways-of-making-money-online-without-huge-investment",
+    "aliases": [
+      "10-real-ways-of-making-money-online-without-huge-investment"
+    ]
   },
   {
     "id": 2974,
-    "slug": "10-things-that-dont-affect-website-ranking-on-seo",
+    "slug": "10-things-that-don-t-affect-website-ranking-on-seo",
     "decodedSlug": "10-things-that-dont-affect-website-ranking-on-seo",
     "title": "10 Things That Don’t Affect Website Ranking On SEO",
     "excerpt": "For Website Ranking On SEO, Every self-respecting SEO specialist knows what needs to be done in order to get to the top lines of search results. Do you know what actions do not really have any effect on the site’s positi...",
@@ -482,11 +583,16 @@ export const blogData: BlogPost[] = [
       "Practical SEO",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "10-things-that-don-t-affect-website-ranking-on-seo",
+    "aliases": [
+      "10-things-that-dont-affect-website-ranking-on-seo",
+      "10-things-that-don-t-affect-website-ranking-on-seo"
+    ]
   },
   {
     "id": 2960,
-    "slug": "25-professional-digital-marketing-tips",
+    "slug": "25-professional-digital-marketing-tips-and-ideas",
     "decodedSlug": "25-professional-digital-marketing-tips",
     "title": "25 Professional Digital Marketing Tips And Ideas",
     "excerpt": "According to a BigCommerce study, 80% of Americans made online purchases last month. Most consumers research products and services online, whether the final purchase is made online or in a store. Therefore, no matter wha...",
@@ -504,7 +610,12 @@ export const blogData: BlogPost[] = [
       "Digital marketing",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "25-professional-digital-marketing-tips-and-ideas",
+    "aliases": [
+      "25-professional-digital-marketing-tips",
+      "25-professional-digital-marketing-tips-and-ideas"
+    ]
   },
   {
     "id": 2928,
@@ -526,7 +637,11 @@ export const blogData: BlogPost[] = [
       "Practical SEO",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "what-is-seo-how-do-i-learn-seo",
+    "aliases": [
+      "what-is-seo-how-do-i-learn-seo"
+    ]
   },
   {
     "id": 2851,
@@ -548,11 +663,15 @@ export const blogData: BlogPost[] = [
       "Freelancing",
       "SEO Bangladesh"
     ],
-    "source": "main"
+    "source": "main",
+    "titleSlug": "best-freelancing-tips-for-beginners",
+    "aliases": [
+      "best-freelancing-tips-for-beginners"
+    ]
   },
   {
     "id": 862,
-    "slug": "amazon-affiliate",
+    "slug": "amazon-affiliate-করছেন-জেনে-নিন-কিভাবে-সেল-বাড়াবেন",
     "decodedSlug": "amazon-affiliate",
     "title": "Amazon Affiliate করছেন? জেনে নিন কিভাবে সেল বাড়াবেন",
     "excerpt": "আর্টিক্যালের স্ট্রাকচার ভালো হলে কনভার্সন রেট ভালো হয়। সেল বেড়ে যায়। কেন জানেন? ওয়েল, স্বীকার করছি, এটার উত্তর আমার কাছে প্রোপারলি নেই। কিন্তু এটা সত্যি- তা নিশ্চিত। হয়তো মনস্তত্ববিদরা এটার কারণ ভালো বলতে পারবেন। কিন্তু ...",
@@ -573,11 +692,16 @@ export const blogData: BlogPost[] = [
       "অ্যামাজন অ্যাফিলিয়েট মার্কেটিং",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "amazon-affiliate-করছেন-জেনে-নিন-কিভাবে-সেল-বাড়াবেন",
+    "aliases": [
+      "amazon-affiliate",
+      "amazon-affiliate-করছেন-জেনে-নিন-কিভাবে-সেল-বাড়াবেন"
+    ]
   },
   {
     "id": 860,
-    "slug": "%e0%a6%a8%e0%a6%a4%e0%a7%81%e0%a6%a8-%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%9c%e0%a6%a8%e0%a7%8d%e0%a6%af-%e0%a6%ab%e0%a6%be%e0%a6%87%e0%a6%ad%e0%a6%be%e0%a6%b0-%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be",
+    "slug": "নতুন-দের-জন্য-ফাইভার-কিভাবে-কাজ-করবেন-ফাইভারে",
     "decodedSlug": "নতুন-দের-জন্য-ফাইভার-কিভা",
     "title": "নতুন দের জন্য ফাইভার, কিভাবে কাজ করবেন ফাইভারে?",
     "excerpt": "ফ্রীলান্সিং&nbsp;এর কাজ করার জন্য ফাইভার বর্তমানে খুবই জনপ্রিয় একটি মার্কেটপ্লেস। বায়ার ও সেলার উভয়ের কাছে জনপ্রিয়। দিন দিন এর চাহিদা বাড়ছে। অন্যান্য মার্কেটপ্লেসের চেয়ে তুলনামূলক সহজ ও চাহিদা বেশি থাকায় নতুন অনেকে কাজ শ...",
@@ -600,11 +724,17 @@ export const blogData: BlogPost[] = [
       "ফাইভার গিগ",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "নতুন-দের-জন্য-ফাইভার-কিভাবে-কাজ-করবেন-ফাইভারে",
+    "aliases": [
+      "%e0%a6%a8%e0%a6%a4%e0%a7%81%e0%a6%a8-%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%9c%e0%a6%a8%e0%a7%8d%e0%a6%af-%e0%a6%ab%e0%a6%be%e0%a6%87%e0%a6%ad%e0%a6%be%e0%a6%b0-%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be",
+      "নতুন-দের-জন্য-ফাইভার-কিভা",
+      "নতুন-দের-জন্য-ফাইভার-কিভাবে-কাজ-করবেন-ফাইভারে"
+    ]
   },
   {
     "id": 861,
-    "slug": "%e0%a6%8f%e0%a6%95-%e0%a6%ab%e0%a7%87%e0%a6%b8%e0%a6%ac%e0%a7%81%e0%a6%95%e0%a7%87-%e0%a6%8f%e0%a6%a4%e0%a7%8b-%e0%a6%a8%e0%a6%bf%e0%a6%b0%e0%a7%8d%e0%a6%ad%e0%a6%b0%e0%a6%b6%e0%a6%bf%e0%a6%b2",
+    "slug": "এক-ফেসবুকে-এতো-নির্ভরশিলতা-কেন-কি-করা-উচিৎ",
     "decodedSlug": "এক-ফেসবুকে-এতো-নির্ভরশিল",
     "title": "এক ফেসবুকে এতো নির্ভরশিলতা কেন? কি করা উচিৎ",
     "excerpt": "ফেসবুক বাংলাদেশে আসার পর থেকেই অনেক জনপ্রিয়, শুধু বাংলাদেশে না সারা পৃথিবীতে ই ফেসবুক অনেক জনপ্রিয়, কিন্তু কথা অন্য যায়গায়, ফেসবুক সারা পৃথিবীতে সোশ্যাল মিডিয়া হিসেবে জনপ্রিয়, বিজনেস করার জন্যও জনপ্রিয় কিন্তু বিজনেস করার...",
@@ -625,11 +755,17 @@ export const blogData: BlogPost[] = [
       "ফেসবুক মার্কেটিং বাংলা টিউটোরিয়াল",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "এক-ফেসবুকে-এতো-নির্ভরশিলতা-কেন-কি-করা-উচিৎ",
+    "aliases": [
+      "%e0%a6%8f%e0%a6%95-%e0%a6%ab%e0%a7%87%e0%a6%b8%e0%a6%ac%e0%a7%81%e0%a6%95%e0%a7%87-%e0%a6%8f%e0%a6%a4%e0%a7%8b-%e0%a6%a8%e0%a6%bf%e0%a6%b0%e0%a7%8d%e0%a6%ad%e0%a6%b0%e0%a6%b6%e0%a6%bf%e0%a6%b2",
+      "এক-ফেসবুকে-এতো-নির্ভরশিল",
+      "এক-ফেসবুকে-এতো-নির্ভরশিলতা-কেন-কি-করা-উচিৎ"
+    ]
   },
   {
     "id": 859,
-    "slug": "%e0%a6%85%e0%a6%b0%e0%a7%8d%e0%a6%97%e0%a6%be%e0%a6%a8%e0%a6%bf%e0%a6%95-%e0%a6%b0%e0%a6%bf%e0%a6%9a-%e0%a6%ac%e0%a6%be%e0%a7%9c%e0%a6%be%e0%a6%a4%e0%a7%87-%e0%a6%9a%e0%a6%be%e0%a6%a8-%e0%a6%a6",
+    "slug": "অর্গানিক-রিচ-বাড়াতে-চান-দারুন-কার্যকর-হবে-এই-অপটিমাইজেশন-টিপস",
     "decodedSlug": "অর্গানিক-রিচ-বাড়াতে-চান-দ",
     "title": "অর্গানিক রিচ বাড়াতে  চান ? দারুন কার্যকর হবে এই অপটিমাইজেশন টিপস",
     "excerpt": "ফেসবুকের যারা ব্যবসা শুরু করেছে, বা করবে তাদের জন্য এই পোস্টটি দারুন কাজে লাগবে বলে আশা করি। ১. আপনার NAP মানে ফেসবুক পেজের সঠিক নাম, এড্রেস এবং মোবাইল নাম্বার এড করুন। N: Name A: Address P: Phone Number ২. আপনার ডেসক্রি...",
@@ -650,11 +786,17 @@ export const blogData: BlogPost[] = [
       "ফেসবুক মার্কেটিং বাংলা টিউটোরিয়াল",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "অর্গানিক-রিচ-বাড়াতে-চান-দারুন-কার্যকর-হবে-এই-অপটিমাইজেশন-টিপস",
+    "aliases": [
+      "%e0%a6%85%e0%a6%b0%e0%a7%8d%e0%a6%97%e0%a6%be%e0%a6%a8%e0%a6%bf%e0%a6%95-%e0%a6%b0%e0%a6%bf%e0%a6%9a-%e0%a6%ac%e0%a6%be%e0%a7%9c%e0%a6%be%e0%a6%a4%e0%a7%87-%e0%a6%9a%e0%a6%be%e0%a6%a8-%e0%a6%a6",
+      "অর্গানিক-রিচ-বাড়াতে-চান-দ",
+      "অর্গানিক-রিচ-বাড়াতে-চান-দারুন-কার্যকর-হবে-এই-অপটিমাইজেশন-টিপস"
+    ]
   },
   {
     "id": 865,
-    "slug": "%e0%a6%95%e0%a7%87%e0%a6%ae%e0%a6%a8-%e0%a6%9c%e0%a6%ac-%e0%a6%aa%e0%a7%87%e0%a6%a4%e0%a7%87-%e0%a6%aa%e0%a6%be%e0%a6%b0%e0%a7%87%e0%a6%a8-%e0%a6%8f%e0%a6%95%e0%a6%9c%e0%a6%a8-%e0%a6%97%e0%a7%8d",
+    "slug": "কেমন-জব-পেতে-পারেন-একজন-গ্রাফিক্স-ডিজাইনার",
     "decodedSlug": "কেমন-জব-পেতে-পারেন-একজন-গ্",
     "title": "কেমন জব পেতে পারেন একজন গ্রাফিক্স  ডিজাইনার ?",
     "excerpt": "আপনি কি ডিজাইনার? তাহলে এই আইডিয়া গুলো আপনার জন্য। চলুন দেখে নেই কত ভাবে কোথায় থেকে আপনি উপার্জন করতে পারবেন। আপনি লোকাল জব করতে পারেন। এখন বিভিন্ন এজেন্সি বেশ ভালো সেলারি দিয়ে ডিজাইনার হওয়ার করে। আপনাকে চোখ খোলা রাখতে হ...",
@@ -672,11 +814,17 @@ export const blogData: BlogPost[] = [
       "ফ্রিল্যান্সিং",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "কেমন-জব-পেতে-পারেন-একজন-গ্রাফিক্স-ডিজাইনার",
+    "aliases": [
+      "%e0%a6%95%e0%a7%87%e0%a6%ae%e0%a6%a8-%e0%a6%9c%e0%a6%ac-%e0%a6%aa%e0%a7%87%e0%a6%a4%e0%a7%87-%e0%a6%aa%e0%a6%be%e0%a6%b0%e0%a7%87%e0%a6%a8-%e0%a6%8f%e0%a6%95%e0%a6%9c%e0%a6%a8-%e0%a6%97%e0%a7%8d",
+      "কেমন-জব-পেতে-পারেন-একজন-গ্",
+      "কেমন-জব-পেতে-পারেন-একজন-গ্রাফিক্স-ডিজাইনার"
+    ]
   },
   {
     "id": 864,
-    "slug": "%e0%a6%95%e0%a6%bf-%e0%a6%95%e0%a6%bf-%e0%a6%95%e0%a6%be%e0%a6%b0%e0%a6%a3%e0%a7%87-%e0%a6%93%e0%a7%9f%e0%a7%87%e0%a6%ac%e0%a6%b8%e0%a6%be%e0%a6%87%e0%a6%9f-%e0%a6%8f%e0%a6%a1%e0%a6%b8%e0%a7%87",
+    "slug": "কি-কি-কারণে-ওয়েবসাইট-এডসেন্স-পেতে-সমস্যা-হয়ে-থাকে",
     "decodedSlug": "কি-কি-কারণে-ওয়েবসাইট-এডসে",
     "title": "কি কি কারণে ওয়েবসাইট এডসেন্স পেতে সমস্যা হয়ে থাকে।",
     "excerpt": "যারা এডসেন্স নিয়ে কাজ করতে চান কিন্তু এডসেন্স এপলাই করার পরেও যখন মনিটাইজ করতে পারেন আজ তাদের জন্য এই গাইডলাইন। এডসেন্স পেতে গেলে কিছু বিষয় এডসেন্স গাইডলাইন ফলো করে কাজ করতে হয়, আজ আমি তা নিয়েই কথা বলবো; এডসেন্স প্রজেক্ট...",
@@ -697,11 +845,17 @@ export const blogData: BlogPost[] = [
       "গুগল এডসেন্স পাওয়ার উপায়",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "কি-কি-কারণে-ওয়েবসাইট-এডসেন্স-পেতে-সমস্যা-হয়ে-থাকে",
+    "aliases": [
+      "%e0%a6%95%e0%a6%bf-%e0%a6%95%e0%a6%bf-%e0%a6%95%e0%a6%be%e0%a6%b0%e0%a6%a3%e0%a7%87-%e0%a6%93%e0%a7%9f%e0%a7%87%e0%a6%ac%e0%a6%b8%e0%a6%be%e0%a6%87%e0%a6%9f-%e0%a6%8f%e0%a6%a1%e0%a6%b8%e0%a7%87",
+      "কি-কি-কারণে-ওয়েবসাইট-এডসে",
+      "কি-কি-কারণে-ওয়েবসাইট-এডসেন্স-পেতে-সমস্যা-হয়ে-থাকে"
+    ]
   },
   {
     "id": 863,
-    "slug": "%e0%a6%af%e0%a7%87%e0%a6%b8%e0%a6%95%e0%a6%b2-%e0%a6%95%e0%a6%be%e0%a6%b0%e0%a6%a3%e0%a7%87-%e0%a6%86%e0%a6%aa%e0%a6%a8%e0%a6%be%e0%a6%b0-%e0%a6%b8%e0%a6%be%e0%a6%87%e0%a6%9f-%e0%a6%8f%e0%a6%b0",
+    "slug": "যেসকল-কারণে-আপনার-সাইট-এর-ট্রাফিক-ড্রপ-হয়ে-থাকে",
     "decodedSlug": "যেসকল-কারণে-আপনার-সাইট-এর",
     "title": "যেসকল কারণে আপনার সাইট এর ট্রাফিক ড্রপ হয়ে থাকে।",
     "excerpt": "আমাদের সাইট এ অনেক সময় কীওয়ার্ড লস্ট/পসিশন হারাতে দেখা যায়। এই কীওয়ার্ড লস্ট পজিশন হারাবার কারণ অনেক সময় অনেকেই বুঝতে পারে না বা খুঁজে বের করতে পারে না কি কারণে কীওয়ার্ড লস্ট হচ্ছে। আসুন তাহলে আজ জেনে নেই কি কি কারণে কীও...",
@@ -720,11 +874,17 @@ export const blogData: BlogPost[] = [
       "সাইট এর ট্রাফিক ড্রপ",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "যেসকল-কারণে-আপনার-সাইট-এর-ট্রাফিক-ড্রপ-হয়ে-থাকে",
+    "aliases": [
+      "%e0%a6%af%e0%a7%87%e0%a6%b8%e0%a6%95%e0%a6%b2-%e0%a6%95%e0%a6%be%e0%a6%b0%e0%a6%a3%e0%a7%87-%e0%a6%86%e0%a6%aa%e0%a6%a8%e0%a6%be%e0%a6%b0-%e0%a6%b8%e0%a6%be%e0%a6%87%e0%a6%9f-%e0%a6%8f%e0%a6%b0",
+      "যেসকল-কারণে-আপনার-সাইট-এর",
+      "যেসকল-কারণে-আপনার-সাইট-এর-ট্রাফিক-ড্রপ-হয়ে-থাকে"
+    ]
   },
   {
     "id": 855,
-    "slug": "%e0%a6%95%e0%a7%87-%e0%a6%8f%e0%a6%87-%f0%9f%8e%af%e0%a6%a1%e0%a6%bf%e0%a6%9c%e0%a6%bf%e0%a6%9f%e0%a6%be%e0%a6%b2-%e0%a6%ae%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%95%e0%a7%87%e0%a6%9f%e0%a6%be%e0%a6%b0",
+    "slug": "কে-এই-ডিজিটাল-মার্কেটার-নেইল-প্যাটেল",
     "decodedSlug": "কে-এই-🎯ডিজিটাল-মার্কেটার",
     "title": "কে এই 🎯ডিজিটাল মার্কেটার নেইল প্যাটেল !",
     "excerpt": "বারংবার ব্যর্থতা যাকে দমাতে পারেনি ডিজিটাল মার্কেটার হিসেবে কাজ করেন অথচ নেইল প্যাটেলের নাম শুনেন নাই এমন মানুষ এ যুগে পাওয়া খুবই দুষ্কর । ডিজিটাল বিপণন বিশেষজ্ঞ এবং ইন্টারনেট বিপণনকারীদের মধ্যে তার নামটি খুব পরিচিত । য...",
@@ -744,11 +904,17 @@ export const blogData: BlogPost[] = [
       "নেইল প্যাটেল",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "কে-এই-ডিজিটাল-মার্কেটার-নেইল-প্যাটেল",
+    "aliases": [
+      "%e0%a6%95%e0%a7%87-%e0%a6%8f%e0%a6%87-%f0%9f%8e%af%e0%a6%a1%e0%a6%bf%e0%a6%9c%e0%a6%bf%e0%a6%9f%e0%a6%be%e0%a6%b2-%e0%a6%ae%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%95%e0%a7%87%e0%a6%9f%e0%a6%be%e0%a6%b0",
+      "কে-এই-🎯ডিজিটাল-মার্কেটার",
+      "কে-এই-ডিজিটাল-মার্কেটার-নেইল-প্যাটেল"
+    ]
   },
   {
     "id": 854,
-    "slug": "%f0%9f%8e%af%e0%a6%ac%e0%a6%be%e0%a6%82%e0%a6%b2%e0%a6%be%e0%a6%a6%e0%a7%87%e0%a6%b6%e0%a7%87-%e0%a6%ab%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%b2%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%b8",
+    "slug": "বাংলাদেশে-ফ্রিল্যান্সিং-এর-ভবিষ্যৎ",
     "decodedSlug": "🎯বাংলাদেশে-ফ্রিল্যান্স",
     "title": "বাংলাদেশে ফ্রিল্যান্সিং এর ভবিষ্যৎ",
     "excerpt": "প্রযুক্তির অগ্রযাত্রার এই সময়ে বলা হচ্ছে, আগামীতে আয়ের বড় উৎস এবং কর্মসংস্থানের একটি বৃহৎ সেক্টর হবে ফ্রিল্যান্সিং। একসময় আমরা কম্পিউটার কী তা জানতাম না, ঠিক ভাবে মাউস ও ধরতে পারতাম না, ইন্টারনেটের প্রকৃত ব্যবহার সম্...",
@@ -772,11 +938,17 @@ export const blogData: BlogPost[] = [
       "ফ্রিল্যান্সিং",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "বাংলাদেশে-ফ্রিল্যান্সিং-এর-ভবিষ্যৎ",
+    "aliases": [
+      "%f0%9f%8e%af%e0%a6%ac%e0%a6%be%e0%a6%82%e0%a6%b2%e0%a6%be%e0%a6%a6%e0%a7%87%e0%a6%b6%e0%a7%87-%e0%a6%ab%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%b2%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%b8",
+      "🎯বাংলাদেশে-ফ্রিল্যান্স",
+      "বাংলাদেশে-ফ্রিল্যান্সিং-এর-ভবিষ্যৎ"
+    ]
   },
   {
     "id": 852,
-    "slug": "%f0%9f%8e%af%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%89%e0%a6%aa%e0%a6%af%e0%a7%81%e0%a6%95%e0%a7%8d%e0%a6%a4-%e0%a6%ac%e0%a6%be%e0%a7%9f%e0%a6%be%e0%a6%b0-%e0%a6%b0%e0%a6%bf",
+    "slug": "কিভাবে-উপযুক্ত-বায়ার-রিকোয়েস্ট-পাঠাবেন",
     "decodedSlug": "🎯কিভাবে-উপযুক্ত-বায়ার-রি",
     "title": "কিভাবে উপযুক্ত বায়ার রিকোয়েস্ট পাঠাবেন?",
     "excerpt": "যারা নতুন তারা এই পোস্ট অবশ্যই ভালো করে পড়বেন, সবাই যেন বায়ার রিকোয়েস্ট যথাযথভাবে পাঠাতে পারেন। আমি সেলার হিসেবে বায়ার রিকোয়েস্ট পাঠানোর ক্ষেত্রে যেসব রুলস মেনে চলি, তা এখানে তুলে ধরার চেষ্টা করলাম। বায়ার রিকোয়েস্ট পাঠান...",
@@ -799,11 +971,17 @@ export const blogData: BlogPost[] = [
       "ফ্রিল্যান্সিং",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "কিভাবে-উপযুক্ত-বায়ার-রিকোয়েস্ট-পাঠাবেন",
+    "aliases": [
+      "%f0%9f%8e%af%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%89%e0%a6%aa%e0%a6%af%e0%a7%81%e0%a6%95%e0%a7%8d%e0%a6%a4-%e0%a6%ac%e0%a6%be%e0%a7%9f%e0%a6%be%e0%a6%b0-%e0%a6%b0%e0%a6%bf",
+      "🎯কিভাবে-উপযুক্ত-বায়ার-রি",
+      "কিভাবে-উপযুক্ত-বায়ার-রিকোয়েস্ট-পাঠাবেন"
+    ]
   },
   {
     "id": 851,
-    "slug": "%e0%a6%95%e0%a7%80%e0%a6%93%e0%a7%9f%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%a1-%e0%a6%b0%e0%a6%bf%e0%a6%b8%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%9a-%e0%a6%8f%e0%a6%b0-%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a7%87",
+    "slug": "কীওয়ার্ড-রিসার্চ-এর-ক্ষেত্রে-কীওয়ার্ড-ডিফিকাল্টি-দেখা-কি-খুব-বেশি-প্রয়োজন",
     "decodedSlug": "কীওয়ার্ড-রিসার্চ-এর-ক্ষে",
     "title": "কীওয়ার্ড রিসার্চ এর ক্ষেত্রে কীওয়ার্ড ডিফিকাল্টি দেখা কি খুব বেশি প্রয়োজন?",
     "excerpt": "কীওয়ার্ড রিসার্চ করতে গেলে অনেকেই মেট্রিকস হিসেবে প্রথমে কীওয়ার্ড ডিফিকাল্টি দেখে থাকে এবং বিভিন্ন টুলস আবার ভিন্ন ভিন্ন দেখায়। টুলস এর রেজাল্টস এর ভিন্নতার কারণে অনেকের এই মেট্রিকস নিয়ে প্রশ্ন করতে দেখা যায়। তাহলে চলুন ...",
@@ -821,11 +999,17 @@ export const blogData: BlogPost[] = [
       "অনপেজ এসইও",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "কীওয়ার্ড-রিসার্চ-এর-ক্ষেত্রে-কীওয়ার্ড-ডিফিকাল্টি-দেখা-কি-খুব-বেশি-প্রয়োজন",
+    "aliases": [
+      "%e0%a6%95%e0%a7%80%e0%a6%93%e0%a7%9f%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%a1-%e0%a6%b0%e0%a6%bf%e0%a6%b8%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%9a-%e0%a6%8f%e0%a6%b0-%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a7%87",
+      "কীওয়ার্ড-রিসার্চ-এর-ক্ষে",
+      "কীওয়ার্ড-রিসার্চ-এর-ক্ষেত্রে-কীওয়ার্ড-ডিফিকাল্টি-দেখা-কি-খুব-বেশি-প্রয়োজন"
+    ]
   },
   {
     "id": 850,
-    "slug": "%e0%a6%ab%e0%a6%be%e0%a6%87%e0%a6%ad%e0%a6%be%e0%a6%b0%e0%a7%87-%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f-%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8",
+    "slug": "ফাইভারে-অ্যাকাউন্ট-ব্যান-হওয়ার-পেছনে-অন্যতম-একটি-কারণ",
     "decodedSlug": "ফাইভারে-অ্যাকাউন্ট-ব্যান",
     "title": "ফাইভারে অ্যাকাউন্ট ব্যান হওয়ার পেছনে অন্যতম একটি কারণ",
     "excerpt": "আজকে যখন আমাদের ইনস্টিটিউটে ফ্রিল্যান্সিং বিষয়ক সাপোর্ট দিচ্ছিলাম তখন আমাদের এক ছাত্র আমাকে বলে &#8220;স্যার আমার আইডি ব্যান হয়ে গেছে কারণ হিসেবে ফাইবার দেখিয়েছে একাধিক আইডি চালানো !স্যার আমিতো একটি আইডি চালাই তাহলে আ...",
@@ -848,11 +1032,17 @@ export const blogData: BlogPost[] = [
       "ফ্রিল্যান্সিং",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "ফাইভারে-অ্যাকাউন্ট-ব্যান-হওয়ার-পেছনে-অন্যতম-একটি-কারণ",
+    "aliases": [
+      "%e0%a6%ab%e0%a6%be%e0%a6%87%e0%a6%ad%e0%a6%be%e0%a6%b0%e0%a7%87-%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f-%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8",
+      "ফাইভারে-অ্যাকাউন্ট-ব্যান",
+      "ফাইভারে-অ্যাকাউন্ট-ব্যান-হওয়ার-পেছনে-অন্যতম-একটি-কারণ"
+    ]
   },
   {
     "id": 849,
-    "slug": "%e0%a6%ab%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%b2%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%b8%e0%a6%be%e0%a6%b0-%e0%a6%b9%e0%a6%bf%e0%a6%b8%e0%a7%87%e0%a6%ac%e0%a7%87-%e0%a6%af%e0%a7%87",
+    "slug": "ফ্রিল্যান্সার-হিসেবে-যে-সকল-মার্কেট-প্লেস-গুলোতে-কাজ-করবেন",
     "decodedSlug": "ফ্রিল্যান্সার-হিসেবে-যে",
     "title": "ফ্রিল্যান্সার হিসেবে যে সকল মার্কেট প্লেস গুলোতে কাজ করবেন",
     "excerpt": "অনলাইনে এমন ওয়েবসাইট যেখানে বায়াররা তাদের কাজ করার মত দক্ষ লোক বা ফ্রিল্যান্সার খোঁজ করতে আসে। আবার যারা ফ্রিল্যান্সার, তারা কাজ খোজার জন্য এসব সাইটগুলো প্রবেশ করে। অনেক ফ্রিল্যান্সারদের মধ্য হতে যাচাই বাছাই করে বায়ার তা...",
@@ -871,11 +1061,17 @@ export const blogData: BlogPost[] = [
       "মার্কেট প্লেস",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "ফ্রিল্যান্সার-হিসেবে-যে-সকল-মার্কেট-প্লেস-গুলোতে-কাজ-করবেন",
+    "aliases": [
+      "%e0%a6%ab%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%b2%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%b8%e0%a6%be%e0%a6%b0-%e0%a6%b9%e0%a6%bf%e0%a6%b8%e0%a7%87%e0%a6%ac%e0%a7%87-%e0%a6%af%e0%a7%87",
+      "ফ্রিল্যান্সার-হিসেবে-যে",
+      "ফ্রিল্যান্সার-হিসেবে-যে-সকল-মার্কেট-প্লেস-গুলোতে-কাজ-করবেন"
+    ]
   },
   {
     "id": 848,
-    "slug": "%e0%a6%8f%e0%a6%a4-%e0%a6%95%e0%a6%ae%e0%a7%8d%e0%a6%aa%e0%a6%bf%e0%a6%9f%e0%a6%bf%e0%a6%b6%e0%a6%a8%e0%a7%87-%e0%a6%86%e0%a6%ae%e0%a6%bf-%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87",
+    "slug": "এত-কম্পিটিশনে-আমি-কিভাবে-ফাইভারে-অর্ডার-পাবো",
     "decodedSlug": "এত-কম্পিটিশনে-আমি-কিভাবে",
     "title": "এত কম্পিটিশনে আমি কিভাবে  ফাইভারে অর্ডার পাবো",
     "excerpt": "ফাইভারে এখন যেমন কম্পিটিশন অনেক, তেমনই আগের চেয়ে এখন নতুনদের জন্য Gig Rank করা বা তাড়াতাড়ি রেস্পন্স পেতে শুরু করা অনেকটা সহজ। আগে যেখানে একজন ভালো সেলার প্রথম পেজ এর পজিশন দখল করে রাখতো এখন তেমনটা দেখছি না। এখন এক এক জনে...",
@@ -893,11 +1089,17 @@ export const blogData: BlogPost[] = [
       "ফ্রিল্যান্সিং",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "এত-কম্পিটিশনে-আমি-কিভাবে-ফাইভারে-অর্ডার-পাবো",
+    "aliases": [
+      "%e0%a6%8f%e0%a6%a4-%e0%a6%95%e0%a6%ae%e0%a7%8d%e0%a6%aa%e0%a6%bf%e0%a6%9f%e0%a6%bf%e0%a6%b6%e0%a6%a8%e0%a7%87-%e0%a6%86%e0%a6%ae%e0%a6%bf-%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87",
+      "এত-কম্পিটিশনে-আমি-কিভাবে",
+      "এত-কম্পিটিশনে-আমি-কিভাবে-ফাইভারে-অর্ডার-পাবো"
+    ]
   },
   {
     "id": 847,
-    "slug": "%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%ae%e0%a6%be%e0%a6%b2%e0%a7%8d%e0%a6%9f%e0%a6%bf%e0%a6%b2%e0%a6%97%e0%a6%bf%e0%a6%a8-%e0%a6%95%e0%a6%b0%e0%a6%ac%e0%a7%87%e0%a6%a8",
+    "slug": "কিভাবে-মাল্টিলগিন-করবেন-একি-ট্যাবে-অনেক-গুলো-ফেসবুক",
     "decodedSlug": "কিভাবে-মাল্টিলগিন-করবেন",
     "title": "কিভাবে মাল্টিলগিন করবেন ! একি ট্যাবে অনেক গুলো ফেসবুক&#8230;",
     "excerpt": "হ্যালো বন্ধুরা কেমন আছো, চলো আজকে আমি তোমাদের একটি নতুন জিনিস শেখাবো&#8230; সেটি হল কিভাবে একটা ওয়েবসাইট ব্রাউজারে মাল্টি লগইন করা যায়,, আমরা অনেক সময় অনেকগুলো ফেসবুক অ্যাকাউন্ট আমাদের বিজনেস পারপাসে ইউজ করে থাকি। কিন...",
@@ -917,11 +1119,17 @@ export const blogData: BlogPost[] = [
       "মাল্টিলগিন",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "কিভাবে-মাল্টিলগিন-করবেন-একি-ট্যাবে-অনেক-গুলো-ফেসবুক",
+    "aliases": [
+      "%e0%a6%95%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%ae%e0%a6%be%e0%a6%b2%e0%a7%8d%e0%a6%9f%e0%a6%bf%e0%a6%b2%e0%a6%97%e0%a6%bf%e0%a6%a8-%e0%a6%95%e0%a6%b0%e0%a6%ac%e0%a7%87%e0%a6%a8",
+      "কিভাবে-মাল্টিলগিন-করবেন",
+      "কিভাবে-মাল্টিলগিন-করবেন-একি-ট্যাবে-অনেক-গুলো-ফেসবুক"
+    ]
   },
   {
     "id": 846,
-    "slug": "%e0%a6%97%e0%a7%81%e0%a6%97%e0%a6%b2-%e0%a6%b8%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%9a-%e0%a6%85%e0%a6%aa%e0%a7%87%e0%a6%b0%e0%a6%be%e0%a6%9f%e0%a6%b0-%e0%a6%95%e0%a6%bf-%e0%a6%95%e0%a6%bf%e0%a6%ad",
+    "slug": "গুগল-সার্চ-অপেরাটর-কি-কিভাবে-কাজ-করে",
     "decodedSlug": "গুগল-সার্চ-অপেরাটর-কি-কিভ",
     "title": "গুগল সার্চ অপেরাটর কি? কিভাবে কাজ করে?",
     "excerpt": "সহজভাবে বলতে গেলে গুগল সার্চ অপারেট হচ্ছে যে কোন বিষয় নির্দিষ্টভাবে খুঁজে পেতে ব্যবহৃত শর্ট কমান্ড। নিচে বিভিন্ন সার্চ অপারেটর নিয়ে বিস্তারিত বলা হলো : সার্চ টার্ম (“search term”): গুগলে কোন সিঙ্গেল কিওয়ার্ড দিয়ে কোন তথ্...",
@@ -940,11 +1148,17 @@ export const blogData: BlogPost[] = [
       "টেকনিক্যাল এসইও",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "গুগল-সার্চ-অপেরাটর-কি-কিভাবে-কাজ-করে",
+    "aliases": [
+      "%e0%a6%97%e0%a7%81%e0%a6%97%e0%a6%b2-%e0%a6%b8%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%9a-%e0%a6%85%e0%a6%aa%e0%a7%87%e0%a6%b0%e0%a6%be%e0%a6%9f%e0%a6%b0-%e0%a6%95%e0%a6%bf-%e0%a6%95%e0%a6%bf%e0%a6%ad",
+      "গুগল-সার্চ-অপেরাটর-কি-কিভ",
+      "গুগল-সার্চ-অপেরাটর-কি-কিভাবে-কাজ-করে"
+    ]
   },
   {
     "id": 845,
-    "slug": "%e0%a6%b8%e0%a7%8b%e0%a6%b6%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2-%e0%a6%ac%e0%a7%81%e0%a6%95%e0%a6%ae%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%95%e0%a6%bf%e0%a6%82-%e0%a6%97%e0%a6%be%e0%a6%87%e0%a6%a1%e0%a6%b2",
+    "slug": "সোশ্যাল-বুকমার্কিং-গাইডলাইন",
     "decodedSlug": "সোশ্যাল-বুকমার্কিং-গাইডল",
     "title": "সোশ্যাল বুকমার্কিং গাইডলাইন",
     "excerpt": "সোশ্যাল বুকমার্কিং কি, কিভাবে বুকমার্কিং করবেন এবং বেশ কিছু ডুফলো সোশ্যাল বুকমার্কিং সাইটের লিস্ট থাকবে আমার পোষ্টে। আসুন তবে দেরি না করে শুরু করা যাক। সোশ্যাল বুকমার্কিংঃ বিভিন্ন সোশ্যাল বুকমার্কিং সাইটে বুকমার্ক করার ম...",
@@ -963,11 +1177,17 @@ export const blogData: BlogPost[] = [
       "সোশ্যাল বুকমার্কিং",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "সোশ্যাল-বুকমার্কিং-গাইডলাইন",
+    "aliases": [
+      "%e0%a6%b8%e0%a7%8b%e0%a6%b6%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2-%e0%a6%ac%e0%a7%81%e0%a6%95%e0%a6%ae%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%95%e0%a6%bf%e0%a6%82-%e0%a6%97%e0%a6%be%e0%a6%87%e0%a6%a1%e0%a6%b2",
+      "সোশ্যাল-বুকমার্কিং-গাইডল",
+      "সোশ্যাল-বুকমার্কিং-গাইডলাইন"
+    ]
   },
   {
     "id": 856,
-    "slug": "%e0%a6%9c%e0%a7%87%e0%a6%a8%e0%a7%87-%e0%a6%a8%e0%a6%bf%e0%a6%a8-%e0%a6%95%e0%a7%8b%e0%a6%a8-%e0%a6%97%e0%a7%81%e0%a6%b2%e0%a7%8b-%e0%a6%b2%e0%a7%8b-%e0%a6%95%e0%a7%8b%e0%a7%9f%e0%a6%be%e0%a6%b2",
+    "slug": "জেনে-নিন-কোন-গুলো-লো-কোয়ালিটি-ব্যাকলিঙ্ক-কিন্তু-না-করলেই-নয়",
     "decodedSlug": "জেনে-নিন-কোন-গুলো-লো-কোয়াল",
     "title": "জেনে নিন কোন গুলো লো-কোয়ালিটি ব্যাকলিঙ্ক কিন্তু না করলেই নয়",
     "excerpt": "White Hat SEO করার জন্য রিলেটেড সাইটে ব্যাকলিংক তৈরি করতে হয়। আমরা সাধারণত ব্লগ কমেন্টিং, গেস্ট ব্লগিং, ফোরাম পোস্টিং কিংবা ডিরেক্টরী সাবমিশনের মাধ্যমে ব্যকলিংক তৈরি করি। এসব সাইটগুলোতে ব্যাকলিংক তৈরি করার জন্য কিভাবে আপ...",
@@ -986,11 +1206,17 @@ export const blogData: BlogPost[] = [
       "ব্যাকলিঙ্ক",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "জেনে-নিন-কোন-গুলো-লো-কোয়ালিটি-ব্যাকলিঙ্ক-কিন্তু-না-করলেই-নয়",
+    "aliases": [
+      "%e0%a6%9c%e0%a7%87%e0%a6%a8%e0%a7%87-%e0%a6%a8%e0%a6%bf%e0%a6%a8-%e0%a6%95%e0%a7%8b%e0%a6%a8-%e0%a6%97%e0%a7%81%e0%a6%b2%e0%a7%8b-%e0%a6%b2%e0%a7%8b-%e0%a6%95%e0%a7%8b%e0%a7%9f%e0%a6%be%e0%a6%b2",
+      "জেনে-নিন-কোন-গুলো-লো-কোয়াল",
+      "জেনে-নিন-কোন-গুলো-লো-কোয়ালিটি-ব্যাকলিঙ্ক-কিন্তু-না-করলেই-নয়"
+    ]
   },
   {
     "id": 844,
-    "slug": "%e0%a6%87%e0%a6%89%e0%a6%9f%e0%a6%bf%e0%a6%89%e0%a6%ac-%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%ac%e0%a6%b9%e0%a6%be%e0%a6%b0%e0%a7%87%e0%a6%b0-%e0%a6%a6%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b0%e0%a6%bf",
+    "slug": "ইউটিউব-ব্যবহারের-দরকারি-কিছু-শর্টকাট",
     "decodedSlug": "ইউটিউব-ব্যবহারের-দরকারি",
     "title": "ইউটিউব ব্যবহারের দরকারি কিছু শর্টকাট",
     "excerpt": "ভিডিও দেখা ও ভিডিও শেয়ার করার জন্য জনপ্রিয় ওয়েবসাইট ইউটিউব। কম্পিউটারে যেকোনো ব্রাউজিং সফটওয়্যারের মাধ্যমে ইউটিউব দেখা যায়। আর মোবাইলে ইউটিউব দেখার জন্য রয়েছে অ্যাপস। ইউটিউবের রয়েছে কিছু শর্টকাট এবং কৌশল যা রপ্ত করলে আপন...",
@@ -1009,11 +1235,17 @@ export const blogData: BlogPost[] = [
       "ডিজিটাল মার্কেটিং",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "ইউটিউব-ব্যবহারের-দরকারি-কিছু-শর্টকাট",
+    "aliases": [
+      "%e0%a6%87%e0%a6%89%e0%a6%9f%e0%a6%bf%e0%a6%89%e0%a6%ac-%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%ac%e0%a6%b9%e0%a6%be%e0%a6%b0%e0%a7%87%e0%a6%b0-%e0%a6%a6%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b0%e0%a6%bf",
+      "ইউটিউব-ব্যবহারের-দরকারি",
+      "ইউটিউব-ব্যবহারের-দরকারি-কিছু-শর্টকাট"
+    ]
   },
   {
     "id": 843,
-    "slug": "%e0%a6%95%e0%a7%80%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%b8%e0%a6%b9%e0%a6%9c%e0%a7%87%e0%a6%87-%e0%a6%97%e0%a7%81%e0%a6%97%e0%a6%b2%e0%a7%87-%e0%a6%86%e0%a6%aa%e0%a6%a8%e0%a6%be%e0%a6%b0",
+    "slug": "কীভাবে-সহজেই-গুগলে-আপনার-প্রয়োজনীয়-তথ্য-সার্চ-করবেন",
     "decodedSlug": "কীভাবে-সহজেই-গুগলে-আপনার",
     "title": "কীভাবে সহজেই গুগলে আপনার প্রয়োজনীয় তথ্য সার্চ করবেন",
     "excerpt": "ইন্টারনেটে কোন কিছু খুঁজে পেতে সবার আগে আমাদের মনে পড়ে গুগল সার্চের কথা। বর্তমানে বিশ্বে তথা ওয়েব দুনিয়ায় এক নম্বর সাইট ও সার্চ ইঞ্জিন হল গুগল আর একমাত্র গুগলই বর্তমানে স্বয়ংসম্পূর্ণ সার্চ ইঞ্জিন। আর বাংলাদেশে আমরা সাধার...",
@@ -1033,11 +1265,17 @@ export const blogData: BlogPost[] = [
       "প্রয়োজনীয় তথ্য সার্চ",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "কীভাবে-সহজেই-গুগলে-আপনার-প্রয়োজনীয়-তথ্য-সার্চ-করবেন",
+    "aliases": [
+      "%e0%a6%95%e0%a7%80%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%b8%e0%a6%b9%e0%a6%9c%e0%a7%87%e0%a6%87-%e0%a6%97%e0%a7%81%e0%a6%97%e0%a6%b2%e0%a7%87-%e0%a6%86%e0%a6%aa%e0%a6%a8%e0%a6%be%e0%a6%b0",
+      "কীভাবে-সহজেই-গুগলে-আপনার",
+      "কীভাবে-সহজেই-গুগলে-আপনার-প্রয়োজনীয়-তথ্য-সার্চ-করবেন"
+    ]
   },
   {
     "id": 853,
-    "slug": "alexa-rank-%e0%a6%b0%e0%a7%87%e0%a6%99%e0%a7%8d%e0%a6%95-%e0%a6%95%e0%a6%bf-%e0%a6%8f%e0%a6%ac%e0%a6%82-%e0%a6%8f%e0%a6%b0-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%9f%e0%a7%8b%e0%a6%9c%e0%a6%a8%e0%a7%80",
+    "slug": "1-alexa-rank-কি-এবং-এর-প্রয়োজনীয়তা",
     "decodedSlug": "alexa-rank-রেঙ্ক-কি-এবং-এর-প্রয়োজনী",
     "title": "1 Alexa Rank কি এবং এর প্রয়োজনীয়তা",
     "excerpt": "অনলাইনে ফ্রীল্যান্সিং করেন কিন্তু Alexa সর্ম্পকে ধারনা নেই এমন মানুষ খুঁজে পাওয়া যাবে না । কারন অনলাইনে ফ্রীল্যান্সিং করতে গেলে দেখবেন Alexa হল খুবই কমন একটা বিষয়, কিছুটা হলেও এর সর্ম্পকে ধারনা থাকা লাগেই । Alexa Rank কি...",
@@ -1061,11 +1299,17 @@ export const blogData: BlogPost[] = [
       "World",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "1-alexa-rank-কি-এবং-এর-প্রয়োজনীয়তা",
+    "aliases": [
+      "alexa-rank-%e0%a6%b0%e0%a7%87%e0%a6%99%e0%a7%8d%e0%a6%95-%e0%a6%95%e0%a6%bf-%e0%a6%8f%e0%a6%ac%e0%a6%82-%e0%a6%8f%e0%a6%b0-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%9f%e0%a7%8b%e0%a6%9c%e0%a6%a8%e0%a7%80",
+      "alexa-rank-রেঙ্ক-কি-এবং-এর-প্রয়োজনী",
+      "1-alexa-rank-কি-এবং-এর-প্রয়োজনীয়তা"
+    ]
   },
   {
     "id": 842,
-    "slug": "thin-content-%e0%a6%95%e0%a6%bf-%e0%a6%8f%e0%a6%ac%e0%a6%82-%e0%a6%8f%e0%a6%b0-%e0%a6%ac%e0%a6%bf%e0%a6%b8%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%b0%e0%a6%bf%e0%a6%a4-a-must-read-guide",
+    "slug": "thin-content-কি-এবং-এর-বিস্তারিত-a-must-read-guide",
     "decodedSlug": "thin-content-কি-এবং-এর-বিস্তারিত-a-must-read-guide",
     "title": "Thin Content কি এবং এর বিস্তারিত (A Must Read Guide)",
     "excerpt": "Thin content সর্বপ্রথম introduce করে গুগল তার February 23, 2011 Panda Update এ। তারা ঐসব সাইটগুলোকে পেনাল্টি দেয় যারা অটোমেটিক কন্টেন্ট জেনারেট করে সাইট বানাচ্ছিল অথবা কিওয়ার্ডের irrelevant আর্টিকেল লিখছিল।&nbsp; Thin co...",
@@ -1084,12 +1328,17 @@ export const blogData: BlogPost[] = [
       "অনপেজ এসইও",
       "SEO Bangladesh"
     ],
-    "source": "subdomain"
+    "source": "subdomain",
+    "titleSlug": "thin-content-কি-এবং-এর-বিস্তারিত-a-must-read-guide",
+    "aliases": [
+      "thin-content-%e0%a6%95%e0%a6%bf-%e0%a6%8f%e0%a6%ac%e0%a6%82-%e0%a6%8f%e0%a6%b0-%e0%a6%ac%e0%a6%bf%e0%a6%b8%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%b0%e0%a6%bf%e0%a6%a4-a-must-read-guide",
+      "thin-content-কি-এবং-এর-বিস্তারিত-a-must-read-guide"
+    ]
   }
 ];
 export const blogPosts: BlogPost[] = blogData;
 
-/** Helper to find post by slug (matches raw encoded slug or decoded UTF-8 slug) */
+/** Helper to find post by slug (matches clean title slug, raw percent slug, or decoded UTF-8 slug) */
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
   const normalized = slug.toLowerCase();
   let decoded = slug;
@@ -1099,8 +1348,16 @@ export function getBlogPostBySlug(slug: string): BlogPost | undefined {
 
   return blogData.find((p) => {
     const pSlug = p.slug.toLowerCase();
-    const pDecoded = (p.decodedSlug || p.slug).toLowerCase();
-    return pSlug === normalized || pDecoded === decoded || pSlug === decoded || pDecoded === normalized;
+    const pTitleSlug = (p.titleSlug || '').toLowerCase();
+    const pDecoded = (p.decodedSlug || '').toLowerCase();
+    
+    if (pSlug === normalized || pSlug === decoded) return true;
+    if (pTitleSlug === normalized || pTitleSlug === decoded) return true;
+    if (pDecoded === normalized || pDecoded === decoded) return true;
+    if (p.aliases && p.aliases.some((a) => a.toLowerCase() === normalized || a.toLowerCase() === decoded)) {
+      return true;
+    }
+    return false;
   });
 }
 

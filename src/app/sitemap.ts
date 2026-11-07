@@ -41,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }
     } catch (e) {}
     return {
-      url: `${baseUrl}/blog/${post.slug}`,
+      url: `${baseUrl}/blog/${encodeURI(post.slug)}`,
       lastModified: dateStr,
       changeFrequency: "monthly" as const,
       priority: 0.7,

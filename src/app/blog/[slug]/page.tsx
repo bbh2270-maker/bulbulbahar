@@ -11,12 +11,18 @@ interface BlogPostPageProps {
 
 export async function generateStaticParams() {
   const params: { slug: string }[] = [];
+  const seen = new Set<string>();
+
   blogData.forEach((post) => {
-    params.push({ slug: post.slug });
-    if (post.decodedSlug && post.decodedSlug !== post.slug) {
-      params.push({ slug: post.decodedSlug });
-    }
+    const list = [post.slug, post.titleSlug, post.decodedSlug, ...(post.aliases || [])].filter(Boolean) as string[];
+    list.forEach((s) => {
+      if (!seen.has(s)) {
+        seen.add(s);
+        params.push({ slug: s });
+      }
+    });
   });
+
   return params;
 }
 
@@ -24,7 +30,7 @@ export async function generateMetadata({
   params,
 }: BlogPostPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const post = getBlogPostBySlug(slug) || blogData.find((p) => p.slug === slug);
+  const post = getBlogPostBySlug(slug);
 
   if (!post) {
     return {
@@ -36,7 +42,7 @@ export async function generateMetadata({
     title: `${post.title} | Bulbul Bahar Blog`,
     description: post.excerpt,
     alternates: {
-      canonical: `/blog/${post.slug}`,
+      canonical: `/blog/${encodeURI(post.slug)}`,
     },
   };
 }
@@ -45,7 +51,7 @@ export default async function SingleBlogPostPage({
   params,
 }: BlogPostPageProps) {
   const { slug } = await params;
-  const post = getBlogPostBySlug(slug) || blogData.find((p) => p.slug === slug);
+  const post = getBlogPostBySlug(slug);
 
   if (!post) {
     notFound();
