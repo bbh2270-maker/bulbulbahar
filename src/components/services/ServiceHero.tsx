@@ -37,15 +37,15 @@ export default function ServiceHero({
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Simple & Clean Breadcrumb */}
         <nav className="flex items-center space-x-2 text-xs sm:text-sm text-[#5D7280] mb-6">
-          <Link href="/" className="hover:text-[#CB3522] transition-colors">
+          <Link href="/" className="hover:text-[#0082FB] transition-colors">
             Home
           </Link>
           <span className="text-slate-300">/</span>
-          <Link href="/services" className="hover:text-[#CB3522] transition-colors">
+          <Link href="/services" className="hover:text-[#0082FB] transition-colors">
             Services
           </Link>
           <span className="text-slate-300">/</span>
-          <span className="text-[#CB3522] font-semibold truncate max-w-[220px] sm:max-w-md">
+          <span className="text-[#0082FB] font-semibold truncate max-w-[220px] sm:max-w-md">
             {pageCleanTitle}
           </span>
         </nav>
@@ -70,17 +70,19 @@ export default function ServiceHero({
             <div className="pt-2 flex flex-wrap items-center justify-center lg:justify-start gap-3.5">
               <Link
                 href="/get-a-free-quote"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#CB3522] hover:bg-[#a92b1a] text-white font-heading font-bold text-sm shadow-md hover:shadow-lg transition-all"
+                className="group inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#0055D4] hover:from-[#0074E0] hover:to-[#0047B8] text-white font-heading font-bold text-sm shadow-lg shadow-[#0082FB]/25 hover:shadow-xl hover:shadow-[#0082FB]/35 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
               >
                 <span>Get Free Consultation</span>
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />
               </Link>
 
               <a
                 href="tel:01710424241"
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-white hover:bg-slate-50 text-[#000F23] border border-slate-300 hover:border-[#31A1FF] font-heading font-bold text-sm shadow-xs hover:shadow transition-all"
+                className="group inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-white hover:bg-slate-50 text-[#000F23] border border-slate-200 hover:border-[#0082FB]/60 font-heading font-bold text-sm shadow-xs hover:shadow-md transition-all duration-200"
               >
-                <Phone className="w-4 h-4 text-[#CB3522]" />
+                <span className="w-6 h-6 rounded-full bg-[#0082FB]/10 flex items-center justify-center group-hover:bg-[#0082FB] transition-colors">
+                  <Phone className="w-3.5 h-3.5 text-[#0082FB] group-hover:text-white transition-colors" />
+                </span>
                 <span>Call: 01710424241</span>
               </a>
             </div>

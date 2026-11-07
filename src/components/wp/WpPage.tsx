@@ -151,6 +151,7 @@ export function Widget({ w }: { w: any }) {
       break;
     case "button": {
       const s = w.s || {};
+      const isDullRed = !s.bg || s.bg.toLowerCase() === "#cb3522";
       el = (
         <div style={{ textAlign: (w.align as React.CSSProperties["textAlign"]) || "left" }}>
           <A
@@ -158,12 +159,12 @@ export function Widget({ w }: { w: any }) {
             className={`${w.full ? "block" : "inline-flex"} items-center justify-center gap-2 font-heading font-bold transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0`}
             style={{
               ...textCss(s),
-              backgroundColor: s.bg || "#CB3522",
-              backgroundImage: s.bgImg,
+              backgroundColor: isDullRed ? "#0082FB" : s.bg,
+              backgroundImage: isDullRed ? "linear-gradient(135deg, #0082FB 0%, #0055D4 100%)" : s.bgImg,
               padding: s.pad || "13px 28px",
               borderRadius: s.radius || "9999px",
               border: s.border,
-              boxShadow: s.shadow || "0 10px 25px -8px rgba(203, 53, 34, 0.4)",
+              boxShadow: s.shadow || "0 10px 25px -8px rgba(0, 130, 251, 0.35)",
               color: s.color || "#ffffff",
               textAlign: "center",
             }}

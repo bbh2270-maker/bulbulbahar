@@ -48,15 +48,15 @@ export default function ServicePageTemplate({ data }: ServicePageTemplateProps) 
       <div className="bg-[#F8F9FA] border-b border-gray-100 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center space-x-2 text-xs sm:text-sm text-gray-500">
-            <Link href="/" className="hover:text-[#CB3522] transition-colors">
+            <Link href="/" className="hover:text-[#0082FB] transition-colors">
               Home
             </Link>
             <ChevronRight className="w-3.5 h-3.5 text-gray-400" />
-            <Link href="/services" className="hover:text-[#CB3522] transition-colors">
+            <Link href="/services" className="hover:text-[#0082FB] transition-colors">
               Services
             </Link>
             <ChevronRight className="w-3.5 h-3.5 text-gray-400" />
-            <span className="text-[#CB3522] font-semibold truncate max-w-[200px] sm:max-w-xs md:max-w-md">
+            <span className="text-[#0082FB] font-semibold truncate max-w-[200px] sm:max-w-xs md:max-w-md">
               {data.title.split("|")[0].split("#")[0].trim()}
             </span>
           </nav>
@@ -67,7 +67,7 @@ export default function ServicePageTemplate({ data }: ServicePageTemplateProps) 
       <section className="relative py-12 md:py-16 bg-gradient-to-b from-[#F8F9FA] to-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[#CB3522]/10 text-[#CB3522] mb-4">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[#0082FB]/10 text-[#0082FB] mb-4">
               <Sparkles className="w-3.5 h-3.5" />
               <span>Professional SEO & Digital Services</span>
             </div>
@@ -76,7 +76,7 @@ export default function ServicePageTemplate({ data }: ServicePageTemplateProps) 
               {data.title}
             </h1>
 
-            <div className="w-20 h-1 bg-[#CB3522] rounded mb-6"></div>
+            <div className="w-20 h-1 bg-gradient-to-r from-[#0082FB] to-[#31A1FF] rounded mb-6"></div>
 
             {data.metaDesc && (
               <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-8 max-w-3xl">
@@ -86,8 +86,8 @@ export default function ServicePageTemplate({ data }: ServicePageTemplateProps) 
 
             <div className="flex flex-wrap items-center gap-4">
               <Link
-                href="/contact"
-                className="inline-flex items-center justify-center px-6 py-3 rounded bg-[#CB3522] text-white font-bold text-sm hover:bg-[#a92b1a] transition-all shadow-md shadow-red-500/20"
+                href="/get-a-free-quote"
+                className="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-gradient-to-r from-[#0082FB] via-[#1E90FF] to-[#0055D4] text-white font-bold text-sm hover:from-[#0074E0] hover:to-[#0047B8] transition-all shadow-lg shadow-[#0082FB]/25 hover:shadow-xl hover:shadow-[#0082FB]/35 hover:-translate-y-0.5 active:translate-y-0"
               >
                 Get Free Consultation
                 <ArrowRight className="w-4 h-4 ml-2" />
@@ -286,9 +286,9 @@ export default function ServicePageTemplate({ data }: ServicePageTemplateProps) 
                 <div className="space-y-3.5 mb-6 text-sm">
                   <a 
                     href="tel:01710424241"
-                    className="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200/80 hover:border-[#CB3522] transition-colors"
+                    className="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200/80 hover:border-[#0082FB] transition-colors"
                   >
-                    <div className="w-9 h-9 rounded-full bg-[#CB3522]/10 text-[#CB3522] flex items-center justify-center shrink-0">
+                    <div className="w-9 h-9 rounded-full bg-[#0082FB]/10 text-[#0082FB] flex items-center justify-center shrink-0">
                       <Phone className="w-4 h-4" />
                     </div>
                     <div>
@@ -299,9 +299,9 @@ export default function ServicePageTemplate({ data }: ServicePageTemplateProps) 
 
                   <a 
                     href="mailto:info@Bulbulbahar.com"
-                    className="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200/80 hover:border-[#CB3522] transition-colors"
+                    className="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200/80 hover:border-[#0082FB] transition-colors"
                   >
-                    <div className="w-9 h-9 rounded-full bg-[#CB3522]/10 text-[#CB3522] flex items-center justify-center shrink-0">
+                    <div className="w-9 h-9 rounded-full bg-[#0082FB]/10 text-[#0082FB] flex items-center justify-center shrink-0">
                       <Mail className="w-4 h-4" />
                     </div>
                     <div>
@@ -313,7 +313,7 @@ export default function ServicePageTemplate({ data }: ServicePageTemplateProps) 
 
                 <Link
                   href="/get-a-free-quote"
-                  className="w-full flex items-center justify-center py-2.5 px-4 rounded bg-[#1B1B1B] text-white font-bold text-xs hover:bg-[#CB3522] transition-colors"
+                  className="w-full flex items-center justify-center py-2.5 px-4 rounded-full bg-gradient-to-r from-[#0082FB] to-[#0055D4] text-white font-bold text-xs hover:from-[#0074E0] hover:to-[#0047B8] shadow-md shadow-[#0082FB]/20 transition-all"
                 >
                   Get a Free Quote
                 </Link>
@@ -322,7 +322,7 @@ export default function ServicePageTemplate({ data }: ServicePageTemplateProps) 
               {/* Other Services Menu */}
               <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
                 <h3 className="text-base font-bold text-[#1B1B1B] mb-4 pb-2 border-b border-gray-100 flex items-center gap-2">
-                  <ShieldCheck className="w-4 h-4 text-[#CB3522]" />
+                  <ShieldCheck className="w-4 h-4 text-[#0082FB]" />
                   <span>Other Services</span>
                 </h3>
                 <nav className="space-y-1.5">
@@ -334,8 +334,8 @@ export default function ServicePageTemplate({ data }: ServicePageTemplateProps) 
                         href={srv.href}
                         className={`flex items-center justify-between px-3 py-2.5 rounded text-xs font-medium transition-all ${
                           isCurrent
-                            ? "bg-[#CB3522] text-white font-bold shadow-sm"
-                            : "text-gray-700 hover:bg-gray-50 hover:text-[#CB3522]"
+                            ? "bg-[#0082FB] text-white font-bold shadow-sm"
+                            : "text-gray-700 hover:bg-gray-50 hover:text-[#0082FB]"
                         }`}
                       >
                         <span>{srv.name}</span>
