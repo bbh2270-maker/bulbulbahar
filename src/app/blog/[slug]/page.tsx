@@ -1,9 +1,32 @@
 import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { blogData, getBlogPostBySlug } from "@/data/blog-data";
 import { Calendar, Clock, ArrowLeft, Tag } from "lucide-react";
+
+function decodeEntities(str?: string): string {
+  if (!str) return "";
+  return str
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCharCode(Number(dec)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&#039;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&#8216;/g, "‘")
+    .replace(/&#8217;/g, "’")
+    .replace(/&#8220;/g, "“")
+    .replace(/&#8221;/g, "”")
+    .replace(/&#8211;/g, "–")
+    .replace(/&#8212;/g, "—")
+    .replace(/&#8230;/g, "…")
+    .replace(/&#038;/g, "&");
+}
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
@@ -39,8 +62,8 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${post.title} | Bulbul Bahar Blog`,
-    description: post.excerpt,
+    title: `${decodeEntities(post.title)} | Bulbul Bahar Blog`,
+    description: decodeEntities(post.excerpt),
     alternates: {
       canonical: `/blog/${encodeURI(post.slug)}`,
     },
@@ -78,7 +101,7 @@ export default async function SingleBlogPostPage({
             <span>•</span>
             <span className="flex items-center gap-1">
               <Calendar className="w-3.5 h-3.5" />
-              {post.publishedAt || post.date}
+              {post.date}
             </span>
             <span>•</span>
             <span className="flex items-center gap-1">
@@ -88,11 +111,11 @@ export default async function SingleBlogPostPage({
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-extrabold text-[#060505] tracking-tight leading-tight">
-            {post.title}
+            {decodeEntities(post.title)}
           </h1>
 
           <p className="text-sm sm:text-base text-gray-600 leading-relaxed italic border-l-4 border-[#CB3522] pl-4">
-            {post.excerpt}
+            {decodeEntities(post.excerpt)}
           </p>
 
           <div className="pt-2 text-xs text-gray-500">
@@ -100,19 +123,27 @@ export default async function SingleBlogPostPage({
           </div>
         </header>
 
-        {/* Post Content */}
-        {post.contentHtml ? (
-          <div
-            className="prose prose-slate max-w-none text-gray-800 leading-relaxed text-base [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:font-heading [&>h2]:text-[#060505] [&>h2]:mt-8 [&>h2]:mb-4 [&>h3]:text-xl [&>h3]:font-bold [&>h3]:font-heading [&>h3]:text-[#060505] [&>h3]:mt-6 [&>h3]:mb-3 [&>h4]:text-lg [&>h4]:font-bold [&>h4]:text-[#CB3522] [&>p]:mb-4 [&>ul]:list-disc [&>ul]:pl-6 [&>ul]:space-y-1.5 [&>ol]:list-decimal [&>ol]:pl-6 [&>ol]:space-y-1.5 [&>img]:rounded-xl [&>img]:my-6 [&>a]:text-[#e05414] [&>a]:font-semibold hover:[&>a]:underline [&>table]:w-full [&>table]:border [&>table]:my-6 [&>table_th]:border [&>table_th]:p-3 [&>table_th]:bg-slate-50 [&>table_td]:border [&>table_td]:p-3"
-            dangerouslySetInnerHTML={{ __html: post.contentHtml }}
-          />
-        ) : (
-          <div className="space-y-5 text-gray-700 text-sm sm:text-base leading-relaxed">
-            {post.content.split("\n\n").map((para, i) => (
-              <p key={i}>{para}</p>
-            ))}
+        {/* Post Featured Banner Image */}
+        {post.featuredImage && (
+          <div className="relative w-full aspect-[16/9] md:aspect-[21/9] rounded-2xl overflow-hidden shadow-sm border border-slate-100 bg-slate-50">
+            <Image
+              src={post.featuredImage}
+              alt={decodeEntities(post.title)}
+              fill
+              className="object-cover"
+              priority
+              unoptimized
+            />
           </div>
         )}
+
+        {/* Post Content */}
+        {post.contentHtml || post.content ? (
+          <div
+            className="prose prose-slate max-w-none text-gray-800 leading-relaxed text-base [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:font-heading [&>h2]:text-[#060505] [&>h2]:mt-8 [&>h2]:mb-4 [&>h3]:text-xl [&>h3]:font-bold [&>h3]:font-heading [&>h3]:text-[#060505] [&>h3]:mt-6 [&>h3]:mb-3 [&>h4]:text-lg [&>h4]:font-bold [&>h4]:text-[#CB3522] [&>p]:mb-4 [&>ul]:list-disc [&>ul]:pl-6 [&>ul]:space-y-1.5 [&>ol]:list-decimal [&>ol]:pl-6 [&>ol]:space-y-1.5 [&>img]:rounded-xl [&>img]:my-6 [&>a]:text-[#e05414] [&>a]:font-semibold hover:[&>a]:underline [&>table]:w-full [&>table]:border [&>table]:my-6 [&>table_th]:border [&>table_th]:p-3 [&>table_th]:bg-slate-50 [&>table_td]:border [&>table_td]:p-3"
+            dangerouslySetInnerHTML={{ __html: post.contentHtml || post.content }}
+          />
+        ) : null}
 
         {/* Tags */}
         {post.tags && post.tags.length > 0 && (
