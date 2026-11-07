@@ -1,0 +1,2554 @@
+{
+  "url": "https://bulbulbahar.cloud/portfolio/",
+  "title": "Portfolio | SEO & Digital Marketing Projects | Bulbul Bahar",
+  "description": "See all my Portfolio for SEO & Digital Marketing Projects. I have completed over 100 Projects Form Bangladesh and Over 150 International Projects.",
+  "rating": "4.9/5 - (10 votes)",
+  "sections": [
+    {
+      "k": "sec",
+      "box": {
+        "pad": "150px 0px 20px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 238,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 68,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "tag": "h1",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "40px",
+                "fw": "800",
+                "lh": "48px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "Here is our"
+                },
+                {
+                  "hl": true,
+                  "text": "Latest Projects"
+                },
+                {
+                  "hl": false,
+                  "text": "& portfolio"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "30px 0px 100px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 1798,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 1668,
+          "kids": [
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "html": "SEO Projects",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "25px",
+                "fw": "800",
+                "lh": "32.5px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "20px 0px 0px"
+              },
+              "inner": 1140,
+              "w": 1140,
+              "h": 304,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 304,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/australiaeta.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Australiaeta.com.sg",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Tavel AgencyService: Rank #1 in Google for 20 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 304,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/australiavisauk.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 232,
+                      "iconH": 106,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Australiavisauk.co.uk",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: ETA-VisaService: Rank #1 in Google for 6 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 304,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/australiaetaau.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Australiaeta.com.au",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: ETA-VisaService:Rank #1 in Google for 10 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 304,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/globalcapharmacy.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 227,
+                      "iconH": 105,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "globalcapharmacy.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "18px",
+                        "fw": "800",
+                        "lh": "23.4px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Online PharmacyService: Rank #1 in Google for 5 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "20px 0px 0px"
+              },
+              "inner": 1140,
+              "w": 1140,
+              "h": 301,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/peoplentech.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Peoplentech.com.bd",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: IT Training InstituteService: Rank #1 in Google for 20 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/myusdrugstore.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Myusdrugstore.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Online Drug StoreService: Rank #1 in Google for 6 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/gadgetandgear.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Gadgetandgear.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Computer &amp; MobileService: Rank #1 in Google for 15 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/runway-bd.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Runway.com.bd",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: E-CommerceService: Rank #1 in Google for 10 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "20px 0px 0px"
+              },
+              "inner": 1140,
+              "w": 1140,
+              "h": 306,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 306,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/debtredemption.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 232,
+                      "iconH": 106,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Debtredemption.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Financial CompanyService: Rank #1 in Google for 20 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 306,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/affordabledebtconsolidation.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 249,
+                      "iconH": 114,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "AffordableDebtconsolidation.org",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "14px",
+                        "fw": "800",
+                        "lh": "18.2px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Financial CompanyService: Rank #1 in Google for 6 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 306,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/virginiaholydays.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 235,
+                      "iconH": 107,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "VirginiaHolydays.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "TType of site: Travel &amp; Tour AgencyService: Rank #1 in Google for 10 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 306,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/techlife.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Techlife.com.bd",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: IT News &amp; TrainingService: Rank #1 in Google for 15 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "20px 0px 0px"
+              },
+              "inner": 1140,
+              "w": 1140,
+              "h": 303,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 303,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/groupbuyseotoolses.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Groupbuyseotools",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Tools AgencyService:Rank #1 in Google for 20 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 303,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/lovetoy.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Lovetoy.com.bd",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Sex Toy AgencyService:Rank #1 in Google for 6 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 303,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/provatbangla.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Provatbangla.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Android AppsService:Rank #1 in Google for 15 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 303,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/appstosoft-logo.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 104,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Appstosoft.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Android AppsService:Rank #1 in Google for 15 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "20px 0px 0px"
+              },
+              "inner": 1140,
+              "w": 1140,
+              "h": 301,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/amarhome.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Amarhome.com.bd",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Rehab CenterService:Rank #1 in Google for 12 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/tradexcelgraphics.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Tradexcelgraphics.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "18px",
+                        "fw": "800",
+                        "lh": "23.4px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Clipping Path ServiceService:Rank #1 in Google for 6 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/momnbabyhealth.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Momnbabyhealth.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "18px",
+                        "fw": "800",
+                        "lh": "23.4px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Affiliate WebsiteService: Rank #1 in Google for 10 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(0, 124, 186)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/getawptheme.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Getawptheme.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Theme ReviewService: Rank #1 in Google for 15 Keywords",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "30px 0px 100px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 505,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 375,
+          "kids": [
+            {
+              "t": "heading",
+              "box": {
+                "margin": "-7px"
+              },
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "html": "Digital Marketing Projects",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "45.5px",
+                "color": "rgb(246, 246, 246)",
+                "align": "center",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "50px 0px 0px"
+              },
+              "inner": 1140,
+              "w": 1140,
+              "h": 273,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 273,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(249, 149, 23)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/uap-logo.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Uap.bd.edu",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: UniversityService: Facebook Campaign with others",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 273,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(249, 149, 23)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/viva-recharge.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Vivarecharge.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: International Recharge (Digital Marketing)",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 273,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(249, 149, 23)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/mtopup-logo.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Mtopup.co.uk",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "International Mobile Top-up Service: Digital Marketig Project",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 273,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(249, 149, 23)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/rainy-roof.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Rainyroof",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "18px",
+                        "fw": "800",
+                        "lh": "23.4px",
+                        "color": "rgb(254, 254, 254)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Restaurant &amp; Cafe Service: FB Page Management",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "30px 0px 100px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 1560,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 1430,
+          "kids": [
+            {
+              "t": "heading",
+              "box": {
+                "margin": "-7px"
+              },
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "html": "Website Design Projects",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "45.5px",
+                "color": "rgb(246, 246, 246)",
+                "align": "center",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "50px 0px 0px"
+              },
+              "inner": 1140,
+              "w": 1140,
+              "h": 301,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/virginiaholydays.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 232,
+                      "iconH": 106,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "virginiaholydays.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Travel &amp; Tour AgencyService: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/john-pereles.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "johnpereless.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Portfolio WebsiteService: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/groupbuyseotoolses.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Groupbuyseotools",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Software CompanyService: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/prakasha-apparel.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 233,
+                      "iconH": 107,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "prakashaapparel.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Apparel CompanyService: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "50px 0px 0px"
+              },
+              "inner": 1140,
+              "w": 1140,
+              "h": 301,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/fahad-biology.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Fahadbiology.org",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: LMS WebsiteService: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/iclhr.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Iclhr.net",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Isamic RightsService: Website Desig",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/muslimshop.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Muslimshop.com.bd",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: E-commerceService: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/easterntastebristol.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 257,
+                      "iconH": 117,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Easterntastebristol.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Restaurant Service: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "50px 0px 0px"
+              },
+              "inner": 1140,
+              "w": 1140,
+              "h": 301,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/ittehadulmuslimeen.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 261,
+                      "iconH": 120,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Ittehadulmuslimeen.org",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: BooksService: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/reberio.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Reberio.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Personal PortfolioService: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/cpacrown.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Cpacrown.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: CPA Network Service: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 301,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/clippingnpath.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Clippingnpath.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Design AgencyService: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "50px 0px 0px"
+              },
+              "inner": 1140,
+              "w": 1140,
+              "h": 275,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 275,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/provatbangla.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 103,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Provatbangla.com",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: NewspaperService: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "margin": "20px",
+                    "radius": "30px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 45px -10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 275,
+                  "kids": [
+                    {
+                      "t": "image-box",
+                      "box": {
+                        "bg": "rgb(212, 119, 193)",
+                        "pad": "10px",
+                        "radius": "5px"
+                      },
+                      "icon": {
+                        "img": "/images/wp/rezala-logo.webp"
+                      },
+                      "iconColor": "rgb(93, 114, 128)",
+                      "iconFill": "rgb(0, 0, 0)",
+                      "iconSize": 225,
+                      "iconH": 104,
+                      "iconBox": {},
+                      "iconRadius": "5px",
+                      "pos": "top",
+                      "title": "Rezala.com.bd",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "26px",
+                        "color": "rgb(255, 254, 252)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Type of site: Rezala RecipieService: Website Design",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(255, 255, 255)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 275
+                },
+                {
+                  "k": "col",
+                  "wPct": 25,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "valign": "flex-start",
+                  "w": 285,
+                  "h": 275
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "100px 0px"
+      },
+      "inner": 1000,
+      "w": 1351,
+      "h": 334,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 75,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "0px 50px 0px 0px"
+          },
+          "valign": "center",
+          "w": 750,
+          "h": 134,
+          "kids": [
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h5",
+              "html": "So, What Are You Waiting For?",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "18px",
+                "fw": "800",
+                "lh": "21.6px",
+                "color": "rgb(249, 149, 23)",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "html": "Request A Quote",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "45.5px",
+                "color": "rgb(15, 13, 13)",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "t": "text-editor",
+              "box": {
+                "margin": "0px 0px -25px"
+              },
+              "html": "<p>Lets’s Starrt a Project… Get the best IT service in Bangladesh and increase your sales online!</p>",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(0, 0, 0)"
+              },
+              "ps": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(0, 0, 0)"
+              }
+            }
+          ]
+        },
+        {
+          "k": "col",
+          "wPct": 25,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 250,
+          "h": 134,
+          "kids": [
+            {
+              "t": "button",
+              "text": "Get A Quote",
+              "href": "/get-a-free-quote",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "16px",
+                "fw": "400",
+                "lh": "16px",
+                "color": "rgb(255, 255, 255)",
+                "align": "center",
+                "bg": "rgb(224, 97, 38)",
+                "pad": "15px 30px",
+                "radius": "4px",
+                "shadow": "rgba(0, 15, 35, 0.12) 0px 0px 20px 0px"
+              },
+              "align": "right",
+              "full": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "slug": "portfolio"
+}

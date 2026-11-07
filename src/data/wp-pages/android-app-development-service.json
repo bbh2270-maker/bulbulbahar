@@ -1,0 +1,921 @@
+{
+  "url": "https://bulbulbahar.cloud/android-app-development-service/",
+  "title": "Best Android App Development Service Company in BD",
+  "description": "Get Professional Android App Development Service from Bulbul Bahar and Improve Your Business Visibility in Google Play Store. We Develop any kind of app.",
+  "rating": "5/5 - (1 vote)",
+  "sections": [
+    {
+      "k": "sec",
+      "box": {
+        "pad": "150px 0px 30px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 851,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 671,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h1",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "42px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "Professional"
+                },
+                {
+                  "hl": true,
+                  "text": "Android App Development Service"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "t": "spacer",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "h": 20
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 534,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 56,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "20px",
+                    "margin": "25px",
+                    "radius": "25px",
+                    "shadow": "rgba(0, 15, 35, 0.15) 0px 0px 30px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 638,
+                  "h": 534,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p><span>Bulbul Bahar builds apps for Android devices, which are used by over two billion people monthly. We provide Professional Android app development services in Bd and Work for client satisfaction.</span></p><p><span>We are one of the leading Android application development companies in Bangladesh. We have built powerful Android applications used in such fields as business, technology, healthcare, media, e-commerce, and entertainment, just to name a few. No matter if you’re looking to create a standalone Android application, a client-server application, a service-driven application, or a database-driven application, our experienced and skilled Android developers can help you build, showcase, and use the app the way you need it to.</span></p><p>We can help your business create seamless experiences on any device using our expertise in mobile app development.</p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 44,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "margin": "25px",
+                    "radius": "25px",
+                    "shadow": "rgba(0, 15, 35, 0.15) 0px 0px 30px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 501,
+                  "h": 534,
+                  "kids": [
+                    {
+                      "t": "lottie",
+                      "src": "https://assets7.lottiefiles.com/packages/lf20_NXqR2d.json",
+                      "w": 451,
+                      "h": 484
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "spacer",
+              "h": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "20px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 1049,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 1009,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "30px",
+                "fw": "800",
+                "lh": "36px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "What we do For Professional"
+                },
+                {
+                  "hl": true,
+                  "text": "Android App Development Service"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 208,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 100,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 1140,
+                  "h": 208,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p><span>We develop mobile apps from scratch to completion. This service includes expert business analysis, design, and development of your mobile apps from concept to production, integrating the new apps into your infrastructure, and ensuring further optimization and scaling as required. </span><span>We create <a href=\"https://www.android.com/\" target=\"_blank\">Android application</a>s for different platforms using proven approaches and top-notch programming.</span></p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "linkColor": "rgb(224, 84, 20)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 395,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 51,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 582,
+                  "h": 395,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M436 160H12c-6.627 0-12-5.373-12-12v-36c0-26.51 21.49-48 48-48h48V12c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v52h128V12c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v52h48c26.51 0 48 21.49 48 48v36c0 6.627-5.373 12-12 12zM12 192h424c6.627 0 12 5.373 12 12v260c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V204c0-6.627 5.373-12 12-12zm333.296 95.947l-28.169-28.398c-4.667-4.705-12.265-4.736-16.97-.068L194.12 364.665l-45.98-46.352c-4.667-4.705-12.266-4.736-16.971-.068l-28.397 28.17c-4.705 4.667-4.736 12.265-.068 16.97l82.601 83.269c4.667 4.705 12.265 4.736 16.97.068l142.953-141.805c4.705-4.667 4.736-12.265.068-16.97z\"></path></svg>",
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconFill": "rgb(249, 149, 23)",
+                      "iconSize": 60,
+                      "iconH": 60,
+                      "iconBox": {},
+                      "pos": "block",
+                      "title": "Ideation & Planning",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "25px",
+                        "fw": "800",
+                        "lh": "32.5px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "First, we will discuss your project idea and its objectives with our android app development team. Following the refinement of the plan and preparation of detailed insights, we will create a design for every page that has a seamless flow. Then, we will develop the application on the basis of the wireframe of Android development services.",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 48.9,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 557,
+                  "h": 395,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z\"></path></svg>",
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconFill": "rgb(249, 149, 23)",
+                      "iconSize": 60,
+                      "iconH": 60,
+                      "iconBox": {},
+                      "pos": "block",
+                      "title": "Apps Design & Development",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "25px",
+                        "fw": "800",
+                        "lh": "32.5px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "The next step is designing the application. We will use this phase to add graphics, icons, and features to produce an attractive app. In this stage, we’ll also develop the app, through our android development services, by adding the required functions and server-side elements.",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 311,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 311,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z\"></path></svg>",
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconFill": "rgb(249, 149, 23)",
+                      "iconSize": 60,
+                      "iconH": 60,
+                      "iconBox": {},
+                      "pos": "block",
+                      "title": "QA Testing of Apps",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "25px",
+                        "fw": "800",
+                        "lh": "32.5px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "href": "/quality-assurance-testing",
+                      "desc": "Our team of QA testers will check for bugs and conduct the necessary revisions at this stage. The app's final touches will be applied, and all issues will be addressed.",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 311,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z\"></path></svg>",
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconFill": "rgb(249, 149, 23)",
+                      "iconSize": 60,
+                      "iconH": 60,
+                      "iconBox": {},
+                      "pos": "block",
+                      "title": "Deployment of Apps",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "25px",
+                        "fw": "800",
+                        "lh": "32.5px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "This is the final step! Soon, the application will be available via the Play Store. You can now generate a profit by enabling your customers to download the app.",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "spacer",
+              "h": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 53,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 53,
+          "kids": [
+            {
+              "t": "heading",
+              "tag": "h3",
+              "html": "Mobile App Development: A Great Communication Channel with Clients",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "25px",
+                "fw": "800",
+                "lh": "32.5px",
+                "color": "rgb(0, 0, 0)",
+                "align": "center",
+                "tt": "capitalize"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "50px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 621,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 44.5,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "bg": "rgb(255, 255, 255)",
+            "margin": "15px",
+            "radius": "25px",
+            "shadow": "rgba(0, 15, 35, 0.15) 0px 0px 30px 0px"
+          },
+          "valign": "center",
+          "w": 507,
+          "h": 521,
+          "kids": [
+            {
+              "t": "image",
+              "src": "/images/services/Android-App-Development-Service.jpg",
+              "alt": "App Development Service",
+              "w": 477,
+              "h": 477,
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "k": "col",
+          "wPct": 55.5,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "0px 20px"
+          },
+          "valign": "center",
+          "w": 633,
+          "h": 521,
+          "kids": [
+            {
+              "t": "text-editor",
+              "html": "<p>Do you make a communication channel for your clients? Do you need complete privacy, security, and total connectivity for a project? Your personal apps can be the right option to meet your demand.<br>Are you searching for the best and cheapest app development agency in Bangladesh? Who can create compatible apps for mobile and web?</p><p>Yes! You are in the Right Place. We Provide Professional Android App Development Services and establish a presence in Bangladesh as the best Android app development agency.<br><a href=\"/\">Bulbul Bahar</a> can be your trusted partner in developing apps that satisfy your requirements. Our experts can create apps for web browsers and mobile platforms.<br>We are familiar with multiple programming languages and software. We’ve developed apps for iOS, Android, and the web. Mobile apps build a level of trust with customers and improve your brand value. It also serves as an advanced marketing channel for your product in an effective manner.<br>Our developers can develop compatible Apps using any possible software. Bulbul Bahar can produce ads for Android and iOS. We can create suitable apps that are compatible with different mobile platforms and websites.</p>",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)"
+              },
+              "ps": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)"
+              },
+              "linkColor": "rgb(224, 84, 20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "20px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 607,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 567,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h3",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "42px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "Our"
+                },
+                {
+                  "hl": true,
+                  "text": "Android Development Service"
+                },
+                {
+                  "hl": false,
+                  "text": "Strategy:"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 485,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 485,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<ul><li><span>Listen to them carefully to understand your need and set a plan</span></li><li><span>Finalize the plan and forward to the designer</span></li><li><span>Design a dummy with UI plan</span></li><li><span>Discuss with you with the dummy and approve it</span></li><li><span>Forward to our developer team with your recommended programming proposal</span></li><li><span>After completion of the development, we ask your recommendation</span></li><li><span>Completion of the recommended review, the App goes to QA</span></li><li><span>Successful QA checking ensure the readiness</span></li><li><span>Finally, we deliver the app with the necessary codes and documentation</span></li></ul>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 485,
+                  "kids": [
+                    {
+                      "t": "lottie",
+                      "src": "https://assets6.lottiefiles.com/packages/lf20_lln7m43m.json",
+                      "w": 470,
+                      "h": 28
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "20px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 708,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 668,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h4",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "30px",
+                "fw": "800",
+                "lh": "36px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": true,
+                  "text": "Our Speciality"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 592,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 592,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p><strong>How Android Apps can be helpful for you?</strong></p><p>1. Improve your presence to your customers.</p><p>2. Make a suitable and B2B marketing channel.</p><p>3. Rewarding and engaging customer for your business.</p><p>4. Creating a recognition as a brand and improve the existing value.</p><p>5. Ensure the presence of your new and old offers. to your customer.</p><p>6. Instant customer care service.</p><p>7. Secure and effective communication with your customers.</p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "strongColor": "rgb(93, 114, 128)"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 592,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p><strong>What makes us the best Android App Development Service provider in BD?</strong></p><div style=\"display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 14px;\"><ul><li><span>Provide intellectual property rights</span></li><li><span>Compatible with all of the operating systems and web</span></li><li><span>Convenient for users</span></li><li><span>Push notification to the customer</span></li><li><span>Maintenance support for bug fixing, code editing, disaster recovery and QA testing</span></li><li><span>Proven track record of a satisfied customer</span></li><li><span>Keep your privacy protected</span></li></ul><ul><li><span>Never break a deadline.</span></li><li><span>Always available to assist clients</span></li><li><span>A team of experts and motivated employees</span></li><li><span>100% complimentary client counselling</span></li><li><span>Budget-friendly deal</span></li><li><span>Accept all payment options</span></li></ul></div>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "strongColor": "rgb(93, 114, 128)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "100px 0px"
+      },
+      "inner": 1000,
+      "w": 1351,
+      "h": 390,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 75,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "0px 50px 0px 0px"
+          },
+          "valign": "center",
+          "w": 750,
+          "h": 190,
+          "kids": [
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h5",
+              "html": "So, What Are You Waiting For?",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "18px",
+                "fw": "800",
+                "lh": "21.6px",
+                "color": "rgb(249, 149, 23)",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "html": "Request A Quote",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "45.5px",
+                "color": "rgb(15, 13, 13)",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "t": "text-editor",
+              "box": {
+                "margin": "0px 0px -25px"
+              },
+              "html": "<p>Get the best Android App Development Service<br>Bangladesh and Visible your Business on Google Play Store!&nbsp; If you want to know more before becoming the part of our clients’ community, feel free to send a query.</p>",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(0, 0, 0)"
+              },
+              "ps": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(0, 0, 0)"
+              }
+            }
+          ]
+        },
+        {
+          "k": "col",
+          "wPct": 25,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 250,
+          "h": 190,
+          "kids": [
+            {
+              "t": "button",
+              "text": "Get A Quote",
+              "href": "/get-a-free-quote",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "16px",
+                "fw": "400",
+                "lh": "16px",
+                "color": "rgb(255, 255, 255)",
+                "align": "center",
+                "bg": "rgb(224, 97, 38)",
+                "pad": "15px 30px",
+                "radius": "4px",
+                "shadow": "rgba(0, 15, 35, 0.12) 0px 0px 20px 0px"
+              },
+              "align": "right",
+              "full": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "slug": "android-app-development-service"
+}

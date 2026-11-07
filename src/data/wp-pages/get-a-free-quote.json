@@ -1,0 +1,594 @@
+{
+  "url": "https://bulbulbahar.cloud/get-a-free-quote/",
+  "title": "Get a Free Quote | Request a Service Package | Bulbul Bahar",
+  "description": "Get a Free Quote and request a Service package. We will reach to you within one hour and Send You a Pricing Quotation. Stay With Us to Get Best Service.",
+  "rating": "1.7/5 - (4 votes)",
+  "sections": [
+    {
+      "k": "sec",
+      "box": {
+        "bgImg": "/images/wp/get-a-free-quote.webp",
+        "bgSize": "cover",
+        "bgPos": "0% 0%",
+        "margin": "60px 0px"
+      },
+      "inner": 850,
+      "valign": "center",
+      "w": 1351,
+      "h": 443,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 850,
+          "h": 293,
+          "kids": [
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "html": "Get A Free Quote",
+              "s": {
+                "ff": "Raleway",
+                "fs": "59px",
+                "fw": "700",
+                "lh": "76.7px",
+                "color": "rgb(255, 255, 255)",
+                "align": "center",
+                "tt": "uppercase",
+                "ls": "1px"
+              }
+            },
+            {
+              "t": "divider",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "w": 83,
+              "color": "rgba(255, 255, 255, 0.5)",
+              "bw": "4.8px",
+              "align": "start"
+            },
+            {
+              "t": "text-editor",
+              "html": "<p>Need any Professional Services? you are more than welcomed to leave your contact info and we will be in touch shortly</p>",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "21px",
+                "fw": "700",
+                "lh": "39px",
+                "color": "rgb(255, 255, 255)",
+                "align": "center"
+              },
+              "ps": {
+                "ff": "Open Sans",
+                "fs": "21px",
+                "fw": "700",
+                "lh": "39px",
+                "color": "rgb(255, 255, 255)",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 132,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 132,
+          "kids": [
+            {
+              "t": "spacer",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "h": 30
+            },
+            {
+              "t": "animated-headline",
+              "tag": "h4",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "42px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": true,
+                  "text": "Please Submit All Required Information"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 792,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "30px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 792,
+          "kids": [
+            {
+              "t": "form",
+              "box": {
+                "bg": "rgb(229, 234, 232)",
+                "pad": "10px",
+                "radius": "7px"
+              },
+              "fields": [
+                {
+                  "label": "Name",
+                  "type": "text",
+                  "name": "form_fields[name]",
+                  "placeholder": "Name",
+                  "width": "100"
+                },
+                {
+                  "label": "Email",
+                  "type": "email",
+                  "name": "form_fields[email]",
+                  "placeholder": "Email",
+                  "required": true,
+                  "width": "100"
+                },
+                {
+                  "label": "Phone",
+                  "type": "number",
+                  "name": "form_fields[field_8bd749d]",
+                  "placeholder": "Phone",
+                  "required": true,
+                  "width": "100"
+                },
+                {
+                  "label": "Website",
+                  "type": "text",
+                  "name": "form_fields[field_dca5d98]",
+                  "placeholder": "Website",
+                  "required": true,
+                  "width": "100"
+                },
+                {
+                  "label": "Service Type",
+                  "type": "select",
+                  "name": "form_fields[field_c17d235]",
+                  "required": true,
+                  "width": "100",
+                  "opts": [
+                    "Complete SEO",
+                    "Local SEO",
+                    "E-Commerce SEO",
+                    "News Site SEO",
+                    "Youtube Marketing",
+                    "Facebook Ads",
+                    "Complete Digital Marketing",
+                    "Content Writing",
+                    "Website Design & Development",
+                    "Graphics Design"
+                  ]
+                },
+                {
+                  "label": "Estimated Budget For Your Project",
+                  "type": "checkbox",
+                  "name": "form_fields[field_a48ddee][]",
+                  "width": "100",
+                  "opts": [
+                    "Below 50,000 BDT",
+                    "Below 100,000 BDT",
+                    "More Then 100,00 BDT"
+                  ]
+                },
+                {
+                  "label": "Message",
+                  "type": "textarea",
+                  "name": "form_fields[message]",
+                  "placeholder": "Message",
+                  "width": "100"
+                }
+              ],
+              "button": "Get a Free Quote Now",
+              "bs": {
+                "bg": "rgb(255, 55, 86)",
+                "color": "rgb(255, 255, 255)",
+                "radius": "4px",
+                "fs": "16px",
+                "fw": "400"
+              },
+              "is": {
+                "bg": "rgb(250, 250, 250)",
+                "border": "0.8px solid rgb(255, 140, 140)",
+                "radius": "5px",
+                "fs": "15px",
+                "color": "rgb(31, 33, 36)"
+              },
+              "ls": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)"
+              },
+              "bpad": "15px 30px"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "60px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 516,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 33.3,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "70px"
+          },
+          "valign": "flex-start",
+          "w": 380,
+          "h": 396,
+          "kids": [
+            {
+              "t": "icon-box",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z\"></path></svg>",
+              "iconColor": "rgb(253, 94, 41)",
+              "iconFill": "rgb(253, 94, 41)",
+              "iconSize": 60,
+              "iconH": 60,
+              "iconBox": {},
+              "pos": "block",
+              "title": "Visit us",
+              "ts": {
+                "ff": "Montserrat",
+                "fs": "21px",
+                "fw": "700",
+                "lh": "29.4px",
+                "color": "rgb(110, 110, 110)",
+                "align": "center",
+                "tt": "uppercase",
+                "ls": "1.2px"
+              },
+              "titleTag": "h3",
+              "desc": "You Can Visit our Office any time within 9.00 am to 5.oo pm. Also we are always active in online, so do not hesitate to get in touch.",
+              "ds": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "22.5px",
+                "color": "rgb(116, 113, 113)",
+                "align": "center"
+              },
+              "align": "center"
+            },
+            {
+              "t": "heading",
+              "tag": "p",
+              "html": "151/7 Green Rd, Dhaka 1205",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "17px",
+                "fw": "700",
+                "lh": "17px",
+                "color": "rgb(253, 94, 41)",
+                "align": "center"
+              }
+            }
+          ]
+        },
+        {
+          "k": "col",
+          "wPct": 33.3,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "70px",
+            "border": "0px 0.8px 0px 0.8px|solid|rgb(226, 226, 226)|rgb(226, 226, 226)"
+          },
+          "valign": "flex-start",
+          "w": 380,
+          "h": 396,
+          "kids": [
+            {
+              "t": "icon-box",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z\"></path></svg>",
+              "iconColor": "rgb(253, 94, 41)",
+              "iconFill": "rgb(253, 94, 41)",
+              "iconSize": 60,
+              "iconH": 60,
+              "iconBox": {},
+              "pos": "block",
+              "title": "Call us",
+              "ts": {
+                "ff": "Montserrat",
+                "fs": "21px",
+                "fw": "700",
+                "lh": "29.4px",
+                "color": "rgb(110, 110, 110)",
+                "align": "center",
+                "tt": "uppercase",
+                "ls": "1.2px"
+              },
+              "titleTag": "h3",
+              "desc": "We are always ready to receive your call. Feel free to Call us any time for any service or consultancy.",
+              "ds": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "22.5px",
+                "color": "rgb(116, 113, 113)",
+                "align": "center"
+              },
+              "align": "center"
+            },
+            {
+              "t": "heading",
+              "tag": "p",
+              "html": "+8801710-424241",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "17px",
+                "fw": "700",
+                "lh": "17px",
+                "color": "rgb(253, 94, 41)",
+                "align": "center"
+              }
+            }
+          ]
+        },
+        {
+          "k": "col",
+          "wPct": 33.3,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "70px"
+          },
+          "valign": "flex-start",
+          "w": 380,
+          "h": 396,
+          "kids": [
+            {
+              "t": "icon-box",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z\"></path></svg>",
+              "iconColor": "rgb(253, 94, 41)",
+              "iconFill": "rgb(253, 94, 41)",
+              "iconSize": 60,
+              "iconH": 60,
+              "iconBox": {},
+              "pos": "block",
+              "title": "Contact us",
+              "ts": {
+                "ff": "Montserrat",
+                "fs": "21px",
+                "fw": "700",
+                "lh": "29.4px",
+                "color": "rgb(110, 110, 110)",
+                "align": "center",
+                "tt": "uppercase",
+                "ls": "1.2px"
+              },
+              "titleTag": "h3",
+              "href": "/contact",
+              "desc": "You Also can cantact with us in Email, or Skype or Whatsapp. Our whatsapp number is- 01710424241 or email us..",
+              "ds": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "22.5px",
+                "color": "rgb(116, 113, 113)",
+                "align": "center"
+              },
+              "align": "center"
+            },
+            {
+              "t": "heading",
+              "tag": "p",
+              "html": "info@Bulbulbahar.com",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "17px",
+                "fw": "700",
+                "lh": "17px",
+                "color": "rgb(253, 94, 41)",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "20px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 559,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 519,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h4",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "30px",
+                "fw": "800",
+                "lh": "36px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": true,
+                  "text": "Pay Only For Result"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 443,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 443,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<h4><strong>Attract more customers</strong></h4><p>Who wants to pay for confusion? We believe it rare to find someone. The business is not gambling to collect the result for your side.&nbsp;<span>Creative Niloy implement a good system of payment to attract more customers. We work for a little payment. After completion of the project, you’ve to pay the complete amount. But it is a unique payment system. You don’t have to pay without seeing the result.</span></p><p>The payment system is more reliable and satisfactory to the customers. It attracts more customers to us.</p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "strongColor": "rgb(0, 15, 35)"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 443,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<h4><strong>Start with any budget</strong></h4><p><a href=\"/\">Bulbul Bahar</a> has a unique service purchase system which ensures you start at any budget. You can purchase a small package or a complete package.</p><p>We provide a budget-friendly service. We understand our clients’ need. Therefore, we offer a customizable option. If you need an incomplete task, we will do it.</p><p>As we are the cheapest IT service provider, our service starts with any budget.</p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "linkColor": "rgb(224, 84, 20)",
+                      "strongColor": "rgb(0, 15, 35)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "slug": "get-a-free-quote"
+}

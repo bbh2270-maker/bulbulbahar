@@ -1,0 +1,2438 @@
+{
+  "url": "https://bulbulbahar.cloud/web-design-service-in-bangladesh/",
+  "title": "Web Design Service in Bd | Creative & Responsive Websites",
+  "description": "Looking For Responsive Web Design Service in bd! Just Visit our Website and start your Project at a very Cheap Price. Our website Design Quality is always best.",
+  "rating": "5/5 - (3 votes)",
+  "sections": [
+    {
+      "k": "sec",
+      "box": {
+        "pad": "80px 0px 50px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 190,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 60,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "tag": "h1",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "33px",
+                "fw": "800",
+                "lh": "39.6px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "Web Design Service-"
+                },
+                {
+                  "hl": true,
+                  "text": "Start your next website"
+                },
+                {
+                  "hl": false,
+                  "text": "with Bulbul Bahar"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 502,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 502,
+          "kids": [
+            {
+              "k": "sec",
+              "inner": 1120,
+              "w": 1120,
+              "h": 482,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 50.2,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 563,
+                  "h": 482,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p><span>Are you looking for top <strong>web design companies in Bangladesh</strong>? We are the full stack web designers who are providing high-quality &amp; Responsive <strong>web design service in Bangladesh</strong>. We are the Award-winning Web design company in Dhaka, whose meticulous research was featured in Good Firms, and which has a strong team of top web designers from Bangladesh that provide phenomenal web design services to global clients.&nbsp;</span></p><p><span>We have Web Designers with UI &amp; UX skills, creative design abilities, a portfolio of past work, and a good customer satisfaction ratio. So, don’t hesitate to pick us as an impressive <strong>website design and development company in Bangladesh</strong> for your business.</span></p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "strongColor": "rgb(93, 114, 128)"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 49.7,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 557,
+                  "h": 482,
+                  "kids": [
+                    {
+                      "t": "image",
+                      "src": "/images/services/Web-Design-Service.jpg",
+                      "alt": "Web Design Service",
+                      "w": 457,
+                      "h": 322,
+                      "radius": "10px",
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "20px 0px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 802,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 782,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "34px",
+                "fw": "800",
+                "lh": "40.8px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "How can our Proven"
+                },
+                {
+                  "hl": true,
+                  "text": "SEO services benefit"
+                },
+                {
+                  "hl": false,
+                  "text": "your Business?"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 618,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 100,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 1140,
+                  "h": 618,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p>A website is a modern medium through which an individual or organization can easily present their identity to the world in a beautiful way. Website design refers to determining the general appearance of a website or what it will look like. And some markup, scripting, and programming languages ​​are used to determine this design.</p><p><strong>Why do you need a website?</strong></p><p>In today’s age of information and technology, the need for a website is growing. A website is very important for any person or organization, big or small. Especially in the business world, it is almost impossible to survive without a website. With a website, you can easily increase the reputation of your product or service as well as the reputation of the organization.<br>Designing a website for Clients is called a web design service. What a website usually looks like depends on the Quality of web design. <br>Web designing means making sites that are user-friendly and have an attractive appearance. Web designers consider colour schemes, design, and uniqueness of a website consistently.<br>They don’t stop there. They also work hard to create user-friendly navigation. Additionally, they need to rank the websites, so they need to work on SEO.<br>A little more analysis can be done to see what the logo of a website will look like, where the logo will sit, where the sidebar of the website will not be left or right, what will be the menu bar will look like, what will be the colour of the website what will be, and what the font size of the website post. Space will be kept for etc. The work is done through web design. The bottom line is that what we see on a website’s external appearance is determined by web design. There are usually two types of websites for work convenience. E.g.</p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "strongColor": "rgb(93, 114, 128)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "spacer",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "h": 20
+            },
+            {
+              "t": "text-editor",
+              "html": "<h4><strong>The type of website:</strong></h4>",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)"
+              },
+              "strongColor": "rgb(0, 15, 35)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 373,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 50,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 570,
+          "h": 373,
+          "kids": [
+            {
+              "t": "image-box",
+              "icon": {
+                "img": "/images/services/Static-website-design.png"
+              },
+              "iconColor": "rgb(93, 114, 128)",
+              "iconFill": "rgb(0, 0, 0)",
+              "iconSize": 165,
+              "iconH": 165,
+              "iconBox": {},
+              "pos": "top",
+              "title": "Static website",
+              "ts": {
+                "ff": "Montserrat",
+                "fs": "25px",
+                "fw": "800",
+                "lh": "32.5px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "titleTag": "h3",
+              "desc": "Static websites do not have any type of admin panel. That means to do any change, you have to work through direct coding. Even when writing a post, you have to put it inside the HTML code. It goes without saying that there is no such website at present.",
+              "ds": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)",
+                "align": "center"
+              },
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "k": "col",
+          "wPct": 50,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 570,
+          "h": 373,
+          "kids": [
+            {
+              "t": "image-box",
+              "icon": {
+                "img": "/images/services/Dynamic-website-design.png"
+              },
+              "iconColor": "rgb(93, 114, 128)",
+              "iconFill": "rgb(0, 0, 0)",
+              "iconSize": 165,
+              "iconH": 165,
+              "iconBox": {},
+              "pos": "top",
+              "title": "Dynamic website",
+              "ts": {
+                "ff": "Montserrat",
+                "fs": "25px",
+                "fw": "800",
+                "lh": "32.5px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "titleTag": "h3",
+              "desc": "A dynamic website has an admin panel to work with. Basically, a dynamic website is created through web development. we know that what kind of coding is required for such a website to work normally. And use these programming to make a website fully full dynamic and responsive.",
+              "ds": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)",
+                "align": "center"
+              },
+              "align": "center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "0px 0px 20px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 1063,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 1043,
+          "kids": [
+            {
+              "t": "spacer",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "h": 50
+            },
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "42px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "What is"
+                },
+                {
+                  "hl": true,
+                  "text": "Web Development Service"
+                },
+                {
+                  "hl": false,
+                  "text": "in Bangladesh?"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 644,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 53.1,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 605,
+                  "h": 644,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p>Web development is the function of making the admin panel of a website functional, from the inside of a website or from the admin panel to the outside of the website or to content management. The code that is used to perform all the operational functions of a website is called web development. Web development is the lifeblood of a website. Web development is the creation of an application for a website. Web development Service is the process by which a web designer works to make every design functional. A website can be divided into three parts. Such as:</p><ul><li><strong>Design or template</strong></li><li><strong>Content management system </strong></li><li><strong>Database</strong></li></ul><p><span>The <a href=\"https://clutch.co/bd/web-developers?page=6\" target=\"_blank\">web developers</a> are activating the whole system by combining these three things. A web developer’s job is to process data, control the database, build security, control the user and admin capabilities, make all the application’s functional features, and control the entire system’s functionality and usability.</span></p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "linkColor": "rgb(224, 84, 20)",
+                      "strongColor": "rgb(93, 114, 128)"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 46.9,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 534,
+                  "h": 644,
+                  "kids": [
+                    {
+                      "t": "lottie",
+                      "src": "https://assets10.lottiefiles.com/packages/lf20_tfb3estd.json",
+                      "w": 434,
+                      "h": 467
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "text-editor",
+              "html": "<p><span>I am clarifying this web development concept with examples: After logging in to Google Blogger, the other options you see, such as your blog settings and posts, are managed</span><span>&nbsp;through web development. Moreover, for those of you who are using the Magone theme, if you take a good look, you will see that the design of the blog can be changed through Sneeit Spot. The options we see for making these changes are through web development. </span>Moreover, those who use different WordPress themes must see that there are many features or settings to design the theme or website after installing a theme. The website’s design can be changed just by clicking, and a website can be easily sorted by clicking, dragging and dropping. These click and drop functions are done through web development.<br>We create a website with just a click and think that this is how the website works. In fact, the design of the website that you are clicking is coded within the website or theme. Basically, HTML, CSS, JavaScript jQuery, PHP, and many other types of coding are used to make a website more comfortable to work with through web development. And those who do this web development work are called web developers.</p>",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)"
+              },
+              "ps": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)",
+                "align": "left"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "0px 0px 20px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 805,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 785,
+          "kids": [
+            {
+              "t": "spacer",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "h": 30
+            },
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "42px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "Importance of"
+                },
+                {
+                  "hl": true,
+                  "text": "Website For a Business"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 653,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 100,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 1140,
+                  "h": 653,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p>If you want to promote your service or business on a large scale, you need the internet and online presence, which requires a website. With a website, you can easily deliver your company, products, or services to customers in a matter of moments. Through this website, potential customers will be able to know about your company, products, and services in general.<br>That’s why we are offering you a modern, quality web design service in Bangladesh at a very low price. We efficiently create websites with attractive and responsive designs, logos, information, images, audio, and video. We provide free training on how to use the website as well as free service for up to one year in case of any problem with your website.<br>The importance of a website remains unchanged in today’s world of information technology. A website can easily get you to your desired destination. Suppose you have a mobile shop. Your store has a website. People from all over the country can easily learn about your products, prices, and services on your website and compare them with those of other companies or stores. Now, if you have a delivery system in every district, you can quickly expand your business across the country without having to set up a shop in one district. Maybe you have a Facebook page, but how credible is the page? Your website can increase customer confidence several times.<br>Suppose you have an educational institution (school/college or coaching centre). Through your website, you can let everyone know your organisation’s features, success, and education quality. You can highlight works of art through photo galleries. Then everyone will easily have a positive idea about your organization.<br>Let’s imagine you are the head of an NGO, then your website can bring your organisation’s activities to the world.<br>You are involved with a freelancer or an IT business. Your professionalism will be manifested on your website. Your portfolio will tell you how good you are. Your client will know if you can do the job or how much you may have to budget for it. A website is the primary tool to attract the attention of the client.<br>And Bulbul Bahar allows you to create your website in a highly affordable package. Build a website and expand your business multiple times.</p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "bg": "rgba(93, 114, 128, 0.05)",
+        "pad": "20px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 1007,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 967,
+          "kids": [
+            {
+              "k": "sec",
+              "inner": 1100,
+              "w": 1140,
+              "h": 207,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 100,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "pad": "10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 1100,
+                  "h": 207,
+                  "kids": [
+                    {
+                      "t": "animated-headline",
+                      "wbox": {
+                        "margin": "0px 0px 20px"
+                      },
+                      "tag": "h2",
+                      "s": {
+                        "ff": "Montserrat",
+                        "fs": "33px",
+                        "fw": "800",
+                        "lh": "39.6px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "parts": [
+                        {
+                          "hl": false,
+                          "text": "Why should you hire a"
+                        },
+                        {
+                          "hl": true,
+                          "text": "web design agency"
+                        },
+                        {
+                          "hl": false,
+                          "text": "for business?"
+                        }
+                      ],
+                      "hlColor": "rgb(49, 161, 255)"
+                    },
+                    {
+                      "t": "text-editor",
+                      "html": "<p><span>If you want to generate more business with a quality website, this could be the first line of communication between you and prospective guests or visitors. One of the advantages of website development companies and website design firms is that the website can be accessed 24 hrs. a day, 7 days a week, from anywhere in the globe. Any person can gather appropriate information from the website at any time.</span></p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 760,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "35px 25px",
+                    "margin": "25px",
+                    "radius": "25px",
+                    "shadow": "rgba(0, 15, 35, 0.05) 0px 0px 30px 0px"
+                  },
+                  "valign": "center",
+                  "w": 570,
+                  "h": 760,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "box": {
+                        "margin": "0px 0px -25px"
+                      },
+                      "html": "<p>In today’s business environment and to compete effectively, large or small companies need to develop an excellent website. Many entrepreneurs use the reason that their organization is “word-of-mouth” and also they do not need a website. Expert website development is a terrific way to increase the individual referrals of other clients.<br><b>Web Design Service in Bangladesh</b> helps your company boost product understanding, maintain interaction between you and prospective customers, sell your services or products, produce leads for the business, and increase your sales, and much more. Web Development companies have actually emerged as an industry in recent years. In the field of Website development, a firm or a person develops websites to be placed on the World Wide Web. The number of websites online is increasing at a fast rate. The web developers and designers make an excellent amount of money while building these websites. Internet advancement is a field that can pay you a whole lot if you are interested in taking it seriously. At present, the variety of websites online remains in the millions. Hence, website growth can be utilised as a tool to earn money online these days.<br>When you choose that it is necessary and in the very best interest of your business to have a website, there are a few crucial points you ought to think about for your web design and growth.</p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "strongColor": "rgb(93, 114, 128)"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "35px 25px",
+                    "margin": "25px",
+                    "radius": "25px",
+                    "shadow": "rgba(0, 15, 35, 0.05) 0px 0px 30px 0px"
+                  },
+                  "valign": "center",
+                  "w": 570,
+                  "h": 760,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "box": {
+                        "margin": "0px 0px -25px"
+                      },
+                      "html": "<p><span>Firstly, you need to think about the expense it will take to have your web design and development. The price must be cheap or pricey; this is up to you. If you hire out, it will undoubtedly be expensive, or if you try to discover on your own, it can be time-consuming.</span></p><p>Secondly, it is important that you take your time to learn more about web design and advancement.<br>Thirdly, you will likely need tools to construct a site with the right tools, and knowing how to avoid making mistakes will make it easier for you to build a good website.<br>Fourth, understanding is power when it pertains to website design and advancement. Take the necessary time to discover and study what is best for you. Keep in mind, you can constantly outsource this job to web developers, but it will be pricey!</p><p>In the field of website development, a business or an individual creates websites to be put on the World Wide Web. The number of websites on the internet is increasing at an extremely rapid pace. The web designers and also web designers make a great quantity of cash while building these websites. At present, the number of websites on the internet is in the millions.</p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "bg": "rgba(93, 114, 128, 0.05)",
+        "pad": "20px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 586,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 546,
+          "kids": [
+            {
+              "k": "sec",
+              "inner": 1100,
+              "w": 1140,
+              "h": 124,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 100,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "pad": "10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 1100,
+                  "h": 124,
+                  "kids": [
+                    {
+                      "t": "animated-headline",
+                      "wbox": {
+                        "margin": "0px 0px 20px"
+                      },
+                      "tag": "h3",
+                      "s": {
+                        "ff": "Montserrat",
+                        "fs": "33px",
+                        "fw": "800",
+                        "lh": "39.6px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "parts": [
+                        {
+                          "hl": false,
+                          "text": "Affordable"
+                        },
+                        {
+                          "hl": true,
+                          "text": "web design Service"
+                        },
+                        {
+                          "hl": false,
+                          "text": "in Bd"
+                        }
+                      ],
+                      "hlColor": "rgb(49, 161, 255)"
+                    },
+                    {
+                      "t": "heading",
+                      "tag": "h4",
+                      "html": "Take your business to the next level.",
+                      "s": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "24px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "spacer",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "h": 15
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 387,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "pad": "10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 387,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "wbox": {
+                        "margin": "0px 0px 20px"
+                      },
+                      "html": "<p>At BulbulBahar.com, an Affordable web design Service in Bangladesh is our other Core Service. We are proficient in designing and developing high-quality websites from scratch to a fully furnished product. Our company has achieved a lot since its beginning. Our highly reputable Web Design and <a href=\"/\">SEO Services</a> can take your business to the next level. We work for Client Satisfaction, and our customers are not only from Bangladesh but also from elsewhere in the world. We are proud of our diversified client list. Creative Niloy, the Best Web Design Company in Bangladesh, is here to help you with the design and development of Responsive Websites.</p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "left"
+                      },
+                      "linkColor": "rgb(224, 84, 20)"
+                    },
+                    {
+                      "t": "toggle",
+                      "items": [
+                        {
+                          "title": "Features of Affordable Web Design Service in Bangladesh:",
+                          "html": "<ul><li><span>Exclusive design.</span></li><li><span>Responsive layout.</span></li><li><span>Top and bottom navigation.</span></li><li><span>Header and sidebar banner.</span></li><li><span>Photo &amp; Video Gallery.</span></li><li><span>Animated text and buttons.</span></li><li><span>Animated images and banners.</span></li><li><span>Mobile device compatible.</span></li><li><span>Content and comment area.</span></li><li><span>Contact form and search button.</span></li><li><span>Blog and magazine layout.</span></li><li><span>Unlimited pages and posts.</span></li><li><span>Unlimited categories and archives.</span></li><li><span>Social media sharing button.</span></li><li><span>Wizard admin panel.</span></li><li><span>Facebook page like option.</span></li><li><span>Animated like or follow box.</span></li><li><span>Website validation&nbsp;</span></li><li><span>Complete guidelines on how to operate the website.</span></li><li><span>Opportunity to design and create pages as desired.</span></li><li><span>Domain Plus Hosting.</span></li><li><span>Basic online marketing methods.</span></li><li><span>User-friendly admin panel.</span></li><li><span>SEO friendly website.</span></li><li><span>Google AdSense and Analytics support.</span></li><li><span>Opportunity to manage the website as you wish.</span></li><li><span>Website design by an experienced and skilled developer.</span></li><li><span>Security guarantee 100%.</span></li><li><span>Uptime guarantee 99.9%.</span></li><li><span>Auto website backup system.</span></li><li><span>24/7 support.</span></li></ul><p><span>You will also find many more benefits in our professional website design service. Then contact us now without delay. We are offering an interesting website at the most affordable price.</span></p>"
+                        }
+                      ],
+                      "titleBox": {
+                        "pad": "15px",
+                        "border": "0px 0px 0.8px 0px|none|rgb(93, 114, 128)|rgb(213, 216, 220)"
+                      },
+                      "ts": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "700",
+                        "lh": "15px",
+                        "color": "rgb(249, 149, 23)"
+                      },
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconSvg": "<svg viewBox=\"0 0 192 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z\"></path></svg>",
+                      "iconSvgOpen": "<svg viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z\"></path></svg>",
+                      "iconPos": "left",
+                      "contentBox": {
+                        "pad": "15px",
+                        "border": "0px 0px 0.8px 0px|none|rgb(93, 114, 128)|rgb(213, 216, 220)"
+                      },
+                      "cs": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "itemBox": {},
+                      "open": [
+                        false
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "pad": "10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 387,
+                  "kids": [
+                    {
+                      "t": "image",
+                      "src": "/images/services/Affordable-web-design-service.png",
+                      "w": 550,
+                      "h": 367,
+                      "radius": "10px",
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "30px 0px 20px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 1143,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 1093,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h3",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "30px",
+                "fw": "800",
+                "lh": "36px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "Why choose us as the"
+                },
+                {
+                  "hl": true,
+                  "text": "Best web design agency"
+                },
+                {
+                  "hl": false,
+                  "text": "in Bangladesh?"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 1017,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 100,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 1140,
+                  "h": 1017,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "wbox": {
+                        "margin": "0px 0px 20px"
+                      },
+                      "html": "<p>Bulbul Bahar is the best web design service provider in Dhaka. Since 2014, we have been providing web development, Web Design, app development, graphic design, hosting services, <a href=\"/local-seo-service-in-bangladesh\">Local SEO Services</a>, and web security services to national and international clients. Over the past five years, he has worked with clients in more than 26 countries and over 100 companies.<br>Many of us from many IT firms in the country take the website design service for a low price. Many of those companies are using Low-Quality tools because many of them use pirated tools to give you cheap service, which is completely unethical and against the law.<br>And that’s why we get all the themes and other tools from the original – since we bought them in the Extended License.<br>We think that “you will do business and not receive a gift, but you can get bad service at a low price” so that your project is good for business.<br>Good work requires both time and money. We know<br>“Professionalism is the key to success.”</p><p>We work or like to do professional, dedicated, innovative, creative work. In the last five years, we have worked with more than 100 clients, and we have the experience to take on different countries ‘business environments, different clients’ tastes, and different job challenges. We are loyal and committed to providing our clients with our highest service.</p><h6><b>Get in Touch with Us When:</b><span>&nbsp;</span></h6>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "linkColor": "rgb(224, 84, 20)",
+                      "strongColor": "rgb(0, 15, 35)"
+                    },
+                    {
+                      "t": "ucaddon_uc_solid_color_accordion",
+                      "items": [
+                        {
+                          "title": "You are looking for a web developer for your website development.",
+                          "html": "Are you looking for a web developer for your or your organization's website development? We have a dedicated web developer team who will help you develop a world-class website or solve your site problems, or our dedicated web development team will help you with site security issues."
+                        },
+                        {
+                          "title": "You Need a web developer to build an e-commerce website.",
+                          "html": "Want to bring your offline business online or build a new e-commerce website to get more new customers or expand your business? But not getting a mind-blowing or trusted web developer or web development company? We have a dedicated web developer team who will help you develop an international size e-commerce website or solve your site problem, or our dedicated web development team will help you if there is a problem with the security of the site."
+                        },
+                        {
+                          "title": "You Want to create an online newspaper website.",
+                          "html": "Are You Want to build an online newspaper website but can't find a developer or trusted company. We provide all the services for the website, such as domain, hosting, website development, news editor services, marketing services, and even making money from websites such as Google AdSense or Facebook Instant Articles. We also provide website security services. We can be your next faithful partner."
+                        },
+                        {
+                          "title": "You need to buy domain hosting, but you don't have an international credit card or PayPal.",
+                          "html": "If You can't buy domain-hosting because you don't have an international card or PayPal, and you don't have to look for cardholders! We accept development, rocket, bank payments. With our automated payment method, your service will be auto-activated immediately. A confirmation message will be sent in your mail, and you will not even need to contact us (like international service providers)."
+                        },
+                        {
+                          "title": "You need a Cyber Security Expert to check website updates or Vulnerability.",
+                          "html": "Unable to update your website or your organization's website regularly due to other work commitments? Our website maintenance dedicated team will update your website according to your instructions. Our website security engineers will regularly check the security of your website and ensure the security of your website."
+                        },
+                        {
+                          "title": "Want to buy a readymade website?",
+                          "html": "We also sell readymade websites, along with websites, Facebook pages, Android apps. After buying a readymade website, you will get 100% control over the domain, hosting, Facebook page. You will even get a 3-month warranty, where we will provide free service if there is any problem with the site within three months."
+                        },
+                        {
+                          "title": "Have No team or Expert, but Got a client and looking for an outsourcing partner who can get the job done?",
+                          "html": "There are some clients who want to make a website or software but can't take the work because they don't have their own team or engineer or can't make the client happy? Yes, we can be your trusted partner; we have the opportunity to work in this way here; even if we work, the name of your organization will appear on the website or software, or we work by following a non-disclosure agreement."
+                        }
+                      ],
+                      "open": [
+                        true,
+                        false,
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "30px 0px 10px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 924,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 884,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h3",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "30px",
+                "fw": "800",
+                "lh": "36px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "Why is our"
+                },
+                {
+                  "hl": true,
+                  "text": "web design service"
+                },
+                {
+                  "hl": false,
+                  "text": "different from others?"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 369,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 100,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "15px",
+                    "margin": "0px 20px 20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 1140,
+                  "h": 369,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p>Bulbul Bahar is not only an <a href=\"/seo-service-in-bangladesh\">SEO Service Provider in bd</a> but also a reliable web development and hosting company in Bangladesh. It has been successfully providing web design services in Bangladesh, graphics design, search engine optimisation, and domain hosting services in the IT sector since 2014. We believe in customer satisfaction, so you can take our services without any doubt.</p><p>At <a href=\"https://BulbulBahar.com\" target=\"_blank\">BulbulBahar.com</a>, we build a unique website for each business in order to meet their digital branding and online identity requirements. We don’t use templates or preset designs. All our designs are created from scratch.</p><p>We do not compromise on IT quality!</p><p>If we develop any website, big or small, with the highest quality in mind. Our first priority is development quality. Our Speciality as a Creative Web Design Agency in Dhaka:</p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "linkColor": "rgb(224, 84, 20)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 226,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 33.3,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "pad": "10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 380,
+                  "h": 226,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 640 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M592 0H48A48 48 0 0 0 0 48v320a48 48 0 0 0 48 48h240v32H112a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H352v-32h240a48 48 0 0 0 48-48V48a48 48 0 0 0-48-48zm-16 352H64V64h512z\"></path></svg>",
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconFill": "rgb(249, 149, 23)",
+                      "iconSize": 50,
+                      "iconH": 50,
+                      "iconBox": {},
+                      "pos": "block",
+                      "title": "Highest quality design:",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "25px",
+                        "fw": "800",
+                        "lh": "32.5px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Unique and quality design to capture every visitor to the website. Which will attract your customers.",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 33.3,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "pad": "10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 380,
+                  "h": 226,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 640 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4zm323-128.4l-27.8-28.1c-4.6-4.7-12.1-4.7-16.8-.1l-104.8 104-45.5-45.8c-4.6-4.7-12.1-4.7-16.8-.1l-28.1 27.9c-4.7 4.6-4.7 12.1-.1 16.8l81.7 82.3c4.6 4.7 12.1 4.7 16.8.1l141.3-140.2c4.6-4.7 4.7-12.2.1-16.8z\"></path></svg>",
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconFill": "rgb(249, 149, 23)",
+                      "iconSize": 55,
+                      "iconH": 55,
+                      "iconBox": {},
+                      "pos": "block",
+                      "title": "Experienced team advice:",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "25px",
+                        "fw": "800",
+                        "lh": "32.5px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "An experienced team of Web Design Experts is by your side. Ready to give the advice to solve any problem you have.",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 33.3,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "pad": "10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 380,
+                  "h": 226,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm-32-316v116h-67c-10.7 0-16 12.9-8.5 20.5l99 99c4.7 4.7 12.3 4.7 17 0l99-99c7.6-7.6 2.2-20.5-8.5-20.5h-67V140c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12z\"></path></svg>",
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconFill": "rgb(249, 149, 23)",
+                      "iconSize": 50,
+                      "iconH": 50,
+                      "iconBox": {},
+                      "pos": "block",
+                      "title": "Website backup:",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "25px",
+                        "fw": "800",
+                        "lh": "32.5px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "We keeps a backup of every customer's website so that you do not have any problem.",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 193,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 33.3,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "pad": "10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 380,
+                  "h": 193,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 496 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-216c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm4 72.6c-20.8 25-51.5 39.4-84 39.4s-63.2-14.3-84-39.4c-8.5-10.2-23.7-11.5-33.8-3.1-10.2 8.5-11.5 23.6-3.1 33.8 30 36 74.1 56.6 120.9 56.6s90.9-20.6 120.9-56.6c8.5-10.2 7.1-25.3-3.1-33.8-10.1-8.4-25.3-7.1-33.8 3.1z\"></path></svg>",
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconFill": "rgb(249, 149, 23)",
+                      "iconSize": 50,
+                      "iconH": 50,
+                      "iconBox": {},
+                      "pos": "block",
+                      "title": "Free training:",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "25px",
+                        "fw": "800",
+                        "lh": "32.5px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "Free website maintenance training will be provided so that you can maintain your website yourself.",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 33.3,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "pad": "10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 380,
+                  "h": 193,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M576 216v16c0 13.255-10.745 24-24 24h-8l-26.113 182.788C514.509 462.435 494.257 480 470.37 480H105.63c-23.887 0-44.139-17.565-47.518-41.212L32 256h-8c-13.255 0-24-10.745-24-24v-16c0-13.255 10.745-24 24-24h67.341l106.78-146.821c10.395-14.292 30.407-17.453 44.701-7.058 14.293 10.395 17.453 30.408 7.058 44.701L170.477 192h235.046L326.12 82.821c-10.395-14.292-7.234-34.306 7.059-44.701 14.291-10.395 34.306-7.235 44.701 7.058L484.659 192H552c13.255 0 24 10.745 24 24zM312 392V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm112 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm-224 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24z\"></path></svg>",
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconFill": "rgb(249, 149, 23)",
+                      "iconSize": 50,
+                      "iconH": 50,
+                      "iconBox": {},
+                      "pos": "block",
+                      "title": "Affordable package:",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "25px",
+                        "fw": "800",
+                        "lh": "32.5px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "We have tailored the packages to your budget.",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 33.3,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "pad": "10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 380,
+                  "h": 193,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconFill": "rgb(249, 149, 23)",
+                      "iconSize": 50,
+                      "iconH": 50,
+                      "iconBox": {},
+                      "pos": "block",
+                      "title": "24/7 customer support:",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "25px",
+                        "fw": "800",
+                        "lh": "32.5px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h3",
+                      "desc": "We prioritize customer issues, so quick support is provided for any problems.",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)",
+                        "align": "center"
+                      },
+                      "align": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "spacer",
+              "h": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 66,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 55.5,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 633,
+          "h": 66,
+          "kids": [
+            {
+              "t": "toggle",
+              "items": [
+                {
+                  "title": "We are providing user-friendly web design service in Bangladesh:",
+                  "html": "<p><span>Are you selling a product or service to the customers? Do you want to inform the world about you?</span></p><p><span>Searching a great way!</span></p><p><span>You have come to the right place. We always believes in the best quality and always serves their clients with best products. We have expert developers and designers to build a website that suits your necessity.</span></p><p><span>Whatever the language, CMS or platform, we can make it easy for you. We are experts in the commonest programming languages like PHP, Python, larval, JavaScript, asp.net, HTML, Java, C++ and CSS, etc.</span></p><p><span>Your website is a necessity to build your business image. If you don’t have a website, you can move further and fast in the digital world. Your website is important to drag business towards you.</span></p>"
+                }
+              ],
+              "titleBox": {
+                "pad": "15px",
+                "border": "0px 0px 0.8px 0px|none|rgb(93, 114, 128)|rgb(213, 216, 220)"
+              },
+              "ts": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "700",
+                "lh": "15px",
+                "color": "rgb(249, 149, 23)"
+              },
+              "iconColor": "rgb(249, 149, 23)",
+              "iconSvg": "<svg viewBox=\"0 0 192 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z\"></path></svg>",
+              "iconSvgOpen": "<svg viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z\"></path></svg>",
+              "iconPos": "left",
+              "contentBox": {
+                "pad": "15px",
+                "border": "0px 0px 0.8px 0px|none|rgb(93, 114, 128)|rgb(213, 216, 220)"
+              },
+              "cs": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)"
+              },
+              "itemBox": {},
+              "open": [
+                false
+              ]
+            }
+          ]
+        },
+        {
+          "k": "col",
+          "wPct": 44.4,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 507,
+          "h": 66,
+          "kids": [
+            {
+              "t": "toggle",
+              "items": [
+                {
+                  "title": "Our Website Design and Development Strategy:",
+                  "html": "<ul><li><span>We listen to your requirements carefully and prepare a proposal.</span></li><li><span>After finalizing the proposal, we send it to our designer.</span></li><li><span>Take your approval in the dummy design or revise it.</span></li><li><span>Getting approval for you, we send the design to our development team.</span></li><li><span>After development, we show you the complete task and ask for your recommendation.</span></li><li><span>We review it after the recommendation and send it to the QA testing.</span></li><li><span>Successful QA testing ensures the readiness of the website.</span></li><li><span>After making it live, we handover the necessary information.</span></li></ul><p>&nbsp;</p>"
+                }
+              ],
+              "titleBox": {
+                "pad": "15px",
+                "border": "0px 0px 0.8px 0px|none|rgb(93, 114, 128)|rgb(213, 216, 220)"
+              },
+              "ts": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "700",
+                "lh": "15px",
+                "color": "rgb(249, 149, 23)"
+              },
+              "iconColor": "rgb(249, 149, 23)",
+              "iconSvg": "<svg viewBox=\"0 0 192 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z\"></path></svg>",
+              "iconSvgOpen": "<svg viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z\"></path></svg>",
+              "iconPos": "left",
+              "contentBox": {
+                "pad": "15px",
+                "border": "0px 0px 0.8px 0px|none|rgb(93, 114, 128)|rgb(213, 216, 220)"
+              },
+              "cs": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)"
+              },
+              "itemBox": {},
+              "open": [
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "40px 0px 10px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 260,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 210,
+          "kids": [
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h3",
+              "html": "A professional website design is the need of the modern world.",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "25px",
+                "fw": "800",
+                "lh": "32.5px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 158,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 100,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "15px",
+                    "margin": "20px 20px 0px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 1140,
+                  "h": 158,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p><span>Nowadays, the website is the digital identity of your business. We do more than just making impressive websites, as one of the best web design companies in Bangladesh. We are producing online momentum that makes you clearly visible in clutter, converting leads. As a web development agency with many years of experience, we ensure that you’ll stand out from the rest. What makes us Profesional to our clients:</span></p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 258,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 50,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 570,
+          "h": 258,
+          "kids": [
+            {
+              "t": "ucaddon_uc_solid_color_accordion",
+              "items": [
+                {
+                  "title": "Design quality & attractively",
+                  "html": "We Design Websites which stand out from the competition because of their quality, attractiveness, elegance, and functionality."
+                },
+                {
+                  "title": "Simple to maintain",
+                  "html": "Because our website is built using easy-to-use CMS, making changes to it becomes easy for clients."
+                },
+                {
+                  "title": "Submit Project Timely",
+                  "html": "We offer affordable web design services in a time-efficient manner. We deliver the desired results right on time."
+                }
+              ],
+              "open": [
+                true,
+                false,
+                false
+              ]
+            }
+          ]
+        },
+        {
+          "k": "col",
+          "wPct": 50,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 570,
+          "h": 258,
+          "kids": [
+            {
+              "t": "ucaddon_uc_solid_color_accordion",
+              "items": [
+                {
+                  "title": "Easy to Use",
+                  "html": "We will Design website that have very userfriendly layout. Easy to use, Very simple and lite website."
+                },
+                {
+                  "title": "Net & Clean Design",
+                  "html": "Our team of expert web designers and service providers go to all lengths to make sure your web design is clean and Fresh."
+                },
+                {
+                  "title": "UI & UX Web Design.",
+                  "html": "User Interface and user experience in Web Design are two major elements of your online presence. Your website is useless if it does not improve the user experience. We design websites that ensure the UI UX Web Design."
+                }
+              ],
+              "open": [
+                true,
+                false,
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "30px 0px 20px",
+        "margin": "15px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 905,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 855,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "42px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "E-commerce"
+                },
+                {
+                  "hl": true,
+                  "text": "website design Service"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h5",
+              "html": "Create your own online shop with Creative Niloy!",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "18px",
+                "fw": "800",
+                "lh": "21.6px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 731,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 731,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p><span>If you have a physical store, then an online shop or an e-commerce website is a great idea. An e-commerce website can increase your sales by ten times. Through a physical shop, you get customers not only in the surrounding area but through the e-commerce website you can expand your sales across the country. And this is much easier at present. And in this direction, you can also reach the customer through Facebook, YouTube, or other social media to promote your product for free. And those who will be interested in buying the product after seeing these advertisements of yours can see the details of the product on your website and order from your website. Whether it’s your mobile phone store or electronics product store, Jewelry/cosmetics store or clothing/clothing store, you can easily expand your business across the country through e-commerce sites. You can also expand the scope of your business by adding other categories of products to the e-commerce site. Like your watch store, you created an e-commerce site for watches. He also added jewellery, electronics, gadgets, etc., to the site. The scope of your business is growing.</span></p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 570,
+                  "h": 731,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p><span>Features for e-commerce website Design Service:</span></p><div style=\"display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 14px;\"><ul><li><span>&nbsp;Customer registration system</span></li><li><span>&nbsp;Shop management</span></li><li><span>&nbsp;Product management system</span></li><li><span>&nbsp;Product Stock Management</span></li><li><span>&nbsp;Product sales report</span></li><li><span>&nbsp;Related product suggestions</span></li><li><span>&nbsp;Order management</span></li><li><span>&nbsp;Customers have multiple payment options</span></li><li><span>&nbsp;product filter system according to price</span></li><li><span>&nbsp;Discount coupon system</span></li></ul><ul><li><span>&nbsp;Customer review and rating system</span></li><li><span>&nbsp;Delivery or shipping charge calculation system</span></li><li><span>&nbsp;Feature product highlight system</span></li><li><span>&nbsp;Auto Highlight Discounted or Valuable Product</span></li><li><span>&nbsp;Track orders Via Locations</span></li><li><span>&nbsp;Product’s image gallery</span></li><li><span>&nbsp;Popup offer box</span></li><li><span>&nbsp;Social follow button</span></li><li><span>&nbsp;Fraud Order Check</span></li><li><span>&nbsp;Api Integrated Cuirar System.</span></li></ul></div>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "20px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 757,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 1140,
+          "h": 717,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h3",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "42px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": true,
+                  "text": "Web Design and Development Training"
+                },
+                {
+                  "hl": false,
+                  "text": "in Bangladesh"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 570,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 100,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "bg": "rgb(255, 255, 255)",
+                    "pad": "30px",
+                    "margin": "20px",
+                    "radius": "20px",
+                    "shadow": "rgba(93, 114, 128, 0.15) 0px 0px 35px 0px"
+                  },
+                  "valign": "flex-start",
+                  "w": 1140,
+                  "h": 570,
+                  "kids": [
+                    {
+                      "t": "text-editor",
+                      "html": "<p>Bulbul Bahar also provides many specialised classes for your students. Reactive website design is among the vital courses for people. We teach you plenty of professional tips &amp; secrets to designing a modern, responsive site.<br>Across Time, website design and growth have become the quickest-growing industry. This really is when it has to do with the online outsourcing market industry. With a site, no company can grow. Organisations won’t have the ability to attract both local buyers and potentially global buyers. In most such situations, internet sites add significance to the work of the business. A whole lot of website design and development project opportunities show up annually. There really are a whole lot of freelancing platforms now, such as Upwork, Freelancer, PeoplePerHour, Fiverr, etc..<br>Have you any idea exactly what this implies? This implies a profession in web design is in high demand. If you opt for the outsourcing market afterwards, you’re able to realise that outsourced contractors or buyers have an incentive for hiring an independent website designer and freelance website programmer.<br>Web designing and exceptionally responsive web designing are ranked high, and it’s a large and growing industry. Learning web development at The Creative Niloy is not easy. It’s advisable for those who find reactive site design from the most effective professionals. It is certainly going to work wonders for you personally. Only the pros will be able to help you learn web development quickly. What’s more? Essentially, the simple fact that you get to know reactive website design from beginner web design, and the best ways to progress web programming efficiently.<br>You cannot doubt that There Are tremendous chances and a bright future in the field of internet development. What you need is to choose experts trained in web development. You’ve got to learn most of the modern internet development languages. Enhancing the skills of a web designer would be the key to your success.</p>",
+                      "s": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "ps": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "inner": 1140,
+              "w": 1140,
+              "h": 66,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 100,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "wrapBox": {
+                    "pad": "10px"
+                  },
+                  "valign": "flex-start",
+                  "w": 1140,
+                  "h": 66,
+                  "kids": [
+                    {
+                      "t": "toggle",
+                      "items": [
+                        {
+                          "title": "Benefits of Web Design and Development Training in Bangladesh",
+                          "html": "<p><span>There are some benefits for you in the Event That you learn Responsive Website Site Design in Creative Niloy:</span></p><p><span>Web development is a top-ranked business in the Freelance Market industry</span></p><p><span>Market place builders are prepared to employ Freelance website designers by simply paying a top quantity. This usually means that website designers get at a greater speed than some other industry of their web marketplace.</span></p><p><span>Our on-line website design classes can assist the students to develop into a design theory. And fundamentally mature designing imagination and help direct them into learning functional programming basics.</span></p><p><span>The very best trained and proficient website designers have the ability to get the job done with progress search engine optimization readily by themselves.</span></p><p><span>Web designers may arrange and put internet site content quite frequently, which helps them to discover how they are able to get from article writing. Thus, Internet designers may also are Article authors or Content writers and also earn a little additional cash too.</span></p><p><span>The largest advantage for Internet designers learning Responsive web site design could be that they have access to jobs all around the globe. The working chance for the Internet Designers is quite significant. For instance:</span></p><p><span>Search engine optimization: Doing SEO friendly web creation, every Internet Developer needs to execute On-Page search engine optimization methods into your customer’s internet site. What this means is, Freelance Web designers currently know just how SEO works therefore they don’t really need to know Advance search engine optimization further.</span></p><p><span>Google ad sense: Code of how Google ad sense needs to be put on website pages. Outsourcing web designers understand just how exactly to do so nicely, they don’t really require any training to Google AdSense.</span></p><p><span>Graphics Design: Sites also can have Banner slide-shows, adverts, and also other promotional images artworks which might be calling Online Pictures. Every recognized Internet designer that Responsive Internet Design class is very acquainted with. Plus they’ll have the ability to accomplish other freelance graphics and get the job done rather simply. Therefore, as soon as they perform the Responsive Internet Design training course they don’t really need to shell out money to get a Graphics Design Tutorial class.</span></p><p><span>After finishing this class you can create an elegant, contemporary Internet site from PSD into HTML, CSS, JS, and fully reactive layout. The Responsive site usually means that an internet site can be looked at with a complete user perspective all Apparatus including on tab, laptop, iPhone, HDTV, Android apparatus, etc.. At the Moment, The responsive site is on demand. On the outsourcing market, a student of the training course is obviously desired. Bulbul Bahar is the best web design training Provider in Dhaka Bangladesh</span></p>"
+                        }
+                      ],
+                      "titleBox": {
+                        "pad": "15px",
+                        "border": "0px 0px 0.8px 0px|none|rgb(93, 114, 128)|rgb(213, 216, 220)"
+                      },
+                      "ts": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "700",
+                        "lh": "15px",
+                        "color": "rgb(249, 149, 23)"
+                      },
+                      "iconColor": "rgb(249, 149, 23)",
+                      "iconSvg": "<svg viewBox=\"0 0 192 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z\"></path></svg>",
+                      "iconSvgOpen": "<svg viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z\"></path></svg>",
+                      "iconPos": "left",
+                      "contentBox": {
+                        "pad": "15px",
+                        "border": "0px 0px 0.8px 0px|none|rgb(93, 114, 128)|rgb(213, 216, 220)"
+                      },
+                      "cs": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "itemBox": {},
+                      "open": [
+                        false
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "margin": "30px 0px"
+      },
+      "inner": 1100,
+      "w": 1351,
+      "h": 77,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 1100,
+          "h": 77,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "tag": "h2",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "31px",
+                "fw": "800",
+                "lh": "37.2px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": true,
+                  "text": "Frequently Asked questions"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "30px 0px 50px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 156,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 50,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "0px 22.8px"
+          },
+          "valign": "center",
+          "w": 570,
+          "h": 76,
+          "kids": [
+            {
+              "t": "toggle",
+              "items": [
+                {
+                  "title": "Why Choose our Creative Web Design Service?",
+                  "html": "<ul><li><span>Provide intellectual property</span></li><li><span>Responsive and faster loading design</span></li><li><span>Compatible website for any browser and user friendly</span></li><li><span>Easy access to admin panel</span></li><li><span>Simple integration with popular social media</span></li><li><span>Maintenance support for bug fixing, code editing, disaster recovery, and QA testing</span></li><li><span>Proven track record of a satisfied customer</span></li><li><span>Effective use of own technique</span></li><li><span>Maintain your privacy</span></li><li><span>Never fail a deadline</span></li><li><span>Always present for client support</span></li><li><span>Expert and motivated team</span></li><li><span>Dedicated expert for individual project</span></li><li><span>100% complimentary client counseling</span></li><li><span>Fair deal that is budget-friendly</span></li><li><span>Accept multiple payment options</span></li></ul>"
+                }
+              ],
+              "titleBox": {
+                "pad": "30px"
+              },
+              "ts": {
+                "ff": "Open Sans",
+                "fs": "16px",
+                "fw": "900",
+                "lh": "16px",
+                "color": "rgb(0, 0, 0)",
+                "tt": "uppercase"
+              },
+              "iconColor": "rgb(249, 149, 23)",
+              "iconSvg": "<svg viewBox=\"0 0 192 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z\"></path></svg>",
+              "iconSvgOpen": "<svg viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z\"></path></svg>",
+              "iconPos": "right",
+              "contentBox": {
+                "pad": "15px 35px"
+              },
+              "cs": {
+                "ff": "Open Sans",
+                "fs": "16px",
+                "fw": "300",
+                "lh": "28.8px",
+                "color": "rgb(191, 191, 191)"
+              },
+              "itemBox": {
+                "shadow": "rgba(0, 0, 0, 0.12) 0px 0px 30px 0px"
+              },
+              "open": [
+                false
+              ]
+            }
+          ]
+        },
+        {
+          "k": "col",
+          "wPct": 50,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "0px 22.8px"
+          },
+          "valign": "center",
+          "w": 570,
+          "h": 76,
+          "kids": [
+            {
+              "t": "toggle",
+              "items": [
+                {
+                  "title": "How can a Website be helpful for you?",
+                  "html": "<ul><li><span>Creating a brand image and improve the brand value</span></li><li><span>An advanced level marketing channel and communication system with customers</span></li><li><span>Create an opportunity to attract the audience</span></li><li><span>A live representation of your business and quality</span></li><li><span>Accessible anytime by anyone</span></li><li><span>Inform the customer of the new and old items and their prices</span></li><li><span>Allow yourself a boundless environment and make your own way to business.</span></li><li><span>Catch the big fish with a small hook with instant credibility</span></li></ul>"
+                }
+              ],
+              "titleBox": {
+                "pad": "30px"
+              },
+              "ts": {
+                "ff": "Open Sans",
+                "fs": "16px",
+                "fw": "900",
+                "lh": "16px",
+                "color": "rgb(0, 0, 0)",
+                "tt": "uppercase"
+              },
+              "iconColor": "rgb(249, 149, 23)",
+              "iconSvg": "<svg viewBox=\"0 0 192 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z\"></path></svg>",
+              "iconSvgOpen": "<svg viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z\"></path></svg>",
+              "iconPos": "right",
+              "contentBox": {
+                "pad": "15px 35px"
+              },
+              "cs": {
+                "ff": "Open Sans",
+                "fs": "16px",
+                "fw": "300",
+                "lh": "28.8px",
+                "color": "rgb(191, 191, 191)"
+              },
+              "itemBox": {
+                "shadow": "rgba(0, 0, 0, 0.12) 0px 0px 30px 0px"
+              },
+              "open": [
+                false
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "100px 0px"
+      },
+      "inner": 1000,
+      "w": 1351,
+      "h": 334,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 75,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "0px 50px 0px 0px"
+          },
+          "valign": "center",
+          "w": 750,
+          "h": 134,
+          "kids": [
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h5",
+              "html": "So, What Are You Waiting For?",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "18px",
+                "fw": "800",
+                "lh": "21.6px",
+                "color": "rgb(249, 149, 23)",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "html": "Request A Quote",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "45.5px",
+                "color": "rgb(15, 13, 13)",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "t": "text-editor",
+              "box": {
+                "margin": "0px 0px -25px"
+              },
+              "html": "<p>Get the best Web Design service in Bangladesh and increase your Brand Value!&nbsp;&nbsp;</p>",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(0, 0, 0)"
+              },
+              "ps": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(0, 0, 0)"
+              }
+            }
+          ]
+        },
+        {
+          "k": "col",
+          "wPct": 25,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "center",
+          "w": 250,
+          "h": 134,
+          "kids": [
+            {
+              "t": "button",
+              "text": "Get A Quote",
+              "href": "/get-a-free-quote",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "16px",
+                "fw": "400",
+                "lh": "16px",
+                "color": "rgb(255, 255, 255)",
+                "align": "center",
+                "bg": "rgb(224, 97, 38)",
+                "pad": "15px 30px",
+                "radius": "4px",
+                "shadow": "rgba(0, 15, 35, 0.12) 0px 0px 20px 0px"
+              },
+              "align": "right",
+              "full": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "slug": "web-design-service-in-bangladesh"
+}

@@ -1,0 +1,209 @@
+import { Project } from "@/types";
+
+export const projectsData: Project[] = [
+  {
+    id: "australiaeta-sg",
+    title: "Australia eTA Singapore Portal",
+    domain: "Australiaeta.com.sg",
+    category: "Visa & Travel Services",
+    description:
+      "Comprehensive search engine optimization for Singapore travelers applying for Australian Electronic Travel Authority. Achieved #1 organic ranking for core commercial transactional keywords in Singapore.",
+    results: [
+      "Ranked #1 on Google Singapore for primary travel visa queries",
+      "Over 450% surge in organic monthly inbound applications",
+      "Achieved sub-1s load speed and zero crawl errors",
+    ],
+    metrics: {
+      trafficIncrease: "+450%",
+      keywordsRanked: "18 Top-3 Keywords",
+      timeline: "4 Months",
+    },
+    featured: true,
+  },
+  {
+    id: "australiavisa-uk",
+    title: "Australia Visa UK Advisory",
+    domain: "Australiavisauk.co.uk",
+    category: "Immigration & Legal Travel",
+    description:
+      "Executed technical on-page architecture overhaul and authoritative UK backlink campaign. Outranked established regional portals for Australian travel authorizations.",
+    results: [
+      "Top-3 Google UK positions for 22 competitive high-intent terms",
+      "320% continuous organic traffic growth over 6 months",
+      "Conversion rate increased from 1.8% to 5.4%",
+    ],
+    metrics: {
+      trafficIncrease: "+320%",
+      keywordsRanked: "22 Keywords Top-3",
+      timeline: "6 Months",
+    },
+    featured: true,
+  },
+  {
+    id: "australiaeta-au",
+    title: "Australia ETA Direct",
+    domain: "Australiaeta.com.au",
+    category: "International Tourism",
+    description:
+      "Targeted international cross-border SEO targeting tourists and business travelers flying to Australia. Built responsive site structure and localized intent pages.",
+    results: [
+      "Dominant organic visibility across APAC region",
+      "Zero sanction penalties during major Google core algorithmic updates",
+      "Reduced bounce rate by 38%",
+    ],
+    metrics: {
+      trafficIncrease: "+280%",
+      keywordsRanked: "15 Top-5 Keywords",
+      timeline: "5 Months",
+    },
+    featured: false,
+  },
+  {
+    id: "globalca-pharmacy",
+    title: "Global CA Pharmacy Portal",
+    domain: "globalcapharmacy.com",
+    category: "Healthcare & Pharmaceuticals",
+    description:
+      "High-compliance healthcare SEO under Google's rigorous YMYL (Your Money or Your Life) standards. Structured author E-E-A-T signals, medical review schemas, and content audits.",
+    results: [
+      "Ranked in top 5 for competitive health supplement & prescription terms",
+      "Tripled organic search impressions without algorithmic penalties",
+      "Established verified medical citation backlinks",
+    ],
+    metrics: {
+      trafficIncrease: "+310%",
+      keywordsRanked: "25 Top-5 Keywords",
+      timeline: "7 Months",
+    },
+    featured: true,
+  },
+  {
+    id: "peoplentech-bd",
+    title: "PeopleNTech Institute BD",
+    domain: "Peoplentech.com.bd",
+    category: "IT Education & Corporate Training",
+    description:
+      "Corporate SEO & lead generation campaign for Bangladesh's leading IT training organization. Positioned professional tech diploma courses at the peak of Google BD search.",
+    results: [
+      "Ranked #1 in Bangladesh for Professional IT & QA Software Testing courses",
+      "Over 1,200 monthly student inquiry leads generated organically",
+      "Significant local map pack dominance in Dhaka",
+    ],
+    metrics: {
+      trafficIncrease: "+520%",
+      keywordsRanked: "35 Top-3 Keywords",
+      timeline: "8 Months",
+    },
+    featured: true,
+  },
+  {
+    id: "myusdrugstore",
+    title: "My US Drugstore E-Commerce",
+    domain: "Myusdrugstore.com",
+    category: "E-Commerce & Retail",
+    description:
+      "Large-scale e-commerce SEO covering over 5,000 product SKUs. Implemented dynamic automated category schema, faceted navigation indexing rules, and fast CDN caching.",
+    results: [
+      "Over 10x organic revenue growth within 9 months",
+      "Indexed 98% of product catalog with rich snippet stars & price display",
+      "Eliminated 100+ duplicate canonical issues",
+    ],
+    metrics: {
+      trafficIncrease: "+940%",
+      keywordsRanked: "50+ Page 1 Terms",
+      timeline: "9 Months",
+    },
+    featured: true,
+  },
+  {
+    id: "gadgetandgear",
+    title: "Gadget & Gear Premium Retail",
+    domain: "Gadgetandgear.com",
+    category: "Consumer Tech & Electronics",
+    description:
+      "Technical performance optimization and aggressive local keyword ranking for flagship smartphone and premium electronics launches.",
+    results: [
+      "Dominated local search for flagship product launches in Dhaka",
+      "Boosted foot-traffic and direct store direction requests by 65%",
+      "Achieved sub-900ms mobile TTFB",
+    ],
+    metrics: {
+      trafficIncrease: "+210%",
+      keywordsRanked: "30+ Page 1 Terms",
+      timeline: "4 Months",
+    },
+    featured: false,
+  },
+  {
+    id: "runway-bd",
+    title: "Runway Fashion & Lifestyle",
+    domain: "Runway.com.bd",
+    category: "Apparel & E-Commerce",
+    description:
+      "Seasonal fashion SEO strategy, visual image search optimization, and category page link restructuring to outcompete traditional fast-fashion outlets.",
+    results: [
+      "First-page placement for seasonal festive collections",
+      "240% rise in organic sales conversions during festive shopping cycles",
+    ],
+    metrics: {
+      trafficIncrease: "+240%",
+      keywordsRanked: "16 Top-5 Keywords",
+      timeline: "3 Months",
+    },
+    featured: false,
+  },
+  {
+    id: "debtredemption",
+    title: "Debt Redemption US",
+    domain: "Debtredemption.com",
+    category: "Financial Services & Relief",
+    description:
+      "Targeted US competitive debt relief sector. Built high-trust YMYL authoritative content, interactive debt calculator landing pages, and safe link profile.",
+    results: [
+      "Ranked for high-CPC commercial finance keywords in the US market",
+      "Secured sustainable flow of qualified inbound debt settlement leads",
+    ],
+    metrics: {
+      trafficIncrease: "+190%",
+      keywordsRanked: "12 Top-5 Terms",
+      timeline: "6 Months",
+    },
+    featured: false,
+  },
+  {
+    id: "affordabledebt",
+    title: "Affordable Debt Consolidation",
+    domain: "AffordableDebtconsolidation.org",
+    category: "Non-Profit & Financial Advisory",
+    description:
+      "National SEO campaign focused on advisory queries and educational debt relief resources for US families.",
+    results: [
+      "Achieved featured snippet positions for 14 high-volume financial questions",
+      "Lowered customer acquisition cost by 62% compared to paid search",
+    ],
+    metrics: {
+      trafficIncrease: "+275%",
+      keywordsRanked: "20+ Page 1 Terms",
+      timeline: "5 Months",
+    },
+    featured: false,
+  },
+  {
+    id: "virginiaholidays",
+    title: "Virginia Holidays Travel",
+    domain: "VirginiaHolydays.com",
+    category: "Hospitality & Travel Agency",
+    description:
+      "Destination marketing and vacation package organic optimization targeting tourists in the East Coast travel corridor.",
+    results: [
+      "Generated continuous organic vacation booking inquiries",
+      "Enhanced mobile user experience and booking conversion funnel",
+    ],
+    metrics: {
+      trafficIncrease: "+185%",
+      keywordsRanked: "14 Page 1 Terms",
+      timeline: "4 Months",
+    },
+    featured: false,
+  },
+];

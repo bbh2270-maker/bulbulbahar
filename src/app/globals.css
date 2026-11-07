@@ -1,0 +1,265 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   Design tokens copied from the live WordPress / Elementor site
+   ============================================================ */
+:root {
+  --color-primary: #CB3522;
+  --color-primary-hover: #BB2929;
+  --color-accent: #e05414;        /* links, dividers, icons */
+  --color-accent-orange: #F99517;
+  --color-teal: #30C8B8;
+  --color-dark: #1B1B1B;
+  --color-heading: #000F23;
+  --color-body: #5D7280;
+  --color-text: rgba(2, 2, 2, 0.97);
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.857;
+  color: var(--color-body);
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-heading);
+}
+
+/* Elementor text-editor paragraphs */
+.wp-text p { color: var(--color-text); margin-bottom: 1.1em; }
+.wp-text p:last-child { margin-bottom: 0; }
+.wp-text strong { font-weight: 700; }
+.wp-text a, a.wp-link { color: var(--color-accent); }
+.wp-text a:hover, a.wp-link:hover { color: var(--color-primary); }
+
+/* Section heading (Elementor animated headline) */
+.wp-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: var(--color-heading);
+  text-transform: capitalize;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .wp-heading { font-size: 24px; line-height: 1.6; }
+}
+
+/* Animated highlighted headline (Clean, professional hand-drawn underline) */
+.wp-highlight {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.wp-highlight svg {
+  position: absolute;
+  top: 100%;
+  left: 2%;
+  width: 96%;
+  height: 8px;
+  margin-top: 4px;
+  overflow: visible;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.wp-highlight svg path {
+  fill: none;
+  stroke: #ff0000;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+}
+
+.wp-highlight.is-drawn svg path {
+  animation: wp-draw-loop 4.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+
+@keyframes wp-draw-loop {
+  0% {
+    stroke-dashoffset: 1500;
+    opacity: 1;
+  }
+  30% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  80% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  92% {
+    stroke-dashoffset: 0;
+    opacity: 0;
+  }
+  93% {
+    stroke-dashoffset: 1500;
+    opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 1500;
+    opacity: 1;
+  }
+}
+
+/* Orange divider line under hero heading */
+.elementor-divider-separator {
+  width: 50px;
+  height: 5px;
+  background-color: #e05414;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #CB3522; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #BB2929; }
+
+/* Light Card Utility (used on inner pages) */
+.clean-card {
+  background: #ffffff;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+.clean-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+  border-color: #CB3522;
+}
+
+/* Upwork & Fiverr buttons (used on inner pages) */
+.btn-upwork {
+  background: linear-gradient(180deg, #BB2929 0%, #f2295b 100%);
+  color: #ffffff;
+  border: 1px solid #0c0c0c;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.btn-fiverr {
+  background: #F99517;
+  color: #ffffff;
+  border: 1px solid #0c0c0c;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+/* ============================================================
+   Pages converted from WordPress/Elementor (components/wp)
+   ============================================================ */
+.wp-sec, .wp-sec-n { width: 100%; }
+.wp-sec[style*="padding: 150px"] { padding-top: 55px !important; }
+.wp-row { display: flex; margin-left: auto; margin-right: auto; width: 100%; max-width: 1200px; padding-left: 1rem; padding-right: 1rem; }
+.wp-col { width: var(--w); display: flex; min-width: 0; }
+.wp-col-wrap { display: flex; flex-direction: column; width: 100%; }
+.wp-w { width: 100%; }
+.wp-h { font-size: var(--fs); margin: 0; font-family: "Montserrat", sans-serif; font-weight: 800; letter-spacing: -0.01em; color: #111827; }
+.wp-ico svg { width: 100%; height: 100%; fill: currentColor; }
+.wp-t a, a .wp-t { color: inherit; }
+
+.wp-rich {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #374151;
+}
+.wp-rich p { margin: 0 0 20px; }
+.wp-rich p:last-child { margin-bottom: 0; }
+.wp-rich ul { 
+  list-style: none; 
+  padding-left: 0; 
+  margin: 0 0 24px; 
+  display: grid;
+  gap: 0.65rem;
+}
+.wp-rich ul li { 
+  position: relative;
+  padding-left: 1.85rem;
+  margin: 0;
+  line-height: 1.75;
+}
+.wp-rich ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.35rem;
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 9999px;
+  background: #FFF1F0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23CB3522' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E") center/65% no-repeat;
+  flex-shrink: 0;
+}
+.wp-rich ol { list-style: decimal; padding-left: 28px; margin: 0 0 24px; display: grid; gap: 0.5rem; }
+.wp-rich ol li::marker { color: #CB3522; font-weight: 700; }
+.wp-rich li { margin: 0; }
+.wp-rich a { color: #CB3522; font-weight: 600; text-decoration: underline; text-decoration-color: rgba(203, 53, 34, 0.35); text-underline-offset: 3px; }
+.wp-rich a:hover { color: #992215; text-decoration-color: #CB3522; }
+.wp-rich strong, .wp-rich b { font-weight: 700; color: #111827; }
+.wp-rich h1, .wp-rich h2, .wp-rich h3, .wp-rich h4, .wp-rich h5, .wp-rich h6 {
+  font-family: "Montserrat", sans-serif; font-weight: 800; color: #111827; text-transform: capitalize; margin: 0 0 16px; line-height: 1.3;
+}
+.wp-rich h1 { font-size: 32px; } .wp-rich h2 { font-size: 28px; } .wp-rich h3 { font-size: 23px; }
+.wp-rich h4 { font-size: 19px; } .wp-rich h5 { font-size: 17px; } .wp-rich h6 { font-size: 15px; }
+.wp-rich img { max-width: 100%; height: auto; display: inline-block; border-radius: 14px; }
+.wp-rich table { width: 100%; border-collapse: collapse; margin-bottom: 24px; border-radius: 8px; overflow: hidden; }
+.wp-rich td, .wp-rich th { border: 1px solid #e5e7eb; padding: 10px 14px; font-size: 14px; }
+.wp-rich th { background-color: #f9fafb; font-weight: 700; color: #111827; }
+
+@media (max-width: 767px) {
+  .wp-row { flex-wrap: wrap; padding-left: 0.75rem; padding-right: 0.75rem; }
+  .wp-col { width: 100%; }
+  .wp-sec { padding-left: 12px !important; padding-right: 12px !important; }
+  .wp-sec[style*="padding: 150px"] { padding-top: 35px !important; }
+  .wp-col-wrap[style*="margin: 25px"] { margin: 12px !important; }
+  .wp-col-wrap[style*="padding: 0px 90px"], .wp-col-wrap[style*="padding: 0px 50px"] { padding: 0 !important; }
+  .wp-h { font-size: min(var(--fs), 24px); line-height: 1.3 !important; }
+}
+.wp-rich iframe { width: 100%; height: 320px; border: 0; display: block; border-radius: 12px; }
+
+/* ============================================================
+   Premium service page design (components/wp/premium)
+   ============================================================ */
+@media (min-width: 1024px) { .pm-row { grid-template-columns: var(--cols); } }
+.pm-rich { font-size: 16px; line-height: 1.85; color: #475569; }
+.pm-rich p { margin: 0 0 1.1em; }
+.pm-rich p:last-child, .pm-rich ul:last-child, .pm-rich ol:last-child { margin-bottom: 0; }
+.pm-rich strong, .pm-rich b { color: #0B1B3F; font-weight: 700; }
+.pm-rich a { color: #E05414; font-weight: 600; text-decoration: underline; text-decoration-color: rgba(224,84,20,.3); text-underline-offset: 3px; }
+.pm-rich a:hover { text-decoration-color: #E05414; }
+.pm-rich ul { list-style: none; padding: 0; margin: 0 0 1.1em; display: grid; gap: .55em; }
+.pm-rich ul li { position: relative; padding-left: 2em; }
+.pm-rich ul li::before {
+  content: ""; position: absolute; left: 0; top: .32em; width: 1.25em; height: 1.25em; border-radius: 999px;
+  background: #FFF4E5 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F99517' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/62% no-repeat;
+}
+.pm-rich ol { list-style: decimal; padding-left: 1.4em; margin: 0 0 1.1em; display: grid; gap: .45em; }
+.pm-rich ol li::marker { color: #F99517; font-weight: 700; }
+.pm-rich h1, .pm-rich h2, .pm-rich h3, .pm-rich h4, .pm-rich h5, .pm-rich h6 {
+  font-family: "Montserrat", sans-serif; color: #0B1B3F; font-weight: 800; line-height: 1.3; margin: 1.2em 0 .6em; text-transform: none;
+}
+.pm-rich > :first-child { margin-top: 0; }
+.pm-rich h2 { font-size: 26px; } .pm-rich h3 { font-size: 22px; } .pm-rich h4 { font-size: 19px; } .pm-rich h5, .pm-rich h6 { font-size: 17px; }
+.pm-rich img { max-width: 100%; height: auto; border-radius: 16px; }
+.pm-rich iframe { width: 100%; height: 320px; border: 0; border-radius: 16px; }
+.pm-lead { font-size: 19px; color: #334155; max-width: 720px; margin-left: auto; margin-right: auto; }
+.pm-sub { font-family: "Montserrat", sans-serif; font-size: 20px; font-weight: 800; color: #0B1B3F; text-align: center; }
+.pm-hero-text { font-size: 17px; line-height: 1.9; color: #475569; }
+.pm-on-dark, .pm-on-dark strong { color: rgba(255,255,255,.92) !important; }

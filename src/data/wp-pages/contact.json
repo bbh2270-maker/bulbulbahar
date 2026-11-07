@@ -1,0 +1,674 @@
+{
+  "url": "https://bulbulbahar.cloud/contact/",
+  "title": "Contact | Feel Free to ask a Question -Bulbul Bahar",
+  "description": "Contact us to Get your Service and get free quotes. We are ready to help you and always try to give you the best support. Knock us on Live Chat or email.",
+  "rating": "5/5 - (3 votes)",
+  "sections": [
+    {
+      "k": "sec",
+      "box": {
+        "pad": "150px 0px 30px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 248,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 68,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "tag": "h1",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "40px",
+                "fw": "800",
+                "lh": "48px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": true,
+                  "text": "Contact Us"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 385,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "bg": "rgb(255, 255, 255)",
+            "pad": "20px",
+            "margin": "25px",
+            "radius": "25px",
+            "shadow": "rgba(0, 15, 35, 0.15) 0px 0px 30px 0px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 385,
+          "kids": [
+            {
+              "t": "text-editor",
+              "html": "<p>Contact us and discover all kinds of high-quality web solutions under a roof at the best prices in the shortest possible time with us. We are the most reliable <a href=\"/seo-service-in-bangladesh\">SEO Service Provider Company in Bangladesh</a>.</p><p><strong><span>“<a href=\"/\">Bulbul Bahar</a>” has</span></strong><span> the complete package to serve your business in every aspect. From&nbsp;<span>creating your website to getting it on&nbsp;<a href=\"https://www.google.com/business/\" target=\"_blank\">the Google Business Profile</a>, we do everything</span> to make your business a Brand. We will help you achieve your business goals and accelerate your growth at an affordable price. We are able to solve your business challenges with our high-tech technology and creative content.</span></p><p>Our team members keep themselves updated with the latest technology and frequent changes in the web world. We have our own well-organized lab with the latest devices and updated premium software to serve our clients with their maximum benefits. If you are a small business owner and you are looking for an online marketing solution, then contact us here:-</p>",
+              "s": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)"
+              },
+              "ps": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)"
+              },
+              "linkColor": "rgb(224, 84, 20)",
+              "strongColor": "rgb(93, 114, 128)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "50px 0px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 717,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 55.7,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "50px 30px 30px",
+            "margin": "10px",
+            "radius": "30px"
+          },
+          "valign": "flex-start",
+          "w": 635,
+          "h": 617,
+          "kids": [
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "html": "Contact Details",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "45.5px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "50px 0px 0px"
+              },
+              "inner": 555,
+              "w": 555,
+              "h": 85,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "valign": "flex-start",
+                  "w": 278,
+                  "h": 85,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z\"></path></svg>",
+                      "iconColor": "rgb(255, 55, 86)",
+                      "iconFill": "rgb(255, 55, 86)",
+                      "iconSize": 21,
+                      "iconH": 21,
+                      "iconBox": {
+                        "bg": "rgba(93, 114, 128, 0.15)",
+                        "pad": "10.5px",
+                        "radius": "50%"
+                      },
+                      "pos": "inline",
+                      "title": "Phone Numbers​",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "24px",
+                        "color": "rgb(0, 15, 35)",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h4",
+                      "desc": "+8801710424241 +192083885366",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "align": "start"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "valign": "flex-start",
+                  "w": 278,
+                  "h": 85,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M512 464c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V200.724a48 48 0 0 1 18.387-37.776c24.913-19.529 45.501-35.365 164.2-121.511C199.412 29.17 232.797-.347 256 .003c23.198-.354 56.596 29.172 73.413 41.433 118.687 86.137 139.303 101.995 164.2 121.512A48 48 0 0 1 512 200.724V464zm-65.666-196.605c-2.563-3.728-7.7-4.595-11.339-1.907-22.845 16.873-55.462 40.705-105.582 77.079-16.825 12.266-50.21 41.781-73.413 41.43-23.211.344-56.559-29.143-73.413-41.43-50.114-36.37-82.734-60.204-105.582-77.079-3.639-2.688-8.776-1.821-11.339 1.907l-9.072 13.196a7.998 7.998 0 0 0 1.839 10.967c22.887 16.899 55.454 40.69 105.303 76.868 20.274 14.781 56.524 47.813 92.264 47.573 35.724.242 71.961-32.771 92.263-47.573 49.85-36.179 82.418-59.97 105.303-76.868a7.998 7.998 0 0 0 1.839-10.967l-9.071-13.196z\"></path></svg>",
+                      "iconColor": "rgb(255, 55, 86)",
+                      "iconFill": "rgb(255, 55, 86)",
+                      "iconSize": 21,
+                      "iconH": 21,
+                      "iconBox": {
+                        "bg": "rgba(93, 114, 128, 0.15)",
+                        "pad": "10.5px",
+                        "radius": "50%"
+                      },
+                      "pos": "inline",
+                      "title": "Email",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "24px",
+                        "color": "rgb(0, 15, 35)",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h4",
+                      "desc": "info@bulbulbahar.cloud Mdbulbul1015@gmail.com",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "align": "start"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "50px 0px 0px"
+              },
+              "inner": 555,
+              "w": 555,
+              "h": 113,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "valign": "flex-start",
+                  "w": 278,
+                  "h": 113,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 384 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z\"></path></svg>",
+                      "iconColor": "rgb(255, 55, 86)",
+                      "iconFill": "rgb(255, 55, 86)",
+                      "iconSize": 21,
+                      "iconH": 21,
+                      "iconBox": {
+                        "bg": "rgba(93, 114, 128, 0.15)",
+                        "pad": "10.5px",
+                        "radius": "50%"
+                      },
+                      "pos": "inline",
+                      "title": "Address​ 1",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "24px",
+                        "color": "rgb(0, 15, 35)",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h4",
+                      "desc": "71-75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "align": "start"
+                    }
+                  ]
+                },
+                {
+                  "k": "col",
+                  "wPct": 50,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "valign": "flex-start",
+                  "w": 278,
+                  "h": 113,
+                  "kids": [
+                    {
+                      "t": "icon-box",
+                      "icon": "<svg aria-hidden=\"true\" viewBox=\"0 0 384 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z\"></path></svg>",
+                      "iconColor": "rgb(255, 55, 86)",
+                      "iconFill": "rgb(255, 55, 86)",
+                      "iconSize": 21,
+                      "iconH": 21,
+                      "iconBox": {
+                        "bg": "rgba(93, 114, 128, 0.15)",
+                        "pad": "10.5px",
+                        "radius": "50%"
+                      },
+                      "pos": "inline",
+                      "title": "Address​ 2",
+                      "ts": {
+                        "ff": "Montserrat",
+                        "fs": "20px",
+                        "fw": "800",
+                        "lh": "24px",
+                        "color": "rgb(0, 15, 35)",
+                        "tt": "capitalize"
+                      },
+                      "titleTag": "h4",
+                      "desc": "58 Chester Avenue,Brooklyn, NY 11218,United States",
+                      "ds": {
+                        "ff": "Open Sans",
+                        "fs": "15px",
+                        "fw": "400",
+                        "lh": "27.8571px",
+                        "color": "rgb(93, 114, 128)"
+                      },
+                      "align": "start"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "k": "sec",
+              "box": {
+                "margin": "50px 0px 0px"
+              },
+              "inner": 555,
+              "w": 555,
+              "h": 105,
+              "kids": [
+                {
+                  "k": "col",
+                  "wPct": 100,
+                  "box": {
+                    "minH": "1px"
+                  },
+                  "valign": "flex-start",
+                  "w": 555,
+                  "h": 105,
+                  "kids": [
+                    {
+                      "t": "heading",
+                      "wbox": {
+                        "margin": "0px 0px 20px"
+                      },
+                      "tag": "h3",
+                      "html": "Follow Us",
+                      "s": {
+                        "ff": "Montserrat",
+                        "fs": "25px",
+                        "fw": "800",
+                        "lh": "32.5px",
+                        "color": "rgb(0, 15, 35)",
+                        "align": "center",
+                        "tt": "capitalize"
+                      }
+                    },
+                    {
+                      "t": "social-icons",
+                      "html": "<div> <span> <a href=\"https://www.facebook.com/bulbul.bahar1015\" target=\"_blank\"> <span>Facebook-f</span> <svg><path></path></svg> </a> </span> <span> <a href=\"https://x.com/engBulbulbahar\"> <span>Twitter</span> <svg><path></path></svg> </a> </span> <span> <a href=\"https://www.pinterest.com/EngBulbulbahar/\" target=\"_blank\"> <span>Pinterest</span> <svg><path></path></svg> </a> </span> <span> <a href=\"https://www.instagram.com/engbulbulbahar/\" target=\"_blank\"> <span>Instagram</span> <svg><path></path></svg> </a> </span></div>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "k": "col",
+          "wPct": 44.2,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "50px 40px 30px",
+            "margin": "10px",
+            "radius": "30px",
+            "shadow": "rgba(0, 15, 35, 0.1) 0px 0px 30px 0px"
+          },
+          "valign": "flex-start",
+          "w": 504,
+          "h": 617,
+          "kids": [
+            {
+              "t": "heading",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "tag": "h2",
+              "html": "Get in Touch Now",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "45.5px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              }
+            },
+            {
+              "t": "form",
+              "fields": [
+                {
+                  "label": "Name",
+                  "type": "text",
+                  "name": "form_fields[name]",
+                  "placeholder": "Name",
+                  "width": "100"
+                },
+                {
+                  "label": "Email",
+                  "type": "email",
+                  "name": "form_fields[email]",
+                  "placeholder": "Email",
+                  "required": true,
+                  "width": "100"
+                },
+                {
+                  "label": "Phone",
+                  "type": "number",
+                  "name": "form_fields[field_8bd749d]",
+                  "placeholder": "Phone",
+                  "required": true,
+                  "width": "100"
+                },
+                {
+                  "label": "Message",
+                  "type": "textarea",
+                  "name": "form_fields[message]",
+                  "placeholder": "Message",
+                  "width": "100"
+                }
+              ],
+              "button": "Get in Touch",
+              "bs": {
+                "bg": "rgb(255, 55, 86)",
+                "color": "rgb(255, 255, 255)",
+                "radius": "3px",
+                "fs": "16px",
+                "fw": "400"
+              },
+              "is": {
+                "bg": "rgb(229, 234, 232)",
+                "border": "0.8px solid rgb(255, 140, 140)",
+                "radius": "3px",
+                "fs": "15px",
+                "color": "rgb(31, 33, 36)"
+              },
+              "ls": {
+                "ff": "Open Sans",
+                "fs": "15px",
+                "fw": "400",
+                "lh": "27.8571px",
+                "color": "rgb(93, 114, 128)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "box": {
+        "pad": "10px"
+      },
+      "inner": 1140,
+      "w": 1351,
+      "h": 102,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 82,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "tag": "h2",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "42px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "Head Office"
+                },
+                {
+                  "hl": true,
+                  "text": "(Bangladesh)"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 565,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 565,
+          "kids": [
+            {
+              "t": "spacer",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "h": 25
+            },
+            {
+              "t": "google_maps",
+              "html": "<div> <iframe src=\"https://maps.google.com/maps?q=creative%20niloy%2C151%2F7%20Green%20Rd%2C%20Dhaka%201205&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near\"></iframe></div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 70,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 70,
+          "kids": [
+            {
+              "t": "spacer",
+              "h": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 82,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 82,
+          "kids": [
+            {
+              "t": "animated-headline",
+              "tag": "h2",
+              "s": {
+                "ff": "Montserrat",
+                "fs": "35px",
+                "fw": "800",
+                "lh": "42px",
+                "color": "rgb(0, 15, 35)",
+                "align": "center",
+                "tt": "capitalize"
+              },
+              "parts": [
+                {
+                  "hl": false,
+                  "text": "Branch Office"
+                },
+                {
+                  "hl": true,
+                  "text": "(USA)"
+                }
+              ],
+              "hlColor": "rgb(49, 161, 255)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "k": "sec",
+      "inner": 1140,
+      "w": 1351,
+      "h": 565,
+      "kids": [
+        {
+          "k": "col",
+          "wPct": 100,
+          "box": {
+            "minH": "1px"
+          },
+          "wrapBox": {
+            "pad": "10px"
+          },
+          "valign": "flex-start",
+          "w": 1140,
+          "h": 565,
+          "kids": [
+            {
+              "t": "google_maps",
+              "wbox": {
+                "margin": "0px 0px 20px"
+              },
+              "html": "<div> <iframe src=\"https://maps.google.com/maps?q=creative%20niloy%2058%20Chester%20Avenue%20Apt%20%23%202%2CBrooklyn%2C%20NY%2011218&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near\"></iframe></div>"
+            },
+            {
+              "t": "spacer",
+              "h": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "slug": "contact"
+}
