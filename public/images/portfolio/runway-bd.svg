@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#ffffff" rx="16"/>
+  <g transform="translate(250, 48)" text-anchor="middle">
+    <!-- Fashion Ribbon / Hanger Icon -->
+    <g transform="translate(0, 0)">
+      <path d="M-20,-12 C-10,-24 10,-24 20,-12 C10,-10 0,-10 -20,-12 Z" fill="#E11D48"/>
+      <path d="M-40,8 C-20,0 20,0 40,8 C20,12 -20,12 -40,8 Z" fill="#0F172A"/>
+      <circle cx="0" cy="-24" r="5" fill="#E11D48"/>
+    </g>
+
+    <!-- Typography -->
+    <text x="0" y="66" font-family="'Didot', 'Playfair Display', 'Georgia', serif" font-size="42" font-weight="900" fill="#0F172A" letter-spacing="4">
+      RUNWAY
+    </text>
+    <text x="0" y="94" font-family="'Montserrat', 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#E11D48" letter-spacing="5">
+      FASHION &amp; LIFESTYLE
+    </text>
+  </g>
+</svg>
