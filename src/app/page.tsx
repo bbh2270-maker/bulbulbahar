@@ -514,14 +514,12 @@ export default function HomePage() {
             </div>
 
             <div className="wp-text text-[14px] leading-[26px] [&_p]:!text-[#5D7280] [&_strong]:text-[#3c4a54]">
-              <Image
-                src="/images/seo-training.jpg"
-                alt="SEO Training in Bangladesh - Bulbul Bahar"
-                width={540}
-                height={501}
-                className="w-full h-auto rounded-[10px] block mb-[20px]"
-                unoptimized
-              />
+              <div className="w-full max-w-[480px] mx-auto aspect-square mb-[20px]">
+                <LottiePlayer
+                  animationPath="/lottie/seo-training.json"
+                  className="w-full h-full"
+                />
+              </div>
               <p>
                 My <strong>SEO Training in Bangladesh</strong> is unique because I provide online SEO Training in bd. If
                 you are looking for the best professional SEO course in Dhaka, then I am the SEO expert in Bangladesh you

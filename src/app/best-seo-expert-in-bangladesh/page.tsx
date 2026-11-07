@@ -157,6 +157,7 @@ export default function AboutBestSeoExpertPage() {
           <div className="text-center">
             <SectionHeading
               as="h1"
+              variant="underline"
               before="About The"
               highlight="Best SEO Expert in Bangladesh"
               highlightClassName={BLUE}
