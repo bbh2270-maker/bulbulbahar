@@ -163,20 +163,20 @@ export default function PortfolioClient({ projects }: PortfolioClientProps) {
             >
               <div>
                 {/* Header image / screenshot */}
-                <div className="relative w-full h-52 sm:h-64 rounded-2xl overflow-hidden bg-slate-50 border border-slate-100 flex items-center justify-center p-6 mb-6">
+                <div className="relative w-full h-44 sm:h-52 rounded-2xl overflow-hidden bg-white border border-slate-200/80 flex items-center justify-center p-5 mb-6 shadow-2xs">
                   {project.image ? (
                     <Image
                       src={project.image}
                       alt={project.title}
-                      width={480}
-                      height={240}
-                      className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500"
+                      width={400}
+                      height={180}
+                      className="max-h-28 max-w-[260px] w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300"
                       unoptimized
                     />
                   ) : (
                     <Globe className="w-16 h-16 text-slate-300" />
                   )}
-                  <span className="absolute top-4 left-4 text-xs font-bold px-3 py-1 rounded-full bg-white/95 backdrop-blur-sm text-[#0082FB] shadow-xs border border-slate-200/60">
+                  <span className="absolute top-3 left-3 text-[11px] font-bold px-3 py-1 rounded-full bg-slate-50 text-[#0082FB] shadow-xs border border-slate-200/70">
                     {project.category}
                   </span>
                 </div>
@@ -343,20 +343,20 @@ export default function PortfolioClient({ projects }: PortfolioClientProps) {
                 >
                   <div>
                     {/* Project Image Frame */}
-                    <div className="relative w-full h-44 rounded-xl overflow-hidden bg-slate-50 border border-slate-100 flex items-center justify-center p-4 mb-4">
+                    <div className="relative w-full h-36 rounded-xl overflow-hidden bg-white border border-slate-200/80 flex items-center justify-center p-4 mb-4 shadow-2xs">
                       {project.image ? (
                         <Image
                           src={project.image}
                           alt={project.title}
-                          width={320}
-                          height={160}
-                          className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
+                          width={280}
+                          height={130}
+                          className="max-h-24 max-w-[200px] w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300"
                           unoptimized
                         />
                       ) : (
                         <Globe className="w-12 h-12 text-slate-300" />
                       )}
-                      <span className="absolute top-3 left-3 text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-white/95 text-[#0082FB] shadow-xs border border-slate-200/60">
+                      <span className="absolute top-2.5 left-2.5 text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-slate-50 text-[#0082FB] shadow-xs border border-slate-200/70">
                         {project.tag || project.category}
                       </span>
                     </div>

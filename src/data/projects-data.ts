@@ -7,7 +7,7 @@ export const projectsData: Project[] = [
     domain: "Australiaeta.com.sg",
     category: "Visa & Travel Services",
     tag: "SEO & Growth",
-    image: "/images/portfolio/australiaeta.svg",
+    image: "/images/portfolio/australiaeta.png",
     liveUrl: "https://australiaeta.com.sg",
     description:
       "Comprehensive search engine optimization for Singapore travelers applying for Australian Electronic Travel Authority. Achieved #1 organic ranking for core commercial transactional keywords in Singapore.",
@@ -29,7 +29,7 @@ export const projectsData: Project[] = [
     domain: "Peoplentech.com.bd",
     category: "IT Education & Training",
     tag: "Education & Leads",
-    image: "/images/portfolio/peoplentech.svg",
+    image: "/images/portfolio/peoplentech.png",
     liveUrl: "https://peoplentech.com.bd",
     description:
       "Corporate SEO & lead generation campaign for Bangladesh's leading IT training organization. Positioned professional tech diploma courses at the peak of Google BD search.",
@@ -51,7 +51,7 @@ export const projectsData: Project[] = [
     domain: "Myusdrugstore.com",
     category: "E-Commerce & Retail",
     tag: "E-Commerce",
-    image: "/images/portfolio/myusdrugstore.svg",
+    image: "/images/portfolio/myusdrugstore.png",
     liveUrl: "https://myusdrugstore.com",
     description:
       "Large-scale e-commerce SEO covering over 5,000 product SKUs. Implemented dynamic automated category schema, faceted navigation indexing rules, and fast CDN caching.",
@@ -73,7 +73,7 @@ export const projectsData: Project[] = [
     domain: "globalcapharmacy.com",
     category: "Healthcare & Pharmaceuticals",
     tag: "Finance & Legal",
-    image: "/images/portfolio/globalcapharmacy.svg",
+    image: "/images/portfolio/globalcapharmacy.png",
     liveUrl: "https://globalcapharmacy.com",
     description:
       "High-compliance healthcare SEO under Google's rigorous YMYL (Your Money or Your Life) standards. Structured author E-E-A-T signals, medical review schemas, and content audits.",
@@ -95,7 +95,7 @@ export const projectsData: Project[] = [
     domain: "Australiavisauk.co.uk",
     category: "Immigration & Legal Travel",
     tag: "SEO & Growth",
-    image: "/images/portfolio/australiavisauk.svg",
+    image: "/images/portfolio/australiavisauk.png",
     liveUrl: "https://australiavisauk.co.uk",
     description:
       "Executed technical on-page architecture overhaul and authoritative UK backlink campaign. Outranked established regional portals for Australian travel authorizations.",
@@ -117,7 +117,7 @@ export const projectsData: Project[] = [
     domain: "Gadgetandgear.com",
     category: "Consumer Tech & Electronics",
     tag: "E-Commerce",
-    image: "/images/portfolio/gadgetandgear.svg",
+    image: "/images/portfolio/gadgetandgear.png",
     liveUrl: "https://gadgetandgear.com",
     description:
       "Technical performance optimization and aggressive local keyword ranking for flagship smartphone and premium electronics launches.",
@@ -139,7 +139,7 @@ export const projectsData: Project[] = [
     domain: "Australiaeta.com.au",
     category: "International Tourism",
     tag: "SEO & Growth",
-    image: "/images/portfolio/australiaetaau.svg",
+    image: "/images/portfolio/australiaetaau.png",
     liveUrl: "https://australiaeta.com.au",
     description:
       "Targeted international cross-border SEO targeting tourists and business travelers flying to Australia. Built responsive site structure and localized intent pages.",
@@ -161,7 +161,7 @@ export const projectsData: Project[] = [
     domain: "Runway.com.bd",
     category: "Apparel & E-Commerce",
     tag: "E-Commerce",
-    image: "/images/portfolio/runway-bd.svg",
+    image: "/images/portfolio/runway-bd.png",
     liveUrl: "https://runway.com.bd",
     description:
       "Seasonal fashion SEO strategy, visual image search optimization, and category page link restructuring to outcompete traditional fast-fashion outlets.",
@@ -182,7 +182,7 @@ export const projectsData: Project[] = [
     domain: "uap-bd.edu",
     category: "Higher Education & University",
     tag: "Education & Leads",
-    image: "/images/portfolio/uap-bd.svg",
+    image: "/images/portfolio/uap-logo.png",
     liveUrl: "https://uap-bd.edu",
     description:
       "Comprehensive digital optimization and search positioning for prominent higher-education institution programs and admissions.",
@@ -204,7 +204,7 @@ export const projectsData: Project[] = [
     domain: "Debtredemption.com",
     category: "Financial Services & Relief",
     tag: "Finance & Legal",
-    image: "/images/portfolio/debtredemption.svg",
+    image: "/images/portfolio/debtredemption.png",
     liveUrl: "https://debtredemption.com",
     description:
       "Targeted US competitive debt relief sector. Built high-trust YMYL authoritative content, interactive debt calculator landing pages, and safe link profile.",
@@ -225,7 +225,7 @@ export const projectsData: Project[] = [
     domain: "clippingnpath.com",
     category: "Creative & Graphic Design",
     tag: "Design & Creative",
-    image: "/images/portfolio/clippingnpath.svg",
+    image: "/images/portfolio/clippingnpath.png",
     liveUrl: "https://clippingnpath.com",
     description:
       "High-volume commercial graphic design and clipping path agency optimization targeting international photographers and e-commerce studios.",
@@ -247,7 +247,7 @@ export const projectsData: Project[] = [
     domain: "amarhome.com.bd",
     category: "Real Estate & Home Decor",
     tag: "Local SEO",
-    image: "/images/portfolio/amarhome.svg",
+    image: "/images/portfolio/amarhome.png",
     liveUrl: "https://amarhome.com.bd",
     description:
       "Localized search engine growth, Google Business Profile optimization, and local citation strategy for premium architectural interior design firm.",
@@ -269,7 +269,7 @@ export const projectsData: Project[] = [
     domain: "AffordableDebtconsolidation.org",
     category: "Non-Profit & Financial Advisory",
     tag: "Finance & Legal",
-    image: "/images/portfolio/affordabledebtconsolidation.svg",
+    image: "/images/portfolio/affordabledebtconsolidation.png",
     liveUrl: "https://affordabledebtconsolidation.org",
     description:
       "National SEO campaign focused on advisory queries and educational debt relief resources for US families.",
@@ -290,7 +290,7 @@ export const projectsData: Project[] = [
     domain: "VirginiaHolydays.com",
     category: "Hospitality & Travel Agency",
     tag: "SEO & Growth",
-    image: "/images/portfolio/virginiaholydays.svg",
+    image: "/images/portfolio/virginiaholydays.png",
     liveUrl: "https://virginiaholidays.com",
     description:
       "Destination marketing and vacation package organic optimization targeting tourists in the East Coast travel corridor.",
