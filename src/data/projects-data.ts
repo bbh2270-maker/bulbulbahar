@@ -6,6 +6,9 @@ export const projectsData: Project[] = [
     title: "Australia eTA Singapore Portal",
     domain: "Australiaeta.com.sg",
     category: "Visa & Travel Services",
+    tag: "SEO & Growth",
+    image: "/images/wp/australiaeta.webp",
+    liveUrl: "https://australiaeta.com.sg",
     description:
       "Comprehensive search engine optimization for Singapore travelers applying for Australian Electronic Travel Authority. Achieved #1 organic ranking for core commercial transactional keywords in Singapore.",
     results: [
@@ -21,73 +24,19 @@ export const projectsData: Project[] = [
     featured: true,
   },
   {
-    id: "australiavisa-uk",
-    title: "Australia Visa UK Advisory",
-    domain: "Australiavisauk.co.uk",
-    category: "Immigration & Legal Travel",
-    description:
-      "Executed technical on-page architecture overhaul and authoritative UK backlink campaign. Outranked established regional portals for Australian travel authorizations.",
-    results: [
-      "Top-3 Google UK positions for 22 competitive high-intent terms",
-      "320% continuous organic traffic growth over 6 months",
-      "Conversion rate increased from 1.8% to 5.4%",
-    ],
-    metrics: {
-      trafficIncrease: "+320%",
-      keywordsRanked: "22 Keywords Top-3",
-      timeline: "6 Months",
-    },
-    featured: true,
-  },
-  {
-    id: "australiaeta-au",
-    title: "Australia ETA Direct",
-    domain: "Australiaeta.com.au",
-    category: "International Tourism",
-    description:
-      "Targeted international cross-border SEO targeting tourists and business travelers flying to Australia. Built responsive site structure and localized intent pages.",
-    results: [
-      "Dominant organic visibility across APAC region",
-      "Zero sanction penalties during major Google core algorithmic updates",
-      "Reduced bounce rate by 38%",
-    ],
-    metrics: {
-      trafficIncrease: "+280%",
-      keywordsRanked: "15 Top-5 Keywords",
-      timeline: "5 Months",
-    },
-    featured: false,
-  },
-  {
-    id: "globalca-pharmacy",
-    title: "Global CA Pharmacy Portal",
-    domain: "globalcapharmacy.com",
-    category: "Healthcare & Pharmaceuticals",
-    description:
-      "High-compliance healthcare SEO under Google's rigorous YMYL (Your Money or Your Life) standards. Structured author E-E-A-T signals, medical review schemas, and content audits.",
-    results: [
-      "Ranked in top 5 for competitive health supplement & prescription terms",
-      "Tripled organic search impressions without algorithmic penalties",
-      "Established verified medical citation backlinks",
-    ],
-    metrics: {
-      trafficIncrease: "+310%",
-      keywordsRanked: "25 Top-5 Keywords",
-      timeline: "7 Months",
-    },
-    featured: true,
-  },
-  {
     id: "peoplentech-bd",
     title: "PeopleNTech Institute BD",
     domain: "Peoplentech.com.bd",
-    category: "IT Education & Corporate Training",
+    category: "IT Education & Training",
+    tag: "Education & Leads",
+    image: "/images/wp/peoplentech.webp",
+    liveUrl: "https://peoplentech.com.bd",
     description:
       "Corporate SEO & lead generation campaign for Bangladesh's leading IT training organization. Positioned professional tech diploma courses at the peak of Google BD search.",
     results: [
       "Ranked #1 in Bangladesh for Professional IT & QA Software Testing courses",
       "Over 1,200 monthly student inquiry leads generated organically",
-      "Significant local map pack dominance in Dhaka",
+      "Significant local map pack dominance across Dhaka centers",
     ],
     metrics: {
       trafficIncrease: "+520%",
@@ -101,6 +50,9 @@ export const projectsData: Project[] = [
     title: "My US Drugstore E-Commerce",
     domain: "Myusdrugstore.com",
     category: "E-Commerce & Retail",
+    tag: "E-Commerce",
+    image: "/images/wp/myusdrugstore.webp",
+    liveUrl: "https://myusdrugstore.com",
     description:
       "Large-scale e-commerce SEO covering over 5,000 product SKUs. Implemented dynamic automated category schema, faceted navigation indexing rules, and fast CDN caching.",
     results: [
@@ -116,10 +68,57 @@ export const projectsData: Project[] = [
     featured: true,
   },
   {
+    id: "globalca-pharmacy",
+    title: "Global CA Pharmacy Portal",
+    domain: "globalcapharmacy.com",
+    category: "Healthcare & Pharmaceuticals",
+    tag: "YMYL & Healthcare",
+    image: "/images/wp/globalcapharmacy.webp",
+    liveUrl: "https://globalcapharmacy.com",
+    description:
+      "High-compliance healthcare SEO under Google's rigorous YMYL (Your Money or Your Life) standards. Structured author E-E-A-T signals, medical review schemas, and content audits.",
+    results: [
+      "Ranked in top 5 for competitive health supplement & prescription terms",
+      "Tripled organic search impressions without algorithmic penalties",
+      "Established verified medical citation backlinks",
+    ],
+    metrics: {
+      trafficIncrease: "+310%",
+      keywordsRanked: "25 Top-5 Keywords",
+      timeline: "7 Months",
+    },
+    featured: true,
+  },
+  {
+    id: "australiavisa-uk",
+    title: "Australia Visa UK Advisory",
+    domain: "Australiavisauk.co.uk",
+    category: "Immigration & Legal Travel",
+    tag: "SEO & Growth",
+    image: "/images/wp/australiavisauk.webp",
+    liveUrl: "https://australiavisauk.co.uk",
+    description:
+      "Executed technical on-page architecture overhaul and authoritative UK backlink campaign. Outranked established regional portals for Australian travel authorizations.",
+    results: [
+      "Top-3 Google UK positions for 22 competitive high-intent terms",
+      "320% continuous organic traffic growth over 6 months",
+      "Conversion rate increased from 1.8% to 5.4%",
+    ],
+    metrics: {
+      trafficIncrease: "+320%",
+      keywordsRanked: "22 Keywords Top-3",
+      timeline: "6 Months",
+    },
+    featured: true,
+  },
+  {
     id: "gadgetandgear",
     title: "Gadget & Gear Premium Retail",
     domain: "Gadgetandgear.com",
     category: "Consumer Tech & Electronics",
+    tag: "E-Commerce",
+    image: "/images/wp/gadgetandgear.webp",
+    liveUrl: "https://gadgetandgear.com",
     description:
       "Technical performance optimization and aggressive local keyword ranking for flagship smartphone and premium electronics launches.",
     results: [
@@ -135,10 +134,35 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
+    id: "australiaeta-au",
+    title: "Australia ETA Direct",
+    domain: "Australiaeta.com.au",
+    category: "International Tourism",
+    tag: "SEO & Growth",
+    image: "/images/wp/australiaetaau.webp",
+    liveUrl: "https://australiaeta.com.au",
+    description:
+      "Targeted international cross-border SEO targeting tourists and business travelers flying to Australia. Built responsive site structure and localized intent pages.",
+    results: [
+      "Dominant organic visibility across APAC region",
+      "Zero sanction penalties during major Google core algorithmic updates",
+      "Reduced bounce rate by 38%",
+    ],
+    metrics: {
+      trafficIncrease: "+280%",
+      keywordsRanked: "15 Top-5 Keywords",
+      timeline: "5 Months",
+    },
+    featured: false,
+  },
+  {
     id: "runway-bd",
     title: "Runway Fashion & Lifestyle",
     domain: "Runway.com.bd",
     category: "Apparel & E-Commerce",
+    tag: "E-Commerce",
+    image: "/images/wp/runway-bd.webp",
+    liveUrl: "https://runway.com.bd",
     description:
       "Seasonal fashion SEO strategy, visual image search optimization, and category page link restructuring to outcompete traditional fast-fashion outlets.",
     results: [
@@ -153,10 +177,35 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
+    id: "uap-bd",
+    title: "University of Asia Pacific (UAP)",
+    domain: "uap-bd.edu",
+    category: "Higher Education & University",
+    tag: "Education & Leads",
+    image: "/images/wp/uap-logo.webp",
+    liveUrl: "https://uap-bd.edu",
+    description:
+      "Comprehensive digital optimization and search positioning for prominent higher-education institution programs and admissions.",
+    results: [
+      "High-impact academic department search visibility",
+      "Over 2,500 prospective student admission inquiries via organic search",
+      "Comprehensive crawl and mobile usability optimization",
+    ],
+    metrics: {
+      trafficIncrease: "+410%",
+      keywordsRanked: "28 Top-3 Keywords",
+      timeline: "6 Months",
+    },
+    featured: true,
+  },
+  {
     id: "debtredemption",
     title: "Debt Redemption US",
     domain: "Debtredemption.com",
     category: "Financial Services & Relief",
+    tag: "Finance & Legal",
+    image: "/images/wp/debtredemption.webp",
+    liveUrl: "https://debtredemption.com",
     description:
       "Targeted US competitive debt relief sector. Built high-trust YMYL authoritative content, interactive debt calculator landing pages, and safe link profile.",
     results: [
@@ -171,10 +220,57 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
+    id: "clippingnpath",
+    title: "Clipping N Path Global",
+    domain: "clippingnpath.com",
+    category: "Creative & Graphic Design",
+    tag: "Design & Creative",
+    image: "/images/wp/clippingnpath.webp",
+    liveUrl: "https://clippingnpath.com",
+    description:
+      "High-volume commercial graphic design and clipping path agency optimization targeting international photographers and e-commerce studios.",
+    results: [
+      "Processed over 50,000+ commercial product images for top global e-commerce stores",
+      "Achieved top positions for professional Photoshop clipping path queries",
+      "Fast delivery workflow pipeline with 99.8% precision",
+    ],
+    metrics: {
+      trafficIncrease: "+260%",
+      keywordsRanked: "14 Top-5 Keywords",
+      timeline: "5 Months",
+    },
+    featured: false,
+  },
+  {
+    id: "amarhome",
+    title: "Amar Home Interior & Living",
+    domain: "amarhome.com.bd",
+    category: "Real Estate & Home Decor",
+    tag: "Local SEO",
+    image: "/images/wp/amarhome.webp",
+    liveUrl: "https://amarhome.com.bd",
+    description:
+      "Localized search engine growth, Google Business Profile optimization, and local citation strategy for premium architectural interior design firm.",
+    results: [
+      "Dominated Dhaka local map pack and localized search queries",
+      "3x boost in qualified residential interior consultation calls",
+      "Comprehensive image SEO for visual home design queries",
+    ],
+    metrics: {
+      trafficIncrease: "+380%",
+      keywordsRanked: "24 Page 1 Terms",
+      timeline: "6 Months",
+    },
+    featured: false,
+  },
+  {
     id: "affordabledebt",
     title: "Affordable Debt Consolidation",
     domain: "AffordableDebtconsolidation.org",
     category: "Non-Profit & Financial Advisory",
+    tag: "Finance & Legal",
+    image: "/images/wp/affordabledebtconsolidation.webp",
+    liveUrl: "https://affordabledebtconsolidation.org",
     description:
       "National SEO campaign focused on advisory queries and educational debt relief resources for US families.",
     results: [
@@ -193,6 +289,9 @@ export const projectsData: Project[] = [
     title: "Virginia Holidays Travel",
     domain: "VirginiaHolydays.com",
     category: "Hospitality & Travel Agency",
+    tag: "SEO & Growth",
+    image: "/images/wp/virginiaholydays.webp",
+    liveUrl: "https://virginiaholidays.com",
     description:
       "Destination marketing and vacation package organic optimization targeting tourists in the East Coast travel corridor.",
     results: [

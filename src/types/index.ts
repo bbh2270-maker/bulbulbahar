@@ -11,6 +11,9 @@ export interface Project {
     timeline?: string;
   };
   featured?: boolean;
+  image?: string;
+  liveUrl?: string;
+  tag?: string;
 }
 
 export interface Service {
