@@ -95,7 +95,7 @@ export function Widget({ w }: { w: any }) {
               {p.hl ? (
                 <HeadlineHighlight
                   variant={isH1 ? "none" : "underline"}
-                  color="#0082FB"
+                  color="#ff0000"
                 >
                   <span style={{ color: highlightColor }}>{p.text}</span>
                 </HeadlineHighlight>

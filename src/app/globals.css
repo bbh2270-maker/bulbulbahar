@@ -71,7 +71,7 @@ a[style*="color: #ffffff"] {
   .wp-heading { font-size: 24px; line-height: 1.6; }
 }
 
-/* Highlighted headline (Clean, modern blue accent bar) */
+/* Animated highlighted headline (Signature thin red animated underline) */
 .wp-highlight {
   position: relative;
   display: inline-block;
@@ -79,7 +79,56 @@ a[style*="color: #ffffff"] {
 }
 
 .wp-highlight svg {
-  display: none !important;
+  position: absolute;
+  top: 100%;
+  left: 2%;
+  width: 96%;
+  height: 8px;
+  margin-top: 4px;
+  overflow: visible;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.wp-highlight svg path {
+  fill: none;
+  stroke: #ff0000;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+}
+
+.wp-highlight.is-drawn svg path {
+  animation: wp-draw-loop 4.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+
+@keyframes wp-draw-loop {
+  0% {
+    stroke-dashoffset: 1500;
+    opacity: 1;
+  }
+  30% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  80% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  92% {
+    stroke-dashoffset: 0;
+    opacity: 0;
+  }
+  93% {
+    stroke-dashoffset: 1500;
+    opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 1500;
+    opacity: 1;
+  }
 }
 
 /* Modern blue divider line */
