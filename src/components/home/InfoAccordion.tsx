@@ -17,7 +17,7 @@ export interface InfoItem {
 }
 
 /** Teal "solid colour accordion" from the original home page (one column) */
-export default function InfoAccordion({ items, defaultOpen = 0 }: { items: InfoItem[]; defaultOpen?: number | null }) {
+export default function InfoAccordion({ items, defaultOpen = null }: { items: InfoItem[]; defaultOpen?: number | null }) {
   const [open, setOpen] = useState<number | null>(defaultOpen);
 
   return (

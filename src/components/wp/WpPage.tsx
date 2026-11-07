@@ -230,10 +230,9 @@ export function Widget({ w }: { w: any }) {
       el = <WpTabs w={w} />;
       break;
     case "ucaddon_uc_solid_color_accordion": {
-      const first = (w.open || []).findIndex((o: boolean) => o);
       el = (
         <InfoAccordion
-          defaultOpen={first >= 0 ? first : null}
+          defaultOpen={null}
           items={(w.items || []).map((it: { title: string; html: string }) => ({
             title: it.title,
             content: <div className="wp-rich" dangerouslySetInnerHTML={{ __html: it.html }} />,
