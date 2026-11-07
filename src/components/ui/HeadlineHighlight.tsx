@@ -84,6 +84,7 @@ export function SectionHeading({
   highlightClassName = "",
   variant,
   color = "#ff0000",
+  highlightColor = "text-[#31A1FF]",
 }: {
   before?: string;
   highlight?: string;
@@ -93,6 +94,7 @@ export function SectionHeading({
   highlightClassName?: string;
   variant?: "underline" | "none";
   color?: string;
+  highlightColor?: string;
 }) {
   const chosenVariant = variant ?? (Tag === "h1" ? "none" : "underline");
 
@@ -105,7 +107,7 @@ export function SectionHeading({
           color={color}
           className={highlightClassName}
         >
-          {highlight}
+          <span className={highlightColor}>{highlight}</span>
         </HeadlineHighlight>
       ) : null}
       {after ? <> {after}</> : null}
