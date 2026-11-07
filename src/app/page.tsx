@@ -345,12 +345,11 @@ export default function HomePage() {
 
           <div className="max-w-[1000px] mx-auto mt-[40px] mb-[50px]">
             <Image
-              src="/images/seo-service-bd.png"
-              alt="SEO Service in Bd"
-              width={1000}
-              height={307}
-              className="w-full h-auto block"
-              unoptimized
+              src="/images/seo-ecosystem-banner.jpg"
+              alt="SEO Service in Bd - Organic Growth & #1 Ranking"
+              width={1200}
+              height={400}
+              className="w-full h-auto block rounded-2xl border border-slate-100 shadow-sm"
             />
           </div>
 
