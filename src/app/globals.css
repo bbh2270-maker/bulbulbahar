@@ -39,6 +39,17 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   color: var(--color-heading);
 }
 
+/* Allow inline style / utility overrides on headings */
+h1[style*="color"], h2[style*="color"], h3[style*="color"],
+h4[style*="color"], h5[style*="color"], h6[style*="color"],
+[class*="text-white"].font-heading,
+a.font-heading[style*="color"],
+a[style*="color: rgb(255, 255, 255)"],
+a[style*="color: #fff"],
+a[style*="color: #ffffff"] {
+  color: inherit;
+}
+
 /* Elementor text-editor paragraphs */
 .wp-text p { color: var(--color-text); margin-bottom: 1.1em; }
 .wp-text p:last-child { margin-bottom: 0; }
